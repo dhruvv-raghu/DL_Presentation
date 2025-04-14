@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0136",
+  "question_text": "The greatest common divisor of 21 and some number between 50 and 60 is 7. What is the number?",
+  "response": "To find the number, we need to find a multiple of 7 that falls within the range of 50-60.\n\nSince the GCD of 21 and the number is 7, the number must be a multiple of 7.\n\nThe multiples of 7 in the given range are:\n\n* 56 (7 x 8)\n* 63 (7 x 9)\n\nHowever, we know that the number cannot be 63 because it's outside the range. Therefore, the correct answer is:\n\n56",
+  "processing_time_seconds": 8.24,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

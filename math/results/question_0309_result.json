@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0309",
+  "question_text": "If we express $2x^2 + 6x + 11$ in the form $a(x - h)^2 + k$, then what is $h$?",
+  "response": "To convert the quadratic expression $2x^2 + 6x + 11$ to the form $a(x - h)^2 + k$, we need to complete the square.\n\nFirst, factor out the coefficient of the squared term:\n\n$$2x^2 + 6x + 11 = 2(x^2 + 3x) + 11$$\n\nNext, add and subtract $(\\frac{b}{2a})^2$ inside the parentheses:\n\n$$2(x^2 + 3x) + 11 = 2(x^2 + 3x + (\\frac{3}{2})^2 - (\\frac{3}{2})^2) + 11$$\n\nSimplify:\n\n$$2(x^2 + 3x + \\frac{9}{4} - \\frac{9}{4}) + 11 = 2(x^2 + 3x + \\frac{9}{4}) - \\frac{9}{2} + 11$$\n\nCombine like terms:\n\n$$2(x^2 + 3x + \\frac{9}{4}) - \\frac{9}{2} + 11 = 2(x + \\frac{3}{2})^2 - \\frac{9}{2} + 11$$\n\nSimplify further:\n\n$$2(x + \\frac{3}{2})^2 - \\frac{9}{2} + 11 = 2(x + \\frac{3}{2})^2 - \\frac{9}{2} + \\frac{22}{2} = 2(x + \\frac{3}{2})^2 + \\frac{13}{2}$$\n\nComparing this to the form $a(x - h)^2 + k$, we can see that:\n\n$$h = -\\frac{b}{2a} = -\\frac{3}{2(2)} = -\\frac{3}{4}$$\n\nSo, the value of $h$ is $-\\frac{3}{4}$.",
+  "processing_time_seconds": 30.63,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

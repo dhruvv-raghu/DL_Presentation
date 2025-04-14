@@ -1,0 +1,1 @@
+Find the number of positive integers less than $1000$ that can be expressed as the difference of two integral powers of $2.$

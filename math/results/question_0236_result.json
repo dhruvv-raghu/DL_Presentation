@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0236",
+  "question_text": "The sum of the squares of three consecutive positive integers is 7805. What is the sum of the cubes of the three original integers?",
+  "response": "Let the three consecutive integers be x, x+1 and x+2.\n\nWe are given that their squares add up to 7805:\n\nx^2 + (x+1)^2 + (x+2)^2 = 7805\n\nExpanding this equation:\n\nx^2 + x^2 + 2x + 1 + x^2 + 4x + 4 = 7805\n\nCombine like terms:\n\n3x^2 + 6x + 5 = 7805\n\nRearrange the equation to get a quadratic in standard form:\n\n3x^2 + 6x - 7800 = 0\n\nDivide by 3:\n\nx^2 + 2x - 2600 = 0\n\nFactor the left-hand side (if possible) or use the quadratic formula. \n\nLet's use the quadratic formula:\n\nx = (-b ± sqrt(b^2 - 4ac)) / 2a\nwhere a=1, b=2 and c=-2600.\n\nSubstitute into the formula:\nx = (-2 + sqrt(4+10400)) / 2 \n    = (-2 + sqrt(10404)) / 2 \n    = (-2 + 102) / 2 \n    = 100/2\n    = 50\n\nNow we know that x is equal to 50.\n\nTherefore, the three integers are:\n50, 51 and 52.\n\nFinally, find their cubes:\n50^3=125000\n51^3=132651\n52^3=140608\n\nSumming up their cubes: \n125000 + 132651 + 140608 = 398259.",
+  "processing_time_seconds": 15.1,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

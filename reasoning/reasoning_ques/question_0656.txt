@@ -1,0 +1,1 @@
+Prove that if  $A$  is a commutative finite ring with at least two elements and  $n$  is a positive integer, then there exists a polynomial of degree  $n$  with coefficients in  $A$  which does not have any roots in  $A$ .

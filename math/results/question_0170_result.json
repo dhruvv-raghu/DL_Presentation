@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0170",
+  "question_text": "The bottoms of two vertical poles are 12 feet apart and are on a region of flat ground. One pole is 6 feet tall and the other is 15 feet tall. How long, in feet, is a wire stretched from the top of one pole to the top of the other pole?",
+  "response": "To find the length of the wire, we need to use the Pythagorean theorem. The horizontal distance between the poles (12 feet) and the height difference between them (9 feet) form two sides of a right triangle, while the wire itself is the hypotenuse.\n\nUsing the Pythagorean theorem:\n\na² + b² = c²\n\nwhere a is the horizontal distance (12 feet), b is the vertical distance (9 feet), and c is the length of the wire (which we want to find).\n\nPlugging in the values:\n\n12² + 9² = c²\n144 + 81 = c²\n225 = c²\n\nNow, taking the square root of both sides:\n\nc = √225\nc = 15 feet\n\nTherefore, the length of the wire is 15 feet.",
+  "processing_time_seconds": 7.72,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

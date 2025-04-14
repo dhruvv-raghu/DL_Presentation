@@ -1,0 +1,8 @@
+(d) Using parts (a), (b), and (c), show that the average power delivered to the resistor (or produced by the resistor) per frequency interval is
+
+$$
+P[f, f+d f] \approx k T d f .
+\tag{6}
+$$
+
+Here, $f=\omega / 2 \pi$ is the frequency. $P[f, f+d f]$ is known as the available noise power of the resistor. (Hint: Power is delivered to the resistor when particles enter at $x=0$, with speed $c^{\prime}$, and produced by the resistor when they exit at $x=L$.)

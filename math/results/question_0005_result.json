@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0005",
+  "question_text": "A wooden model of a square pyramid has a base edge of 12 cm and an altitude of 8 cm. A cut is made parallel to the base of the pyramid that separates it into two pieces: a smaller pyramid and a frustum. Each base edge of the smaller pyramid is 6 cm and its altitude is 4 cm. How many cubic centimeters are in the volume of the frustum?",
+  "response": "To find the volume of the frustum, we need to first find the volumes of the original pyramid and the smaller pyramid.\n\nThe original pyramid has a base edge of 12 cm and an altitude of 8 cm. The formula for the volume of a pyramid is:\n\nV = (1/3)Bh\n\nwhere B is the area of the base and h is the height.\n\nThe base area of the original pyramid is:\n\nB = 12^2 = 144\n\nSo, the volume of the original pyramid is:\n\nV = (1/3)(144)(8)\n= 384 cubic centimeters\n\nNow, let's find the volume of the smaller pyramid. The base edge of the smaller pyramid is 6 cm and its altitude is 4 cm.\n\nThe base area of the smaller pyramid is:\n\nB = 6^2 = 36\n\nSo, the volume of the smaller pyramid is:\n\nV = (1/3)(36)(4)\n= 48 cubic centimeters\n\nSince the two pyramids are similar, we can find the scale factor by dividing the base edge",
+  "processing_time_seconds": 17.01,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

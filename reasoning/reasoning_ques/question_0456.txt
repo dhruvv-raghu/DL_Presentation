@@ -1,0 +1,9 @@
+A mixture of ideal gas containing 5 moles of monatomic gas and 1 mole of rigid diatomic gas is initially at pressure $P_{0}$, volume $V_{0}$, and temperature $T_{0}$. If the gas mixture is adiabatically compressed to a volume $V_{0} / 4$, then the correct statement(s) is/are, (Given $2^{1.2}=2.3 ; 2^{3.2}=9.2 ; R$ is gas constant)
+
+(A) The work $|W|$ done during the process is $13 R T_{0}$
+
+(B) The average kinetic energy of the gas mixture after compression is in between $18 R T_{0}$ and $19 R T_{0}$
+
+(C) The final pressure of the gas mixture after compression is in between $9 P_{0}$ and $10 P_{0}$
+
+(D) Adiabatic constant of the gas mixture is 1.6

@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0097",
+  "question_text": "Find a positive integer that is divisible by 14 and has a square root between 25 and 25.3.",
+  "response": "To find a positive integer that is divisible by 14 with a square root between 25 and 25.3, we can start by finding the range of possible values for the number.\n\nFirst, let's calculate the square root limits:\n\n√25 = 5\n√25.3 ≈ 5.02\n\nSo, the number must be greater than or equal to 5^2 and less than (25.3)^2.\n\nThe lower limit is:\n5^2 = 25\n\nTo find an upper limit for the number that satisfies both requirements, we can use the fact that the square root of a multiple of 14 is also a multiple of 14:\n\n√(25 x 14) ≈ √350 ≈ 18.60\nHowever, since 18.60 is above 25.3 and not in line with our criteria, let's try to adjust it instead:\nIf we take the square root that equals 25, then the lowest value for a multiple of 14 must be 25 times 14.\n\nSo, the number would have to be greater than or equal to 5^2 (which is 25) and less than (25.3)^2.\n\nMultiplying this lower limit by 14, we get:\n25 * 14 = 350\n\nTherefore, a positive integer that is divisible by 14 with a square root between 25 and 25.3 would be the first multiple of 14 above 25:\n\n350",
+  "processing_time_seconds": 21.69,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

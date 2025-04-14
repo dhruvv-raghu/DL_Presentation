@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0082",
+  "question_text": "What is the sum of all positive integer values of $n$ such that $\\frac{n+18}{n}$ is an integer?",
+  "response": "The expression (n + 18)/n can be rewritten as 1 + 18/n. This fraction will be an integer if and only if n is a factor of 18.\n\nThe factors of 18 are 1, 2, 3, 6, 9, and 18. The sum of these values is 1 + 2 + 3 + 6 + 9 + 18 = 39.\n\nTherefore, the sum of all positive integer values of n such that (n+18)/n is an integer is 39.",
+  "processing_time_seconds": 8.71,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

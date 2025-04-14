@@ -1,0 +1,1 @@
+Let $a,$ $b,$ and $t$ be real numbers such that $a + b = t.$  Find, in terms of $t,$ the minimum value of $a^2 + b^2.$

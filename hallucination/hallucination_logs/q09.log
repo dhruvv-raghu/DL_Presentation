@@ -1,0 +1,16 @@
+Testing Ollama model 'llama3.2'
+Temperature: 0.7
+Max tokens: 1000
+Reading questions from ./reasoning_questions_hallucination/q09...
+Found 1 question files.
+
+Processing question 1/1: question.txt
+Question preview: Can the sentence 'I saw the man with the telescope' be grammatically parsed in more than one way?
+Sh...
+✓ Processed question 1/1
+Response saved to ./hallucination_results/q09/question_result.json
+
+All results saved to ./hallucination_results/q09/all_results.json
+
+Testing complete!
+Error during testing: unsupported operand type(s) for +: 'int' and 'str'

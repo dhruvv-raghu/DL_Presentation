@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0193",
+  "question_text": "In a single-elimination tournament, each game is between two players. Only the winner of each game advances to the next round. In a particular such tournament there are 256 players. How many individual games must be played to determine the champion?",
+  "response": "To find the number of individual games that must be played to determine the champion in a single-elimination tournament with 256 players, we can use the fact that each game eliminates one player.\n\nSince there can only be one champion, all other players must lose exactly once. Therefore, the total number of games required is equal to the number of players minus one:\n\nNumber of games = Number of players - 1\n= 256 - 1\n= 255\n\nSo, 255 individual games must be played to determine the champion in a single-elimination tournament with 256 players.",
+  "processing_time_seconds": 5.37,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

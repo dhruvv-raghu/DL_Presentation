@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0248",
+  "question_text": "The decimal $0.76$ is equal to the fraction $\\frac{4b+19}{6b+11}$, where $b$ is a positive integer. What is the value of $b$?",
+  "response": "To solve this problem, we can start by setting up an equation based on the given information.\n\n$\\frac{4b+19}{6b+11} = 0.76$\n\nWe can cross-multiply to get:\n\n$$4b + 19 = 0.76(6b + 11)$$\n\nExpanding and simplifying, we have:\n\n$$4b + 19 = 4.56b + 8.36$$\n\nSubtracting $4b$ from both sides gives us:\n\n$$19 = 0.56b + 8.36$$\n\nSubtracting $8.36$ from both sides gives us:\n\n$$10.64 = 0.56b$$\n\nDividing both sides by $0.56$, we get:\n\n$$b = \\frac{10.64}{0.56} = 19$$\n\nThe final answer is 19.",
+  "processing_time_seconds": 8.26,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

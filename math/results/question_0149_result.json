@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0149",
+  "question_text": "A jar is filled with red, orange and yellow jelly beans.  The probability of randomly selecting a red jelly bean from this jar is $0.2$, and the probability of randomly selecting an orange jelly bean from this jar is $0.5$.  What is the probability of randomly selecting a yellow jelly bean from this jar?",
+  "response": "To find the probability of randomly selecting a yellow jelly bean, we can use the fact that the sum of all probabilities in a probability distribution must be equal to 1.\n\nLet's denote the probability of randomly selecting a yellow jelly bean as P(Y). Since there are only three colors (red, orange, and yellow), we can write:\n\nP(R) + P(O) + P(Y) = 1\n\nWe know that:\n- P(R) = 0.2 (probability of selecting a red jelly bean)\n- P(O) = 0.5 (probability of selecting an orange jelly bean)\n\nSubstituting these values into the equation above, we get:\n\n0.2 + 0.5 + P(Y) = 1\n\nNow, let's solve for P(Y):\n\nP(Y) = 1 - (0.2 + 0.5)\n= 1 - 0.7\n= 0.3\n\nTherefore, the probability of randomly selecting a yellow jelly bean from this jar is 0.3 or 30%.",
+  "processing_time_seconds": 17.4,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

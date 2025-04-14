@@ -1,0 +1,1 @@
+A simple calculator is given to you. (It contains 8 digits and only does the operations +,-,*,/, $ \sqrt{\mbox{}}$ ) How can you find  $ 3^{\sqrt{2}}$  with accuracy of 6 digits.

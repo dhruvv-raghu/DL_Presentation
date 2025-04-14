@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0087",
+  "question_text": "How many integers 1-9 are divisors of the five-digit number 24,516?",
+  "response": "To find the number of integers from 1 to 9 that divide 24,516, we can perform the following calculations:\n\n1. Check if 1 divides 24,516: Yes, since every number is divisible by 1.\n\n2. Check if 2 divides 24,516: Since the last digit (6) is even, 2 divides 24,516.\n\n3. Check if 3 divides 24,516: We need to find the sum of digits of 24,516, which is 9 + 4 + 5 + 1 + 6 = 25. The sum is divisible by 3, so 3 divides 24,516.\n\n4. Check if 4 divides 24,516: Since the last two digits (16) are divisible by 4, 4 divides 24,516.\n\n5. Check if 5 divides 24,516: The number does not end in 0 or 5, so 5 does not divide 24,516.\n\n6.",
+  "processing_time_seconds": 15.38,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0006",
+  "question_text": "One angle of a parallelogram is 120 degrees, and two consecutive sides have lengths of 8 inches and 15 inches. What is the area of the parallelogram? Express your answer in simplest radical form.",
+  "response": "The area of a parallelogram can be calculated using the formula A = b * h, where b is the base length and h is the height.\n\nWe are given two consecutive sides with lengths 8 inches and 15 inches. Since they are adjacent to each other, we can draw an altitude from one vertex to form a right triangle.\n\nThe angle between this altitude and the 15-inch side is 60 degrees (since it's supplementary to the 120-degree angle). The base of this triangle is half of the 15-inch side, which is 7.5 inches.\n\nUsing trigonometry, we can find the height:\n\nh = 7.5 * sin(60°)\n= 7.5 * √3/2\n= 7.5√3/2\n\nNow that we have both the base (b) and height (h), we can calculate the area of the parallelogram:\n\nA = b * h\n= 8 * (7.5√3/2)\n= 30√3",
+  "processing_time_seconds": 16.21,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

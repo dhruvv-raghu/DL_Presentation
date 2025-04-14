@@ -1,0 +1,1 @@
+A liquid is moving in an infinite pipe. For each molecule if it is at point with coordinate  $x$  then after  $t$  seconds it will be at a point of  $p(t,x)$ . Prove that if  $p(t,x)$  is a polynomial of  $t,x$  then speed of all molecules are equal and constant.

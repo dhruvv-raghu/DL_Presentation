@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0029",
+  "question_text": "The matrices\n\\[\\begin{pmatrix} 3 & -8 \\\\ a & 11 \\end{pmatrix} \\quad \\text{and} \\quad \\begin{pmatrix} 11 & b \\\\ 4 & 3 \\end{pmatrix}\\]are inverses.  Enter the ordered pair $(a,b).$",
+  "response": "To find the values of $a$ and $b$, we need to multiply the two matrices together and set it equal to the identity matrix.\n\nThe product of the two matrices is:\n\n\\[\\begin{pmatrix} 3 & -8 \\\\ a & 11 \\end{pmatrix} \\begin{pmatrix} 11 & b \\\\ 4 & 3 \\end{pmatrix}\\]\n\n\\[=\\begin{pmatrix} 3(11)+(-8)(4) & 3b+(-8)(3) \\\\ a(11)+11(4) & ab+(11)(3)\\end{pmatrix}\\]\n\n\\[=\\begin{pmatrix} 33-32 & 3b-24 \\\\ 11a+44 & ab+33\\end{pmatrix}\\]\n\nSince the two matrices are inverses, their product must equal the identity matrix. Therefore, we can set up the following equations:\n\n$$\\begin{pmatrix} 33-32 & 3b-24 \\\\ 11a+44 & ab+33\\end{pmatrix} = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1\\end{pmatrix}.$$\n\nEquating the entries, we get:\n\n\\[1=33-32,\\]\n$$0=3b-24,$$\n$$0=11a+44,$$ and\n$$1=ab+33.$$The first equation is true. Solving for $b$ in the second equation, we have\n\n\\begin{align*}\n3b-24&=0\\\\\n3b&=24\\\\\nb&=\\frac{24}{3}=8.\n\\end{align*}\n\nSolving for $a$ in the third equation, we have\n\n$$11a+44=0,$$\nwhich is equivalent to \n$$a=-4.$$\n\nTo check that our values for $a$ and $b$ also satisfy the fourth equation, we substitute them into it:\n\n\\begin{align*}\nab+33&=8(-4)+33\\\\\n&=-32+33\\\\\n&=\\boxed{1}.\n\\end{align*}\n\nTherefore, the ordered pair $(a,b)$ is $\\boxed{(-4, 8)}$.",
+  "processing_time_seconds": 34.88,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

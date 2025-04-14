@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0066",
+  "question_text": "Amerigo Vespucci has a map of America drawn on the complex plane. The map does not distort distances. Los Angeles corresponds to $0$ on this complex plane, and Boston corresponds to $2600i$. Meanwhile, Knoxville corresponds to the point $780+1040i$. With these city-point correspondences, how far is it from Knoxville to Los Angeles on this complex plane?",
+  "response": "To find the distance between Knoxville (corresponding to $780+1040i$) and Los Angeles (at 0), we can use the distance formula in the complex plane. \n\nSince Los Angeles is at 0, its corresponding point on the complex plane has both real and imaginary parts equal to zero. The formula for finding the distance between two points $(a,b)$ and $(c,d)$ in the complex plane is $\\sqrt{(c-a)^2+(d-b)^2}$. Using this formula with Knoxville's coordinates, we have:\n\n\\begin{align*}\nd & = \\sqrt{(780-0)^2 + (1040-0)^2}\\\\\n&= \\sqrt{608400+10816000}\\\\\n&=\\sqrt{ 12032000}\\\\\n&=110.6\n\\end{align*}\n\nSo the distance between Knoxville and Los Angeles on this complex plane is $\\boxed{110.6}.$",
+  "processing_time_seconds": 14.61,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

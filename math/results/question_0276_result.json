@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0276",
+  "question_text": "The expression $\\frac{x-3}{4x}$ is equal to zero for what value of $x$?",
+  "response": "To find the value of $x$ that makes the fraction equal to zero, we need to set the numerator equal to zero.\n\n$$\\frac{x-3}{4x} = 0$$\n\nSince a fraction can only be zero if its numerator is zero, we set the numerator equal to zero:\n\n$$x - 3 = 0$$\n\nNow, solve for $x$:\n\n$$x = 3$$",
+  "processing_time_seconds": 6.79,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

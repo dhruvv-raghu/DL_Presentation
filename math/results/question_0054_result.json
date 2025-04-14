@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0054",
+  "question_text": "A slant asymptote of the rational expression $y = \\frac{2x^2 + 3x - 7}{x-3}$ is the line approached by the equation as $x$ approaches $\\infty$ or $-\\infty$. If this line is of the form $y = mx + b$, find $m+b$.",
+  "response": ": The given rational expression can be rewritten as follows:\n\n$$\\begin{split}\ny &amp;= \\frac{2x^2 + 3x - 7}{x-3} \\\\\n&amp;= \\frac{(x+7)(2x-1)}{x-3}.\n\\end{split}$$\nDividing the numerator and denominator by $x$, we have that\n$$y = \\frac{\\left(\\frac{x}{x}\\right)+7}{1-\\frac{3}{x}}=\\frac{x}{x-3}-7$$\n\n$\\lim\\limits_{x\\to-\\infty}$, $\\lim\\limits_{x\\to+\\infty}$ and $\\lim\\limits_{x\\to0^-}$ are all equal to $m$, the slope of the asymptote. Therefore,\n$$\\begin{split}\nm&amp;=\\lim\\limits_{x\\to-\\infty}\\frac{x}{x-3}-7\\\\\n&amp;=\\lim\\limits_{x\\to-\\infty}\\left(\\frac{x+(-\\infty)(0)+2(-1)}{-3+\\infty} \\right)-7\\\\\n&amp;=-2\n\\end{split}$$\n\n$\\lim\\limits_{x\\to 3^-}$ and $\\lim\\limits_{x\\to +3^+}$ are both equal to $b$, the y-intercept of the asymptote. Therefore,\n$$\\begin{split}\nb &amp;=\\lim\\limits_{x\\to +3^-}\\frac{x}{x-3}-7\\\\\n&amp;= \\lim\\limits_{x\\to +3^-} \\left(\\frac{-1+0+2(-1)}{-3+3^+} \\right)-7\\\\\n&amp;=-8.\n\\end{split}$$\n\nTherefore, $m+b = -2+(-8)=-10.$",
+  "processing_time_seconds": 32.19,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

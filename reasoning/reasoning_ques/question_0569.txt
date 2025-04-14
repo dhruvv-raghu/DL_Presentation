@@ -1,0 +1,1 @@
+Let  $R$  be an associative non-commutative ring and let  $n>2$  be a fixed natural number. Assume that  $x^n=x$  for all  $x\in R$ . Prove that  $xy^{n-1}=y^{n-1}x$  holds for all  $x,y\in R$ .

@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0310",
+  "question_text": "If $f(x) = 8x^3 - 6x^2 - 4x + 5$, find the value of $f( -2)$.",
+  "response": "To find the value of f(-2), we need to substitute x = -2 into the function f(x).\n\nFirst, let's plug in x = -2:\n\nf(-2) = 8(-2)^3 - 6(-2)^2 - 4(-2) + 5\n\nNext, evaluate the exponentiation:\n\n(-2)^3 = -8\n(-2)^2 = 4\n\nNow, substitute these values back into the equation:\n\nf(-2) = 8(-8) - 6(4) - 4(-2) + 5\n\nEvaluate the multiplication:\n\n8(-8) = -64\n6(4) = 24\n-4(-2) = 8\n\nNow, substitute these values back into the equation:\n\nf(-2) = -64 - 24 + 8 + 5\n\nFinally, add and subtract from left to right:\n\n-64 - 24 = -88\n-88 + 8 = -80\n-80 + 5 = -75\n\nSo, f(-2) = -75.",
+  "processing_time_seconds": 17.03,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

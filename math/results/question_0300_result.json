@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0300",
+  "question_text": "Suppose that $2x^2 - 5x + k = 0$ is a quadratic equation with one solution for $x$. Express $k$ as a common fraction.",
+  "response": "For the given quadratic equation, we know that it has only one solution. This means that its discriminant must be equal to zero.\n\nThe discriminant of a quadratic equation in the form $ax^2 + bx + c = 0$ is given by:\n\n$$\\Delta = b^2 - 4ac.$$\n\nIn this case, we have $a=2$, $b=-5$, and $c=k$. Since the discriminant must be equal to zero for a single solution, we can write:\n\n$$(-5)^2-4(2)(k)=0.$$\n\nExpanding and simplifying the equation, we get:\n\n$$25 - 8k = 0.$$",
+  "processing_time_seconds": 10.37,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

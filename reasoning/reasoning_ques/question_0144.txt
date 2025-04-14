@@ -1,0 +1,1 @@
+c. Find the wind power $P_{w}$ in terms of $P$ and the temperature ratio $T_{2} / T_{1}$.

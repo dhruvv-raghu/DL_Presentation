@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0200",
+  "question_text": "Find $n$ such that $2^5 \\cdot 3^2 \\cdot n = 8!$.",
+  "response": "To solve for $n$, we can start by evaluating the factorial expression on the right-hand side:\n\n$$8! = 8\\cdot7\\cdot6\\cdot5\\cdot4\\cdot3\\cdot2\\cdot1 = 40,320.$$\n\nNow, we can rewrite the original equation as follows:\n\n$$2^5 \\cdot 3^2 \\cdot n = 40,320.$$",
+  "processing_time_seconds": 3.9,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

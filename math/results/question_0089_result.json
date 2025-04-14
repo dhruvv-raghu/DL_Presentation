@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0089",
+  "question_text": "What two-digit positive integer is one more than a multiple of 2, 3, 4, 5 and 6?",
+  "response": "To find the smallest common multiple (LCM) of 2, 3, 4, 5, and 6, we need to list their prime factors:\n\n- The prime factorization of 2 is 2.\n- The prime factorization of 3 is 3.\n- The prime factorization of 4 is 2^2 = 4\n- The prime factorization of 5 is 5.\n- The prime factorization of 6 is 2 * 3.\n\nTo find the LCM, we take the highest power of each prime that appears in these numbers:\n\n- For 2, it's 2^2 (from 4).\n- For 3, it's 3^1 (from 3 and 6).\n- For 5, it's 5^1 (since there are no higher powers).\n\nNow we multiply the highest powers together: \n\nLCM = 2^2 * 3^1 * 5^1\nLCM = 4 * 3 * 5 \nLCM = 60\n\nSo, one more than a multiple of 2, 3, 4, 5, and 6 is the number one greater than the LCM.\n\nTwo-digit positive integer: \n\nx = LCM + 1\n= 60 + 1\n= 61",
+  "processing_time_seconds": 20.2,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

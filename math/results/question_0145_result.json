@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0145",
+  "question_text": "One interior angle of a convex polygon is 160 degrees. The rest of the interior angles of the polygon are each 112 degrees. How many sides does the polygon have?",
+  "response": "Let's call the number of sides of the polygon \"n\". Since one interior angle is 160 degrees and the rest are 112 degrees, we can set up an equation using the fact that the sum of all interior angles in a convex polygon with n sides is (n-2) * 180 degrees.\n\nWe know that there's only one 160-degree angle, so the remaining (n-1) angles are each 112 degrees. \n\nThe total sum of all the interior angles can be expressed as:\n\n160 + 112(n-1)\n\nWe also know that this total should equal (n-2) * 180.\n\nSo we set up the equation: \n\n160 + 112(n-1) = (n-2) * 180\n\nExpanding both sides gives us:\n\n160 + 112n - 112 = 180n - 360\n\nSimplifying this expression, we get:\n\n48 + 112n = 180n - 360\n\nNow, let's move all the terms with n to one side and everything else to the other. \n\nWe can subtract 112n from both sides of the equation:\n\n48 = 68n - 360\n\nAdding 360 to both sides:\n\n408 = 68n\n\nDividing by 68 on both sides gives us:\n\n6 = n\n\nSo, the polygon has 6 sides.",
+  "processing_time_seconds": 22.17,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

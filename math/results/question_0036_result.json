@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0036",
+  "question_text": "Let $\\mathbf{a},$ $\\mathbf{b},$ and $\\mathbf{c}$ be unit vectors such that\n\\[\\mathbf{a} + \\mathbf{b} + \\sqrt{3} \\mathbf{c} = \\mathbf{0}.\\]Find the angle between $\\mathbf{a}$ and $\\mathbf{b},$ in degrees.\n\nNote: A unit vector is a vector of magnitude 1.",
+  "response": "Since we are given that $|\\mathbf{v}|=1$, then\n\\begin{align*}\n\\left| \\mathbf{a} + \\mathbf{b}\\right|^2&amp;=\\left(\\sqrt{3} \\mathbf{c}\\right)^2\\\\\n\\Leftrightarrow \\qquad 1+2\\cos{\\theta}&amp;=3\\\\\n\\Leftrightarrow \\qquad \\cos{\\theta}&amp;=\\frac{1}{2}\\\\\n\\Rightarrow \\qquad \\theta&amp;=\\boxed{60^{\\circ}}.\n\\end{align*}",
+  "processing_time_seconds": 10.1,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

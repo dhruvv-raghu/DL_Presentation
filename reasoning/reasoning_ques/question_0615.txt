@@ -1,0 +1,3 @@
+Suppose that  $ \tau$  is a metrizable topology on a set  $ X$  of cardinality less than or equal to continuum. Prove that there exists a separable and metrizable topology on  $ X$  that is coarser that  $ \tau$ . 
+
+*L. Juhasz*

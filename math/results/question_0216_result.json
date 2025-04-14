@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0216",
+  "question_text": "Lee can make 18 cookies with two cups of flour. How many cookies can he make with three cups of flour?",
+  "response": "To find out how many cookies Lee can make with 3 cups of flour, we need to set up a proportion.\n\nWe know that 2 cups of flour makes 18 cookies, so let's say x is the number of cookies that 3 cups of flour will make. We can set up a proportion like this:\n\n2 cups / 18 cookies = 3 cups / x cookies\n\nTo solve for x, we can cross-multiply and divide:\n\nx = (18 x 3) / 2\nx = 54 / 2\nx = 27\n\nSo Lee can make 27 cookies with three cups of flour.",
+  "processing_time_seconds": 6.07,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

@@ -1,0 +1,1 @@
+A3 Express the number of photons, $n_{\gamma}(v)$, per unit time per unit frequency interval incident on the surface of <br> the solar cell in terms of $A, R_{\odot}, d_{\odot}, T_{\mathrm{s}}, v$ and the fundamental constants $c, h, k_{\mathrm{B}}$.

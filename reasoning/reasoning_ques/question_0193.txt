@@ -1,0 +1,1 @@
+Let  $n\geq 1$  be an integer. Find all rings  $(A,+,\cdot)$  such that all  $x\in A\setminus\{0\}$  satisfy  $x^{2^{n}+1}=1$ .

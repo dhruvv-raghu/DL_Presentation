@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0252",
+  "question_text": "An airplane has three sections: First Class (24 seats), Business Class ($25\\%$ of the total number of seats) and Economy ($\\frac{2}{3}$ of the total number of seats). How many seats does the plane have?",
+  "response": "Let x be the total number of seats on the airplane.\n\nFirst Class has 24 seats. Then, Business class will have (25/100)x = (1/4)x seats and Economy will have (2/3)x seats.\n\nTotal number of seats: 24 + (1/4)x + (2/3)x = x\n\nMultiplying by 12 to eliminate the fraction:\n\n288 + 3x +8x = 12x\n300x - 12x = 288 \n288x = 288 \n\nDivide both sides by 288 and simplify:\nx = 1\n\nTherefore, the airplane has 1 seat.",
+  "processing_time_seconds": 5.99,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

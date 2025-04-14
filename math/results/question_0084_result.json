@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0084",
+  "question_text": "How many two-digit positive integers are congruent to 1 (mod 3)?",
+  "response": "To find the number of two-digit positive integers that are congruent to 1 modulo 3, we need to find the number of integers in the form 3k + 1, where k is an integer, and 10 ≤ 3k + 1 < 100.\n\nFirst, let's solve for k:\n\n10 ≤ 3k + 1 < 100\n\nSubtracting 1 from each part gives us:\n\n9 ≤ 3k < 99\n\nDividing each part by 3 gives us:\n\n3 ≤ k < 33\n\nNow, we need to find the number of integers between 3 and 32, inclusive. Since there are 30 integers in this range, our answer is 30.",
+  "processing_time_seconds": 10.89,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

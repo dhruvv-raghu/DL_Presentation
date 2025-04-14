@@ -1,0 +1,1 @@
+Let $I(R)=\iint_{x^2+y^2 \leq R^2}(\frac{1+2 x^2}{1+x^4+6x^2y^2+y^4}-\frac{1+y^2}{2+x^4+y^4}) dx dy$. What is the limit of $I(R)$ as $R$ goes to infinity?

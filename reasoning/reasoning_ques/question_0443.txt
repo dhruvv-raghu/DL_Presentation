@@ -1,0 +1,1 @@
+1.2.1. Write down the expression giving the atmospheric pressure $p$ as a function of the altitude $Z$.

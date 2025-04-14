@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0272",
+  "question_text": "James is six years older than Louise. Eight years from now, James will be four times as old as Louise was four years before now. What is the sum of their current ages?",
+  "response": "Let's break it down step by step.\n\nLet L = Louise's current age\nJ = James' current age\n\nSince James is six years older than Louise, we can write:\n\nJ = L + 6 ... (Equation 1)\n\nEight years from now, James will be:\nJ + 8\n\nFour times as old as Louise was four years before now:\n4(L - 4)\n\nSetting these two expressions equal to each other:\nJ + 8 = 4(L - 4)\nSubstituting Equation 1 for J:\nL + 6 + 8 = 4(L - 4)\nSimplifying the equation:\nL + 14 = 4L - 16\nAdding 16 to both sides:\n30 = 3L\nDividing by 3:\n10 = L\n\nNow that we have Louise's age, we can find James' age using Equation 1:\nJ = L + 6\n= 10 + 6\n= 16\n\nThe sum of their current ages is:\nL + J\n= 10 + 16\n= 26",
+  "processing_time_seconds": 255.91,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

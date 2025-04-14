@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0284",
+  "question_text": "Expand $(x-2)(x+2)(x^2+4)$.",
+  "response": "To expand the given expression, we can start by multiplying the first two factors:\n\n$$(x-2)(x+2) = x^2 - 4$$\n\nNow, we multiply this result with the third factor:\n\n$$(x^2 - 4)(x^2 + 4) = (x^2)(x^2) + (x^2)(4) - (4)(x^2) - (4)(4)$$\n\nSimplifying further, we get:\n\n$$= x^4 + 4x^2 - 4x^2 - 16$$\n\nCombining like terms, the final expanded form is:\n\n$$= x^4 - 16$$",
+  "processing_time_seconds": 10.52,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

@@ -1,0 +1,1 @@
+Mike draws five cards from a standard 52-card deck. What is the probability that he draws a card from at least three of the four suits? Express your answer as a simplified fraction.

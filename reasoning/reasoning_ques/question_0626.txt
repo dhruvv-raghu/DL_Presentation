@@ -1,0 +1,1 @@
+d. Assuming most atoms are in the interior of the box, what is the total energy of the atoms in the box?

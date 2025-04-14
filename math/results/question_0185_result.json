@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0185",
+  "question_text": "The positive four-digit integers that use each of the four digits $1,$ $2,$ $3,$ and $4$ exactly once are ordered from least to greatest. What is the $15^{\\text{th}}$ integer in the list?",
+  "response": "For the least value of the number, we want the 1 as the first digit. Next digit has to be less than 2 so it's 1. And now there are two options for 3 and one left for 4. That leaves us with $\\boxed{3124}$ as our smallest integer. The next integer is found by taking the $3124$, removing the lowest possible digits, putting in a digit that hasn't been used yet, which is 2, making it to 3241. But we are looking for the 15th number so let's try to get all numbers with 3 as first or second digit and only two other possibilities. That leaves us with 4 as the next digit after that and then comes 3 in third place. So we have $\\boxed{3142}$, $\\boxed{3214}$ and $\\boxed{3241}$. We now need to find the number with 1 as first or second digit again (for 6 possibilities) but this time with a remaining digits of $13$ and $24$. That's 3 in third place because we can't have an even higher number. That makes our next two numbers $\\boxed{1324}$ and $\\boxed{1342}$. The 15th integer is then the last one after we remove all numbers from this case, which leaves us with $\\boxed{1423}$.",
+  "processing_time_seconds": 119.46,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

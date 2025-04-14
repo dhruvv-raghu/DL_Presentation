@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0229",
+  "question_text": "The expression $x^2 + 13x + 30$ can be written as  $(x + a)(x + b),$ and the expression $x^2 + 5x - 50$ written as $(x + b)(x - c)$, where $a$, $b$, and $c$ are integers. What is the value of $a + b + c$?",
+  "response": "To factorize both quadratic equations, we need to find two numbers that multiply to give $30$ for the first equation, which are $6$ and $5$. These can be used as the factors $(x+6)(x+5)$.\nNext, let's look at the second equation. We know that $50 = -10 \\times 5$, so we can rewrite this expression as $(x-10)(x+5)$.\nSince both expressions contain the factor $(x + 5)$, it must be that $b=5$ and $a=6$. Now all we have to do is solve for c. We know that $c = -(-10) = 10$, so this means our answer will be:\n$\\boxed{21}$",
+  "processing_time_seconds": 361.4,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

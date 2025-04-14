@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0303",
+  "question_text": "What is the sum of all the integers between -12.1 and 3.3?",
+  "response": "To find the sum of all integers between -12.1 and 3.3, we need to first find the range of integers that fall within this interval.\n\nThe smallest integer greater than -12.1 is -12.\nThe largest integer less than 3.3 is 3.\n\nSo, the range of integers is from -12 to 3.\n\nTo find the sum of an arithmetic series, we can use the formula:\n\nSum = (n/2) \\* (first term + last term)\n\nwhere n is the number of terms in the series.\n\nIn this case, there are 16 terms (-12, -11, ..., 0, ..., 3).\n\nPlugging in the values, we get:\n\nSum = (16/2) \\* (-12 + 3)\n= 8 \\* (-9)\n= -72\n\nTherefore, the sum of all integers between -12.1 and 3.3 is -72",
+  "processing_time_seconds": 14.01,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

@@ -1,0 +1,1 @@
+How many integers $n$ satisfy $(n-2)(n+4)<0$?

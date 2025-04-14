@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0134",
+  "question_text": "I need to learn vocabulary words for my Spanish exam. There are 500 words and the exam grade is the percentage of these words that I recall correctly. Assuming I will recall correctly the words I learn and assuming my guesses will not yield any points, what is the least number of words I should learn to get at least $85\\%$ on the exam?",
+  "response": "To find the minimum number of words you need to know to achieve an 85% score, we can set up an equation.\n\nLet x be the total number of vocabulary words in Spanish. The percentage of correctly recalled words is equal to the ratio of known words to the total number of words:\n\n(x / 500) * 100 = 85\n\nTo find the minimum value of x that satisfies this equation, we can solve for x:\n\nx = (85/100) * 500\nx = 0.85 * 500\nx = 425\n\nSo, you need to learn at least 425 vocabulary words to get an 85% score on the exam.",
+  "processing_time_seconds": 11.38,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

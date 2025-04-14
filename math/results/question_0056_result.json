@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0056",
+  "question_text": "Let $x$ and $y$ be real numbers, $y > x > 0,$ such that\n\\[\\frac{x}{y} + \\frac{y}{x} = 6.\\]Find the value of \\[\\frac{x + y}{x - y}.\\]",
+  "response": "We are given $\\dfrac{x}{y}+\\dfrac{y}{x}=6$.\n\nThis can be rearranged as: \n$\\dfrac{x^2+y^2}{xy}=6$\n\nWhich becomes:\n$x^2+y^2=6xy$. \n\nNow we need to find the value of $(\\dfrac{x + y}{x - y})^2$.\nUsing algebraic manipulation, we can write it as:\n\n$(\\dfrac{x+y}{x-y})^2 = \\dfrac{(x+y)^2}{(x-y)^2}$\n\nExpanding this gives us:\n$\\dfrac{ (x+y)^2 }{ (x - y) ^2 } = \\dfrac { x ^ 2 + y ^ 2+ 2xy }{ x ^ 2 + y ^ 2- 2xy}.$\n\n\nWe already know that $x^2 + y^2 = 6xy$ from our previous equation.\n\nSubstituting this into the above, we get: \n$\\dfrac{(x+y)^2}{(x-y)^2}=\\dfrac { 6xy+2xy }{ 6xy-2xy}$\n\nSimplifying:\n$\\dfrac{(x+y)^2}{(x-y)^2} = \\dfrac{8xy}{4xy}$\nWhich simplifies to: \n$(\\dfrac{x + y}{x - y})^2=2.$\n\n\nSince $(\\dfrac{x + y}{x - y})$ can not be greater than or equal to zero, we have:\n$\\dfrac{x+y}{x-y}= \\pm \\sqrt{2}$.\n\nAs $y > x$, $\\dfrac{x+y}{x-y} < 0$. Therefore the final answer is: \n\nThe final answer is: $\\boxed{-\\sqrt{2}}$",
+  "processing_time_seconds": 30.73,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

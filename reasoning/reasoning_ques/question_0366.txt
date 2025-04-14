@@ -1,0 +1,1 @@
+Let  $A,B,C$  be nodes of the lattice  $Z\times Z$  such that inside the triangle  $ABC$  lies a unique node  $P$  of the lattice. Denote  $E = AP \cap BC$ . Determine max  $\frac{AP}{PE}$  , over all such configurations.

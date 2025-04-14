@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0037",
+  "question_text": "The curve parameterized by $(x,y) = (2t + 4, 4t - 5)$ is a line, where $t$ is a real number.  Find the equation of the line.  Enter the equation in the form \"$y = mx + b$\".",
+  "response": "To find the equation of the line parameterized by $(x,y) = (2t + 4, 4t - 5)$, we need to solve for $t$ in terms of $x$, and then substitute that expression into the equation for $y$.\n\nFirst, we can solve for $t$ in terms of $x$:\n\n$$x = 2t + 4 \\Rightarrow t = \\frac{x-4}{2}.$$\n\nNow, substitute this expression for $t$ into the equation for $y$:\n\n$$y = 4t - 5 = 4\\left(\\frac{x-4}{2}\\right) - 5 = 2(x-4) - 5 = 2x - 8 - 5 = 2x - 13.$$\n\nTherefore, the equation of the line is $y = 2x - 13$.",
+  "processing_time_seconds": 13.9,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

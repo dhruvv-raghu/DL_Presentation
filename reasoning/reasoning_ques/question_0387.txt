@@ -1,0 +1,5 @@
+Find the continuous function  $f(x)$  such that the following equation holds  for any real number  $x$ .
+
+\[\int_0^x \sin t \cdot f(x-t)dt=f(x)-\sin x.\]
+
+*1977 Keio University entrance exam/Medicine*

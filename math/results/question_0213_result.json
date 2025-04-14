@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0213",
+  "question_text": "You have a whole pizza in the refrigerator. On your first trip to the refrigerator, you eat half the pizza. On each successive trip, you eat half of the remaining pizza. After five trips to the refrigerator, what fractional part of the pizza have you eaten?",
+  "response": "To find the total portion of the pizza that has been consumed, we need to calculate how much is left after each round and add up those leftovers.\n\nInitially, the whole pizza was 1.\nAfter the first trip, half the pizza (1/2) was eaten, so 1 - 0.5 = 0.5\n\nOn the second trip, eat half of what's left: 0.5 / 2 = 0.25\nNow there is 0.5 - 0.25 = 0.25 remaining.\n\nOn the third trip, 0.25 / 2 = 0.125\nLeaving 0.25 - 0.125 = 0.125 pizza\n\nOn the fourth trip, 0.125 / 2 = 0.0625\nLeaving 0.125 - 0.0625 = 0.0625 pizza\n\nOn the fifth trip, 0.0625 / 2 = 0.03125\nLeaving 0.0625 - 0.03125 = 0.03125 pizza.\n\nThe total portion of the pizza that has been eaten is 1/2 + 1/4 + 1/8 + 1/16 + 1/32.\nThis simplifies to (32+8+4+2+1)/32 = 47/32\nSo the total portion of the pizza that was consumed after five trips is 47/32.",
+  "processing_time_seconds": 14.78,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

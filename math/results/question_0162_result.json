@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0162",
+  "question_text": "The perimeter of a rectangle is 56 meters. The ratio of its length to its width is 4:3. What is the length in meters of a diagonal of the rectangle?",
+  "response": "To find the length of the diagonal, we need to first find the dimensions of the rectangle.\n\nLet's say the length and width are 4x and 3x respectively, since the ratio of length to width is 4:3.\n\nThe perimeter of a rectangle is given by P = 2(length + width). We know that P = 56 meters, so we can set up an equation:\n\n2(4x + 3x) = 56\n\nCombine like terms:\n\n2(7x) = 56\n\nDivide both sides by 2:\n\n7x = 28\n\nDivide both sides by 7:\n\nx = 4\n\nNow that we have the value of x, we can find the length and width:\n\nLength = 4x = 4(4) = 16 meters\nWidth = 3x = 3(4) = 12 meters\n\nTo find the diagonal, we use the Pythagorean theorem: Diagonal^2 = Length^2 + Width^2\n\nDiagonal^2 = 16^2 + 12^2\nDiagonal^2 = 256 + 144\nDiagonal^2 = 400\n\nTake the square root of both sides:\n\nDiagonal = sqrt(400) = 20 meters",
+  "processing_time_seconds": 11.63,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

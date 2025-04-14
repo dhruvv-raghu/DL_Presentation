@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0167",
+  "question_text": "If $\\sqrt{5+n}=7$, then what is the value of $n$?",
+  "response": "To solve for $n$, we can square both sides of the equation:\n\n$\\sqrt{5+n} = 7$\n\n$(\\sqrt{5+n})^2 = 7^2$\n\n$5 + n = 49$\n\nSubtracting 5 from both sides gives us:\n\n$n = 44$",
+  "processing_time_seconds": 2.9,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

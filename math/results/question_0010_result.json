@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0010",
+  "question_text": "Each edge length of a rectangular solid is a prime number. If the volume of the rectangular solid is 385 cubic units, what is the total surface area, in square units, of the rectangular solid?",
+  "response": "To find the total surface area of the rectangular solid, we need to know its dimensions (length, width and height). We are given that the volume of the rectangular solid is 385 cubic units.\n\nLet's factorize 385 as follows:\n385 = 5 × 7 × 11\n\nSince each edge length is a prime number, these must be the values for the length, width and height. \n\nTo find the total surface area of the rectangular solid, we can use the formula: \nTotal Surface Area = (2 x length) + (2 x width) + (2 x height)\n= (2 × 5) + (2 × 7) + (2 × 11)\n= 10 + 14 + 22\n= 46\n\nTherefore, the total surface area of the rectangular solid is 46 square units.",
+  "processing_time_seconds": 13.09,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

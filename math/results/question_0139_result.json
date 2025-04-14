@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0139",
+  "question_text": "What is the least common multiple of 14 and 21?",
+  "response": "To find the least common multiple (LCM) of 14 and 21, we need to first find the prime factors of each number.\n\nThe prime factorization of 14 is: 2 × 7\nThe prime factorization of 21 is: 3 × 7\n\nSince both numbers have a common prime factor of 7, we can multiply the remaining factors together:\n\nLCM = 2 × 3 × 7\n= 42\n\nTherefore, the least common multiple (LCM) of 14 and 21 is 42.",
+  "processing_time_seconds": 9.0,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

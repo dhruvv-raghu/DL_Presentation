@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0206",
+  "question_text": "Compute $\\dbinom{15}{3}$.",
+  "response": "To compute $\\dbinom{15}{3}$, we can use the formula for combinations:\n\n$$\\dbinom{n}{k} = \\frac{n!}{k!(n-k)!}$$\n\nIn this case, $n=15$ and $k=3$, so we have:\n\n$$\\dbinom{15}{3} = \\frac{15!}{3!(15-3)!} = \\frac{15!}{3!12!}$$\n\nNow, we can simplify the factorials:\n\n$$15! = 15\\times14\\times13\\times12!$$\n\nSo,\n\n$$\\dbinom{15}{3} = \\frac{(15\\times14\\times13)\\times12!}{(3\\times2\\times1)\\times12!}$$\n\nWe can cancel out the $12!$ terms:\n\n$$\\dbinom{15}{3} = \\frac{(15\\times14\\times13)}{(3\\times2\\times1)} = \\frac{2730}{6} = 455$$",
+  "processing_time_seconds": 9.85,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

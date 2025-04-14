@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0261",
+  "question_text": "What is the value of the expression $(25 + 8)^2 - (8^2 +25^2)$?",
+  "response": "To evaluate this expression, we need to follow the order of operations (PEMDAS):\n\n1. Calculate the exponents:\n$$(25 + 8)^2 = 33^2 = 1089$$\n$$8^2 + 25^2 = 64 + 625 = 689$$\n2. Subtract the second result from the first:\n$1089 - 689 = 400$$\n\nTherefore, the value of the expression is $400$.",
+  "processing_time_seconds": 4.25,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

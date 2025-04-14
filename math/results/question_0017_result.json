@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0017",
+  "question_text": "What is the number of square units in the area of trapezoid ABCD with vertices A(0,0), B(0,-2), C(4,0), and D(4,6)?",
+  "response": "To find the area of the trapezoid, we need to use the formula:\n\nArea = (1/2) × (a + b) × h\n\nwhere a and b are the lengths of the parallel sides, and h is the height.\n\nIn this case, the parallel sides are AB and CD. The length of AB is 2 units (from (0,0) to (0,-2)), and the length of CD is 6 units (from (4,0) to (4,6)).\n\nThe height of the trapezoid is the distance between the x-coordinates of points A and C, which is 4 units.\n\nNow we can plug these values into the formula:\n\nArea = (1/2) × (2 + 6) × 4\n= (1/2) × 8 × 4\n= 16 square units\n\nTherefore, the area of the trapezoid ABCD is 16 square units.",
+  "processing_time_seconds": 14.75,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

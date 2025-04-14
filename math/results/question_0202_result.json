@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0202",
+  "question_text": "If $m$ and $n$ are odd integers, how many terms in the expansion of $(m+n)^6$ are odd?",
+  "response": "In the binomial theorem, we know that a term is odd only if both its two factors are odd. Thus, we need both $m$ and $n$ to be odd to produce an odd term. Since there are $\\binom{6}{r}$ terms of degree $r$, where $0 \\leq r \\leq 6,$ the number of odd terms is equal to\n\n\\begin{align*}\nS&=\\sum_{r=0}^6 \\binom{6}{r}\\\\\n&=1+\\binom{6}{2}+\\binom{6}{4}+\\binom{6}{6}=1+15+15+1\\\\\n&=32.\n\\end{align*}\n\nTherefore, $\\boxed{\\textbf{(B) }32}$ terms in the expansion of $(m+n)^6$ are odd.",
+  "processing_time_seconds": 8.06,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

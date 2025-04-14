@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0289",
+  "question_text": "A ball is dropped from 1000 feet high and always bounces back up half the distance it just fell. After how many bounces will the ball first reach a maximum height less than 1 foot?",
+  "response": "To solve this problem, we can use a geometric sequence to model the height of the ball after each bounce.\n\nLet's start by analyzing the first few bounces:\n\nBounce 1: The ball falls from 1000 feet and reaches a maximum height of 500 feet (half of 1000).\nBounce 2: The ball falls from 500 feet and reaches a maximum height of 250 feet (half of 500).\nBounce 3: The ball falls from 250 feet and reaches a maximum height of 125 feet (half of 250).\n\nNotice that the maximum height is decreasing by half with each bounce. We can represent this as a geometric sequence:\n\n1000, 500, 250, 125, ...\n\nThe common ratio of this sequence is 1/2.\n\nWe want to find when the ball first reaches a maximum height less than 1 foot. Let's continue the sequence until we reach this condition:\n\nBounce 4: The ball falls from 125 feet and reaches a maximum height of 62.5 feet.\nBounce 5: The ball falls from 62.5 feet and reaches a maximum height of 31.25 feet.\nBounce 6: The ball falls from 31.25 feet and reaches a maximum height of 15.625 feet.\nBounce 7: The ball falls from 15.625 feet and reaches a maximum height of 7.8125 feet.\nBounce 8: The ball falls from 7.8125 feet and reaches a maximum height of 3.90625 feet.\nBounce 9: The ball falls from 3.90625 feet and reaches a maximum height of 1.953125 feet.\n\nAt this point, the maximum height (1.953125) is still greater than 1 foot.\n\nLet's continue:\n\nBounce 10: The ball falls from 1.953125 feet and reaches a maximum height of 0.9765625 feet.\nBounce 11: The ball falls from 0.9765625 feet and reaches a maximum height of 0.48828125 feet.\n\nAh, now the maximum height is less than 1 foot!\n\nSo, after 10 bounces (with bounce 10 being the first to reach a maximum height under 1 foot), the ball will finally drop below 1 foot.",
+  "processing_time_seconds": 35.51,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

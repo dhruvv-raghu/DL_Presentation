@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0150",
+  "question_text": "Allen and Ben are painting a fence. The ratio of the amount of work Allen does to the amount of work Ben does is $3:5$. If the fence requires a total of $240$ square feet to be painted, how many square feet does Ben paint?",
+  "response": "To find out how much Ben paints, we need to figure out what fraction of the job he's responsible for.\n\nThe ratio of Allen and Ben's work is 3:5. We can add these numbers together (3+5=8) to determine that they split up the job in some way that is represented by 8 parts.\n\nWe're told that Allen contributes 3 out of those 8 parts. Therefore, Ben must contribute 5 out of those 8 parts.\n\nSince the fence requires a total of $240$ square feet to be painted, we can calculate how much square feet Ben has to paint by determining what fraction of the job he is responsible for (5/8), and multiplying that fraction by the size of the job ($240$).\n\nWe know that\n\n$\\frac{5}{8} \\cdot 240$\n\n$= 150$",
+  "processing_time_seconds": 14.08,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

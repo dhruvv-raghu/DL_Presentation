@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0228",
+  "question_text": "How many integers $n$ satisfy the inequality $-8\\pi\\le n\\le10\\pi$?",
+  "response": "The inequality can be rewritten as:\n\n$$-25.14 \\le n \\le 31.42$$\n\nSince we are looking for integers, we round both bounds to the nearest integer.\n\n$$-25 \\le n \\le 31$$\n\nNow, let's count the number of integers in this range:\n\nThere are $-25$ and $31$, so there are $57$ integers in total.\n\nTherefore, the answer is $\\boxed{57}$.",
+  "processing_time_seconds": 292.62,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

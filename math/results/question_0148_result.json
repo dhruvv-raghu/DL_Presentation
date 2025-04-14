@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0148",
+  "question_text": "Alice chose five positive integers and found that their product was even. What is the maximum number of odd integers she could have chosen?",
+  "response": "Since the product of the five numbers is even, at least one of them must be even.\n\nIf Alice has chosen five positive integers and only one or three of them are even, then there will always be an even integer among the five chosen numbers. However, if Alice chooses four odd numbers and one even number, then she has maximized her chances of having an even product while also maximizing the number of odd integers.\n\nTherefore, the maximum number of odd integers that Alice could have chosen is 4 (four odd + one even).",
+  "processing_time_seconds": 8.4,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

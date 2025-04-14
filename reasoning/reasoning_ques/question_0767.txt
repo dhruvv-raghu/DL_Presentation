@@ -1,0 +1,1 @@
+Call a positive number  $n$  *fine*, if there exists a prime number  $p$  such that  $p|n$  and  $p^2\nmid n$ . Prove that at least 99% of numbers  $1, 2, 3, \ldots, 10^{12}$  are fine numbers.

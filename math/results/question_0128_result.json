@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0128",
+  "question_text": "There are 30 people in my math class.  12 of them have cool dads, 15 of them have cool moms, and 9 of them have cool dads and cool moms.  How many people have moms and dads who are both uncool?",
+  "response": "To find the number of people with uncool parents, we need to subtract the number of people with at least one cool parent from the total number of students.\n\nLet's break it down:\n\n* Number of people with cool dads: 12\n* Number of people with cool moms: 15\n* Number of people with both cool dads and cool moms: 9\n\nTo avoid double-counting, we need to subtract the overlap (people with both cool parents) from the total number of people with at least one cool parent.\n\nPeople with at least one cool parent = People with cool dads + People with cool moms - People with both\n= 12 + 15 - 9\n= 18\n\nNow, let's find the number of people with uncool parents:\n\nTotal students: 30\nStudents with at least one cool parent: 18\n\nPeople with uncool parents = Total students - Students with at least one cool parent\n= 30 - 18\n= 12\n\nSo, there are 12 people in your math class who have moms and dads who are both uncool.",
+  "processing_time_seconds": 18.59,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

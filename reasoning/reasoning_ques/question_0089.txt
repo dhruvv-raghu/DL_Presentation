@@ -1,0 +1,1 @@
+Prove that the sum of the squares of any three pairwise different positive odd integers can be represented as the sum of the squares of six (not necessarily  different) positive integers.

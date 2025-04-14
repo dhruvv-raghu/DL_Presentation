@@ -1,0 +1,2 @@
+There are  $200$  numbers on a blackboard: $ 1! ,  2! ,  3! ,  4! , ... ... ,  199! ,  200!$ .
+Julia erases one of the numbers. When Julia multiplies the remaining  $199$  numbers, the product is a perfect square. Which number was erased?

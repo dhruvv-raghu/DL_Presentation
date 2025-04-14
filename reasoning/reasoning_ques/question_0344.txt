@@ -1,0 +1,7 @@
+Suppose that
+\[
+        \prod_{n=1}^{\infty}\left(\frac{1+i\cot\left(\frac{n\pi}{2n+1}\right)}{1-i\cot\left(\frac{n\pi}{2n+1}\right)}\right)^{\frac{1}{n}} = \left(\frac{p}{q}\right)^{i \pi},
+ \]
+    where  $p$  and  $q$  are relatively prime positive integers. Find  $p+q$ .
+    
+*Note: for a complex number  $z = re^{i \theta}$  for reals  $r > 0, 0 \le \theta < 2\pi$ , we define  $z^{n} = r^{n} e^{i \theta n}$  for all positive reals  $n$ .*

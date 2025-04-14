@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0153",
+  "question_text": "Solve for $x$: $x+2x = 400-(3x+4x)$.",
+  "response": "To solve for x, we need to isolate the variable x on one side of the equation.\n\nFirst, let's simplify the right-hand side of the equation:\n\n$400 - (3x + 4x)$\n= $400 - 7x$\n\nNow, let's simplify the left-hand side of the equation:\n\n$x + 2x = 3x$\n\nSo, the equation becomes:\n\n$3x = 400 - 7x$\n\nNext, we want to get all the x terms on one side of the equation. To do this, we can add $7x$ to both sides of the equation:\n\n$3x + 7x = 400$\n$10x = 400$\n\nNow, we can divide both sides of the equation by 10 to solve for x:\n\n$x = \\frac{400}{10}$\n$x = 40$\n\nTherefore, the value of x is $40$.",
+  "processing_time_seconds": 10.43,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

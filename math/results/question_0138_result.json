@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0138",
+  "question_text": "What is the value of $n$ such that $10^n = 10^{-5}\\times \\sqrt{\\frac{10^{73}}{0.001}}$?",
+  "response": "To find the value of n, we can simplify the expression and solve for n.\n\nFirst, simplify $\\sqrt{\\frac{10^{73}}{0.001}}$. \n\n$\\sqrt{\\frac{10^{73}}{0.001}} = \\sqrt{\\frac{10^{73}}{10^{-3}}}$\n$= \\sqrt{10^{73+3}}$\n$= \\sqrt{10^{76}}$\n$= 10^{38}$\n\nNow, simplify the expression $10^{-5}\\times 10^{38}$. \n\n$10^{-5}\\times 10^{38} = 10^{-5+38} = 10^{33}$.\n\nTherefore, we have:\n\n$10^n = 10^{33}$.\n\nComparing both sides of the equation, we can see that $n = 33.$",
+  "processing_time_seconds": 13.64,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

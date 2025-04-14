@@ -1,0 +1,1 @@
+Let $m \circ n = \frac{m+n}{mn+4}$. Compute $((\cdots((2005 \circ 2004) \circ 2003) \circ \cdots \circ 1) \circ 0)$.

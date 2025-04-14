@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0094",
+  "question_text": "How many positive two-digit integers have an odd number of positive factors?",
+  "response": "A two-digit integer has an odd number of factors if and only if it is a perfect square.\n\nLet's find the smallest and largest two-digit perfect squares:\n\nThe smallest two-digit perfect square is 16 (4^2).\nThe largest two-digit perfect square is 81 (9^2).\n\nThere are 8 two-digit perfect squares: 16, 25, 36, 49, 64, 81, 100 (not a two-digit integer, so we ignore it), and 121 (exceeds 100).",
+  "processing_time_seconds": 8.63,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

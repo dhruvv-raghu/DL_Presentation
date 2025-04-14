@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0140",
+  "question_text": "Suppose that $x = 2-t$ and $y = 4t + 7$.  If $x = -3$, what is $y$?",
+  "response": "To find the value of y when x = -3, we first need to find the corresponding value of t.\n\nWe are given that x = 2 - t. We can set up an equation using this information and the fact that x = -3:\n\n2 - t = -3\n\nSubtracting 2 from both sides gives us:\n\n-t = -5\n\nMultiplying both sides by -1 gives us:\n\nt = 5\n\nNow that we know the value of t, we can use it to find the corresponding value of y. We are given that y = 4t + 7:\n\ny = 4(5) + 7\n\ny = 20 + 7\n\ny = 27\n\nTherefore, when x = -3, y is equal to 27.",
+  "processing_time_seconds": 12.92,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0026",
+  "question_text": "Let $\\mathbf{v}$ and $\\mathbf{w}$ be the vectors such that $\\mathbf{v} \\cdot \\mathbf{w} = -3$ and $\\|\\mathbf{w}\\| = 5.$  Find the magnitude of $\\operatorname{proj}_{\\mathbf{w}} \\mathbf{v}.$",
+  "response": "The formula for the projection of $\\mathbf{v}$ onto $\\mathbf{w}$ is given by:\n\n$$\n\\operatorname{proj}_{\\mathbf{w}}\\mathbf{v} = \\frac{\\mathbf{v}\\cdot\\mathbf{w}}{\\|\\mathbf{w}\\|^2}\\mathbf{w}\n$$\n\nTaking the magnitude of both sides, we have\n\n$$\n\\left|\\operatorname{proj}_{\\mathbf{w}}\\mathbf{v}\\right| = \\left|\\frac{\\mathbf{v}\\cdot\\mathbf{w}}{\\|\\mathbf{w}\\|^2}\\right|\\left|\\mathbf{w}\\right|\n$$\n\nSubstituting the given values, we obtain:\n\n$$\n\\begin{aligned}\n\\left|\\operatorname{proj}_{\\mathbf{w}}\\mathbf{v}\\right| &= \\frac{\\left|\\mathbf{v}\\cdot\\mathbf{w}\\right|}{\\|\\mathbf{w}\\|^2} \\cdot \\|\\mathbf{w}\\| \\\\\n&= \\frac{|-3|}{5^2}\\cdot 5\\\\\n&=\\boxed{\\frac{3}{5}}\n\\end{aligned}\n$$\n\nTherefore, the magnitude of $\\operatorname{proj}_{\\mathbf{w}}\\mathbf{v}$ is $\\frac{3}{5}$.",
+  "processing_time_seconds": 22.43,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0141",
+  "question_text": "If $15\\%$ of $N$ is $45\\%$ of 2003, what is the value of $N$?",
+  "response": "To find the value of N, we need to set up an equation using the given information. We know that 15% of N is equal to 45% of 2003.\n\nLet's start by converting the percentages to decimals:\n15% = 0.15\n45% = 0.45\n\nNow, we can write the equation:\n\n0.15N = 0.45(2003)\n\nNext, let's solve for N:\nN = (0.45)(2003) / 0.15\n\nTo divide by a decimal, we can multiply by its reciprocal. In this case, we'll multiply by 1/0.15.\n\nN = (0.45)(2003)(10)\n= 909\n\nSo the value of N is 909.",
+  "processing_time_seconds": 12.82,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0267",
+  "question_text": "What is the distance on a Cartesian coordinate plane from $(1, -1)$ to  $(7, 7)?$",
+  "response": "To find the distance between two points (x1, y1) and (x2, y2), you can use the distance formula:\n\nDistance = sqrt((x2-x1)^2 + (y2-y1)^2)\n\nIn this case, we have:\n\n(x1, y1) = (1, -1)\n(x2, y2) = (7, 7)\n\nPlugging these values into the distance formula, we get:\n\nDistance = sqrt((7-1)^2 + (7-(-1))^2)\n= sqrt(6^2 + 8^2)\n= sqrt(36 + 64)\n= sqrt(100)\n= 10\n\nTherefore, the distance between (1, -1) and (7, 7) on a Cartesian coordinate plane is 10.",
+  "processing_time_seconds": 7.36,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

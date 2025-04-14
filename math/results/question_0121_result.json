@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0121",
+  "question_text": "What is the largest integer $x$ such that $\\frac{x}{3}+\\frac{4}{5} < \\frac{5}{3}$?",
+  "response": "To solve this problem, we first need to multiply both sides of the inequality by $15$, which is the least common multiple of $3$ and $5$. This will eliminate all fractions in the inequality. Multiplying by a positive number will not change the direction of the inequality.\n\n$\\frac{x}{3}+\\frac{4}{5} < \\frac{5}{3}$\n\n$15(\\frac{x}{3}+\\frac{4}{5}) < 15(\\frac{5}{3})$\n\nThis simplifies to:\n\n$5x +12<25$\n\nSubtracting $12$ from both sides of the inequality gives us:\n\n$5x<13$\n\nDividing both sides by $5$ will give us the value of x:\n\n$x<\\frac{13}{5}$\n\nSince we are looking for the largest integer, we need to find the greatest integer that is less than $\\frac{13}{5}$. The decimal equivalent of $\\frac{13}{5}$ is 2.6.\n\nThe largest integer $x$ such that $\\frac{x}{3}+\\frac{4}{5} < \\frac{5}{3}$ is $\\boxed{2}.$",
+  "processing_time_seconds": 18.07,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

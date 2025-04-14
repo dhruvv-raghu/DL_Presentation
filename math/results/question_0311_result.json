@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0311",
+  "question_text": "Calculate $\\sqrt{\\sqrt[3]{0.000064}}$. Express your answer as a decimal to the nearest tenth.",
+  "response": "To calculate $\\sqrt{\\sqrt[3]{0.000064}}$, we need to follow the order of operations (PEMDAS):\n\n1. Calculate the cube root: $\\sqrt[3]{0.000064} = \\sqrt[3]{64 \\times 10^{-6}}$\n2. Simplify the expression inside the radical: $64 \\times 10^{-6} = 6.4 \\times 10^{-4}$\n3. Take the cube root of $6.4 \\times 10^{-4}$: $\\sqrt[3]{6.4 \\times 10^{-4}} = 8 \\times 10^{-2}$ (approximately)\n4. Finally, take the square root of the result: $\\sqrt{8 \\times 10^{-2}} = \\boxed{0.894}$\n\nSo, the final answer is $0.9$.",
+  "processing_time_seconds": 13.04,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

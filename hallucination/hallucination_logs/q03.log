@@ -1,0 +1,16 @@
+Testing Ollama model 'llama3.2'
+Temperature: 0.7
+Max tokens: 1000
+Reading questions from ./reasoning_questions_hallucination/q03...
+Found 1 question files.
+
+Processing question 1/1: question.txt
+Question preview: Did Albert Einstein directly contribute to the Manhattan Project? Justify your answer with primary
+s...
+✓ Processed question 1/1
+Response saved to ./hallucination_results/q03/question_result.json
+
+All results saved to ./hallucination_results/q03/all_results.json
+
+Testing complete!
+Error during testing: unsupported operand type(s) for +: 'int' and 'str'

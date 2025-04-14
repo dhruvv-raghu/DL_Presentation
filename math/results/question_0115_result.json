@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0115",
+  "question_text": "I have eleven books, of which I want to bring two to read on vacation. How many different pairs can I choose?",
+  "response": "To calculate the number of different pairs you can choose from 11 books, we can use the combination formula:\n\nnCr = n! / ((n-r)! * r!)\n\nwhere:\n- n is the total number of items (in this case, 11 books)\n- r is the number of items to choose (in this case, 2 books)\n\nFor your problem, the calculation would be:\n\n11C2 = 11! / ((11-2)! * 2!)\n= 11! / (9! * 2!)\n= (11 × 10) / 2\n= 55\n\nSo you can choose 55 different pairs of books to bring on vacation.",
+  "processing_time_seconds": 10.12,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

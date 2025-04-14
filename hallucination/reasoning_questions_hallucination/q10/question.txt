@@ -1,0 +1,2 @@
+If a company hashes user emails but later leaks the salt values, is the data still secure? Justify
+using cryptographic principles.

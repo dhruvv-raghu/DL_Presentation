@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0055",
+  "question_text": "Let $a$, $b$, and $c$ be the roots of $x^3 - 20x^2 + 18x - 7 = 0$. Compute \\[(a+b)^2 + (b+c)^2 + (c+a)^2.\\]",
+  "response": "By Vieta's formulas, we have that\n\\begin{align*}\na + b + c &= 20\\\\\nab+ac+bc&=18\\\\\nabc&=-7.\n\\end{align*} Therefore, \\[(a+b)^2+(b+c)^2+(c+a)^2 =\\\\\n(a^2 + b^2 + 2ab) + (b^2 + c^2 + 2bc) + (c^2 + a^2 + 2ac)=\\\\\n2(a^2+b^2+c^2)+(2ab+2bc+2ca).\n\\end{align*} To find $a^2+b^2+c^2$, we will square $a+b+c$. That is,\n$$(a+b+c)^2 = a^2 + b^2 + c^2 + 2(ab + ac + bc) =\\\\\n(20)^2 = a^2 + b^2 + c^2 + 2(18).$$\nNow, we solve for $a^2 + b^2 + c^2$:\n\\begin{align*}\n400 &= a^2+b^2+c^2+36\\\\\n\\Rightarrow\\qquad a^2+b^2+c^2&=364.\n\\end{align*} Now, we will find the value of $ab+ac+bc$. We have that \n$$a^2 + b^2 + c^2 = (a+b+c)^2 - 2(ab + ac + bc) \\Rightarrow\\\\\na^2 + b^2 + c^2 &= (20)^2 - 2(18).\n\\end{align*} Therefore, we can solve for $ab+ac+bc$:\n\\begin{align*}\n364 &= a^2+b^2+c^2 = (20)^2-2(ab+ac+bc)\\\\\n\\Rightarrow\\qquad ab+ac+bc&=26.\n\\end{align*} Now, we will find the final answer. By plugging in the values for $a^2 + b^2 + c^2$ and $ab+ac+bc$, we have that \\begin{align*}\n(a+b)^2+(b+c)^2+(c+a)^2&=\\\\\n2(a^2+b^2+c^2)+(2ab+2bc+2ca)&=\\\\\n2(364)+2(26) &= 764.\n\\end{align*} Therefore, \\[(a+b)^2+(b+c)^2+(c+a)^2 = \\boxed{764}.",
+  "processing_time_seconds": 42.27,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

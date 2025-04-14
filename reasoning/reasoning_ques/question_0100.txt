@@ -1,0 +1,1 @@
+Let  $f(x)$  be the product of  functions made by taking four functions from three functions  $x,\ \sin x,\ \cos x$  repeatedly. Find the minimum value of  $\int_{0}^{\frac{\pi}{2}}f(x)\ dx.$ 

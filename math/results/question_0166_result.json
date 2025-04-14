@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0166",
+  "question_text": "The areas of two squares are in the ratio $25:36$. What is the ratio of their perimeters? Express your answer in the form $a:b$.",
+  "response": "To find the ratio of the perimeters, we first need to find the side lengths of each square.\n\nLet's assume that the area of the smaller square is 25x and the area of the larger square is 36x.\n\nThe side length of a square can be found by taking the square root of its area:\n\nSide length of smaller square = √(25x) = 5√x\nSide length of larger square = √(36x) = 6√x\n\nNow, we need to find the ratio of their perimeters. The perimeter of a square is 4 times its side length.\n\nPerimeter of smaller square = 4 × 5√x = 20√x\nPerimeter of larger square = 4 × 6√x = 24√x\n\nSo, the ratio of their perimeters is:\n\nRatio = Perimeter of smaller square : Perimeter of larger square\n= 20√x : 24√x\n\nWe can simplify this ratio by dividing both terms by their greatest common factor, which is 4√x.",
+  "processing_time_seconds": 9.7,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

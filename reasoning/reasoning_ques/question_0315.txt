@@ -1,0 +1,1 @@
+A2 Find the electron number density $n_{e}$ at equilibrium when both external ionizers are switched on simultaneously.

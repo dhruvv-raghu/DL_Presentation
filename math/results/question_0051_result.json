@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0051",
+  "question_text": "Express the value of the following as a common fraction:\n$\\left(1-\\frac12\\right)\\cdot\\left(1-\\frac13\\right)\\cdot\\left(1-\\frac14\\right) \\dotsm \\left(1-\\frac1{n+1}\\right) \\dotsm \\left(1-\\frac1{100}\\right)$",
+  "response": "To find the product of these terms, we can expand each term and combine like terms.\n\n$$\n\\begin{aligned}\n&= (1 - \\frac12)(1-\\frac13)(1-\\frac14)\\cdots (1-\\frac1{n+1})\\cdots (1-\\frac1{100})\\\\\n&= 1 \\cdot \\frac32 \\cdot \\frac34 \\cdots \\frac{\\overline{n}+2}{\\overline{n}+1}\\cdots \\frac23\\\\\n&= \\left(\\frac{\\overline{n}}{\\overline{n}-1} - 1 \\right) \\cdots \\left( \\frac{2}{3} - 1\\right)\\cdot 2\\\\\n&=\\left(- \\frac12 \\right) \\left(\\frac13\\right)\\left(\\frac14\\right)\\cdots \\left(\\frac{\\overline{n}}{\\overline{n}-n-1}\\right)\\cdots \\left( \\frac23\\right) \\\\\n&= -\\frac{1}{2} \\cdot \\frac{1}{3} \\cdot \\frac{1}{4} \\dotsm \\frac{(100)(99)}{(101)(102)}\\cdots\\frac13\\\\\n&=\\boxed{-\\frac{1}{96}}\\end{aligned}\n$$",
+  "processing_time_seconds": 22.78,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

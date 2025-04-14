@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0269",
+  "question_text": "Factor $36-9x^2$.",
+  "response": "To factor the given expression, we can start by factoring out a greatest common factor (GCF) from both terms.\n\nThe GCF of $36$ and $9x^2$ is $9$, so we can write:\n\n$$36 - 9x^2 = 9(4 - x^2)$$\n\nNow, we can recognize that the expression inside the parentheses, $4 - x^2$, is a difference of squares. We can factor it further as:\n\n$$4 - x^2 = (2)^2 - (x)^2 = (2 + x)(2 - x)$$\n\nSo, putting it all together, we have:\n\n$$36 - 9x^2 = 9(2 + x)(2 - x)$$\n\nTherefore, the factored form of the expression is $9(2+x)(2-x)$.",
+  "processing_time_seconds": 7.84,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

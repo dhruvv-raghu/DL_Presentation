@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0297",
+  "question_text": "A ball is dropped from 10 feet high and always bounces back up half the distance it just fell. After how many bounces will the ball first reach a maximum height less than 1 foot?",
+  "response": "To solve this problem, let's keep track of the maximum height the ball reaches after each bounce.\n\nInitially, the ball is dropped from 10 feet high.\nAfter the 1st bounce, it reaches 5 feet (half of 10).\nAfter the 2nd bounce, it reaches 2.5 feet (half of 5).\nAfter the 3rd bounce, it reaches 1.25 feet (half of 2.5).\nAfter the 4th bounce, it reaches 0.625 feet (half of 1.25).\n\nThe ball will reach a maximum height less than 1 foot after the 3rd bounce, when it reaches 1.25 feet.",
+  "processing_time_seconds": 10.46,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0159",
+  "question_text": "What is the largest integer value of $x$ for which $5-4x>17$?",
+  "response": "We need to isolate x in order to find out what integers are solutions. We can start by subtracting 5 from both sides:\n\n$$5-4x > 17$$\n$$0 - 4x > 12$$\n$$-4x > 12$$\n\nNow, divide both sides by $-4$.\n\nSince we're dividing by a negative number, the inequality sign must be flipped:\n$$x < -3$$\n\nThe largest integer value of x that satisfies this inequality is $-4$.",
+  "processing_time_seconds": 4.64,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

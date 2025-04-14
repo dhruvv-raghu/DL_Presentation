@@ -1,0 +1,1 @@
+The value of $\log_{10}{17}$ is between the consecutive integers $a$ and $b$.  Find $a+b$.

@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0039",
+  "question_text": "Find the integer $n,$ $-90 < n < 90,$ such that $\\tan n^\\circ = \\tan 1000^\\circ.$",
+  "response": "The problem is asking for an angle between -90 and 90 degrees, with the same tangent value as 1000 degrees. We can use the periodicity of the tangent function to find this angle.\n\nThe tangent function has a period of 180 degrees, meaning that tan(x) = tan(x + 180k), where k is any integer.\n\nWe want to find an angle between -90 and 90 with the same tangent value as 1000. We can subtract multiples of 180 from 1000 until we get an angle within this range:\n\n1000 - 6 * 180 = 1000 - 1080 = -80\n\nSo, the integer n that satisfies tan(n) = tan(1000) is n = -80 degrees.\n\nTherefore, the answer is -80.",
+  "processing_time_seconds": 12.35,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

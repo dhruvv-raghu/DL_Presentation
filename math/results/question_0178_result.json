@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0178",
+  "question_text": "A set of marbles can be divided in equal shares among $2$, $3$, $4$, $5$, or $6$ children with no marbles left over. What is the least number of marbles that the set could have?",
+  "response": "The least common multiple (LCM) of 2, 3, 4, 5, and 6 is the smallest positive integer that is divisible by each of these numbers.\n\nFirst, let's break down the prime factorization of each number:\n\n*   2 = 2\n*   3 = 3\n*   4 = 2^2\n*   5 = 5\n*   6 = 2 * 3\n\nTo find the LCM, we need to take the highest power of each prime factor that appears in any of the numbers. In this case:\n\n*   The highest power of 2 is 2^2 (from 4).\n*   The highest power of 3 is 3 (from 3 and 6).\n*   The highest power of 5 is 5 (from 5).\n\nSo, the LCM is 2^2 * 3 * 5 = 60.\n\nTherefore, the least number of marbles that the set could have is 60.",
+  "processing_time_seconds": 9.7,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

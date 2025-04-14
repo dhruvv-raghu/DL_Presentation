@@ -1,0 +1,1 @@
+Let  $a_{i,j}\enspace(\forall\enspace 1\leq i\leq n, 1\leq j\leq n)$  be  $n^2$  real numbers such that  $a_{i,j}+a_{j,i}=0\enspace\forall i, j$  (in particular,  $a_{i,i}=0\enspace\forall i$ ). Prove that  $$ {1\over n}\sum_{i=1}^{n}\left(\sum_{j=1}^{n} a_{i,j}\right)^2\leq{1\over2}\sum_{i=1}^{n}\sum_{j=1}^{n} a_{i,j}^2. $$  

@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0249",
+  "question_text": "If $g(x) = 2x^2+2x-1$, what is the value of $g(g(2))$?",
+  "response": "To find the value of $g(g(2))$, we need to first evaluate $g(2)$.\n\nWe have that $g(x) = 2x^2+2x-1$. Plugging in $x=2$, we get:\n\n$$g(2)=2\\cdot2^2+2\\cdot2-1=8+4-1=11.$$\n\nNow, we need to find the value of $g(g(2)) = g(11)$.\n\nAgain, plugging in $x=11$ into the equation for $g(x)$, we get:\n\n$$g(11)=2\\cdot11^2+2\\cdot11-1=242+22-1=\\boxed{263}.$$\n\nTherefore, $g(g(2)) = 263$.",
+  "processing_time_seconds": 7.41,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0323",
+  "question_text": "Let $C$ be the circle with equation $x^2+2y-9=-y^2+18x+9$. If $(a,b)$ is the center of $C$ and $r$ is its radius, what is the value of $a+b+r$?",
+  "response": "To find the equation of a circle in standard form, we need to group the x-terms and y-terms together.\n\nWe are given:\n\nx^2 + 2y - 9 = -y^2 + 18x + 9\n\nRearrange the equation to get all terms on one side:\n\nx^2 - 18x + y^2 + 2y - 18 = 0 \n\nNow, group x-terms and y-terms together:\n\n(x^2 - 18x) + (y^2 + 2y) = 18\n\nComplete the square for both groups of terms by adding (b/2)^2 to each side. The values of b are the coefficients of the linear terms.\n\nFor x-group: (b/2)^2 = (-18/2)^2 = 81\nFor y-group: (b/2)^2 = (2/2)^2 = 1\n\nAdd these squared values to both sides:\n\n(x^2 - 18x + 81) + (y^2 + 2y + 1) = 18 + 81 + 1\n\nNow, factor out the constants in front of each group of terms:\n\n(x-9)^2 + (y+1)^2 = 100 \n\nComparing this to the standard equation of a circle: (x - h)^2 + (y - k)^2 = r^2, we find that h=9, k=-1, and r^2 = 100. The radius is then:\n\nr = sqrt(r^2) = sqrt(100) = 10\n\nFinally, add up the values of a, b, and r:\n\na + b + r = 9 + (-1) + 10 = 18",
+  "processing_time_seconds": 26.78,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

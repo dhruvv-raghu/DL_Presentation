@@ -1,0 +1,2 @@
+Is there a polynomial-time algorithm for solving all instances of the subset-sum problem? Prove or
+disprove with formal steps.

@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0256",
+  "question_text": "The graphs of $2y + x + 3 = 0$  and $3y + ax + 2 = 0$ are perpendicular. Solve for $a.$",
+  "response": "We have that the slopes of the lines are $-\\tfrac{1}{2}$ and $-\\tfrac{a}{3}$. Since these lines are perpendicular, we must have that their slopes are negative reciprocals:\n\n$$\\left(-\\tfrac{1}{2}\\right)\\cdot\\left(-\\tfrac{a}{3}\\right)=1,$$so $\\boxed{a=6}$.\nThe final answer is: $\\boxed{6}$.",
+  "processing_time_seconds": 4.47,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

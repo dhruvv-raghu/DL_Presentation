@@ -1,0 +1,5 @@
+Considering only the principal values of the inverse trigonometric functions, what is the value of
+
+\[
+\frac{3}{2} \cos ^{-1} \sqrt{\frac{2}{2+\pi^{2}}}+\frac{1}{4} \sin ^{-1} \frac{2 \sqrt{2} \pi}{2+\pi^{2}}+\tan ^{-1} \frac{\sqrt{2}}{\pi}
+\]?

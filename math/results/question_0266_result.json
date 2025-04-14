@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0266",
+  "question_text": "Simplify completely: $$\\sqrt[3]{30^3+40^3+50^3}$$.",
+  "response": "We have that \\begin{align*}\n\\sqrt[3]{30^3+40^3+50^3}&amp;=\\sqrt[3]{(30+10)(30^2-30\\cdot 10+100)+(40+10)(40^2-40\\cdot 10+100)\\\\\n&amp;\\qquad+(50+10)(50^2-50\\cdot 10+100)}\\\\\n&amp;=\\sqrt[3]{(30+10)[30^2-30\\cdot 10+100]+(40+10)[40^2-40\\cdot 10+100]\\\\\n&amp;\\qquad+(50+10)[50^2-50\\cdot 10+100]}\\\\\n&amp;=\\sqrt[3]{10(900-300+100)+10(1600-400+100)+(60)(2500-500+100)}\\\\\n&amp;=\\sqrt[3]{10(700)+10(1300)+(60)(2100)}\\\\\n&amp;=\\sqrt[3]{7,000+13,000+126,000}\\\\\n&amp;=\\sqrt[3]{150,000} \\\\\n\\end{align*}Therefore, $$\\sqrt[3]{30^3+40^3+50^3}=5\\cdot 6= \\boxed{150}.$$\nThe final answer is: $\\boxed{150}$",
+  "processing_time_seconds": 12.97,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

@@ -1,0 +1,1 @@
+2.1. The change of the parcel temperature $T_{\text {parcel }}$ with altitude is defined by $\frac{d T_{\text {parcel }}}{d z}=-G$. Derive the expression of $G\left(T, T_{\text {parcel }}\right)$.

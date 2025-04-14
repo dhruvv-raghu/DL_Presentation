@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0076",
+  "question_text": "When $n$ is divided by 3, the remainder is 2. What is the remainder when $5n$ is divided by 3?",
+  "response": "Since n leaves a remainder of 2 when divided by 3, we can write n as follows:\n\nn = 3q + 2\n\nFor some integer q.\n\nThen,\n5n = 5(3q+2)\n\n= 15q +10\n\nNow, the above expression can be simplified to:\n5n = (15q) + (10)\n= 0 + 1\n= 1 \n\nTherefore, when $5n$ is divided by 3, the remainder is 1.",
+  "processing_time_seconds": 8.2,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

@@ -1,0 +1,9 @@
+Consider the ellipse  $E: 3x^2+y^2=3$  and the hyperbola  $H: xy=\frac 34.$ (1) Find all points of intersection of  $E$  and  $H$ .
+
+(2) Find the area of the region expressed by the system of inequality
+\[\left\{
+\begin{array}{ll}
+3x^2+y^2\leq 3 &\quad  
+xy\geq \frac 34 , &\quad
+\end{array}
+\right.\]

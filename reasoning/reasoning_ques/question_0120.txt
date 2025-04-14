@@ -1,0 +1,1 @@
+Let $z$ be a non-real complex number with $z^{23}=1$. Compute $$ \sum_{k=0}^{22} \frac{1}{1+z^{k}+z^{2 k}} $$

@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0302",
+  "question_text": "For how many integer values of $x$ is $x^2 < 7x$?",
+  "response": "To solve this problem, we can start by rewriting the inequality as:\n\n$$x^2 - 7x < 0$$\n\nWe can factor out an $x$ to get:\n\n$$x(x - 7) < 0$$\n\nNow, we need to find the values of $x$ that make the expression on the left-hand side negative. To do this, we can use a number line or graph to visualize the solution.\n\nThe critical points are $x = 0$ and $x = 7$, where the expression changes sign. Since the expression is a product of two factors, it will be negative when one factor is positive and the other is negative.\n\nSo, we have:\n\n* $x < 0$: In this case, both factors are negative, so the expression is positive.\n* $0 < x < 7$: Here, the first factor is positive and the second is negative, so the expression is negative.\n* $x > 7$: Both factors are positive now, so the expression is positive again.\n\nTherefore, we can see that the solution to the inequality is:\n\n$$0 < x < 7$$\n\nSince $x$ must be an integer, we need to count how many integers fall within this range. The integers from 1 to 6 satisfy this condition.\n\nSo, there are $\\boxed{6}$ values of $x$ for which $x^2 < 7x$.",
+  "processing_time_seconds": 21.28,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

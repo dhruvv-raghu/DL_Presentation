@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0237",
+  "question_text": "Krista put 1 cent into her new bank on a Sunday morning.  On Monday she put 2 cents into her bank.  On Tuesday she put 4 cents into her bank, and she continued to double the amount of money she put into her bank each day for two weeks.  On what day of the week did the total amount of money in her bank first exceed $\\$2$?",
+  "response": "The answer is Thursday.  We begin with a list of the number of cents deposited, and the corresponding date:\n\\begin{align*}\nS &\\quad 1 \\\\\nM &\\quad 1 + 2 = 3\\\\\nT &\\quad 3 + 4 =7\\\\\nW &\\quad 7 + 8 =15\\\\\nTh &\\quad 15 +16=31\\\\\nF&\\quad 31 + 32 =63\\\\\nSa&\\quad 63+64=127\\\\\nSu&\\quad 127 +128=255 \\\\\n\\end{align*}The total amount first exceeded $\\$2$ on the second Sunday.",
+  "processing_time_seconds": 6.45,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

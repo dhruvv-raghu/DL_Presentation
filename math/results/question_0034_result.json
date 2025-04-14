@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0034",
+  "question_text": "If $\\mathbf{A} = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix},$ then its transpose is given by\n\\[\\mathbf{A}^T = \\begin{pmatrix} a & c \\\\ b & d \\end{pmatrix}.\\]Given that $\\mathbf{A}^T = \\mathbf{A}^{-1},$ find $a^2 + b^2 + c^2 + d^2.$",
+  "response": "We have\n\\[\\begin{align*}\\mathbf{AA}^T&=\\mathbf{I}_2\\\\\n\\Rightarrow\\qquad \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} \\begin{pmatrix}a & c \\\\ b & d\\end{pmatrix}&= \\begin{pmatrix}1 & 0 \\\\ 0 & 1\\end{pmatrix}\\\\\n\\Rightarrow\\qquad \\begin{pmatrix} a^2 + b^2 & ac+bd \\\\ ca+db & c^2+d^2 \\end{pmatrix}&=\\begin{pmatrix}1 & 0\\\\ 0 & 1\\end{pmatrix},\n\\end{align*}\\]which implies\n\\[ac + bd = ca + db= 0,\\quad a^2+b^2=c^2+d^2.\\]\nThe equation $a^2+b^2=c^2+d^2$ can be rearranged to give $$(a-b)^2+(c-d)^2=0\\Rightarrow \\boxed{a=b,c=d.}$$\nFinally, we have $$a^2 + b^2 = a^2 + c^2 \\Rightarrow 2b^2 = 2c^2 \\Rightarrow b=c.$$",
+  "processing_time_seconds": 20.96,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

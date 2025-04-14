@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0168",
+  "question_text": "How many distinct arrangements of the letters in the word \"basic'' are there?",
+  "response": "To find the number of distinct arrangements, we can use the concept of permutations. Since all the letters are unique (there is no repeated letter), the number of permutations is simply the factorial of the number of letters.\n\nIn this case, the word \"basic\" has 5 letters: b-a-s-i-c.\n\nSo, the number of distinct arrangements is:\n\n5! = 5 × 4 × 3 × 2 × 1 = 120\n\nTherefore, there are 120 distinct arrangements of the letters in the word \"basic\".",
+  "processing_time_seconds": 4.85,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

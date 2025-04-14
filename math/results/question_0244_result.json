@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0244",
+  "question_text": "For $y=\\frac{x+2}{5x-7}$, at what $x$-value is there a vertical asymptote?",
+  "response": "To find the x-value where there is a vertical asymptote, we need to look for values of x that make the denominator equal to zero.\n\nThe denominator is 5x - 7. Setting this equal to zero and solving for x gives us:\n\n5x - 7 = 0\n5x = 7\nx = 7/5\n\nTherefore, there is a vertical asymptote at x = 7/5.",
+  "processing_time_seconds": 4.13,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

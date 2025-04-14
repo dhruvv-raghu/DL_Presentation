@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0296",
+  "question_text": "The quadratic $-6x^2+36x+216$ can be written in the form $a(x+b)^2+c$, where $a$, $b$, and $c$ are constants. What is $a+b+c$?",
+  "response": "To complete the square, we need to move all terms except for the x-terms to the right side of the equation:\n\n\\begin{align*}\n-6x^2+36x+216&=0\\\\\n-6x^2+36x &= -216\\\\\n-x^2+6x &= -216\\\\\n-1(x^2-6x) &= -216\\\\\n\\end{align*}Then, we need to find the term that needs to be added and subtracted inside the parenthesis so that we can simplify it:\n\n$$(-1)\\left[(x-3)^2-9\\right]=-216.$$\n\nDistribute $-1$ into the expression in brackets:\n\n$$-(x-3)^2+9=-216.$$\n\nNow, move all terms except for $-(x-3)^2$ to the other side of the equation:\n\n$$-(x-3)^2 = -225.$$\n\nMultiply both sides by $-1$ and simplify\n\n\\begin{align*}\n(x-3)^2&=225\\\\\nx-3 &= \\pm 15\\\\\n\\end{align*}The quadratic expression can now be written in the desired form:\n\n$$a(x+b)^2+c = -6(x-3)^2+9.$$\n\nSo, $a=-6$, $b=-3$ and $c=9$. Therefore, $$a+b+c=(-6)+(-3)+(9)=-0.$$",
+  "processing_time_seconds": 22.2,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

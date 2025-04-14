@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0219",
+  "question_text": "Suppose that we have an equation $y=ax^2+bx+c$ whose graph is a parabola with vertex $(3,2)$, vertical axis of symmetry, and contains the point $(1,0)$.\n\nWhat is $(a, b, c)$?",
+  "response": "To find the values of $a$, $b$, and $c$, we can use the fact that the vertex of the parabola is at $(3,2)$. Since the axis of symmetry is vertical, we know that the x-coordinate of the vertex is equal to -b/2a. Therefore, we have:\n\n-b/2a = 3\n\nWe also know that the point $(1,0)$ lies on the graph of the parabola, so we can plug in $x=1$ and $y=0$ into the equation to get:\n\n0 = a(1)^2 + b(1) + c\n0 = a + b + c\n\nWe also know that the vertex is at $(3,2)$, so we can write the equation of the parabola in vertex form as:\n\ny = a(x-3)^2 + 2\n\nNow, plug in $x=1$ and $y=0$ into this equation to get:\n\n0",
+  "processing_time_seconds": 45.07,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

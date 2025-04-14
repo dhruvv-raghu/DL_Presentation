@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0120",
+  "question_text": "How many positive integers less than 200 are divisible by 2, 3 and 5?",
+  "response": "To find the number of positive integers less than 200 that are divisible by 2, 3, and 5, we need to find the least common multiple (LCM) of 2, 3, and 5.\n\nThe LCM of 2, 3, and 5 is 30.\n\nNow, we need to find how many multiples of 30 are less than 200. We can do this by dividing 200 by 30:\n\n200 ÷ 30 = 6.67\n\nSince we can't have a fraction of an integer, we'll round down to the nearest whole number, which is 6.\n\nTherefore, there are 6 positive integers less than 200 that are divisible by 2, 3, and 5.",
+  "processing_time_seconds": 11.64,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0043",
+  "question_text": "Find the curve defined by the equation\n\\[\\theta = \\frac{\\pi}{3}.\\](A) Line\n(B) Circle\n(C) Parabola\n(D) Ellipse\n(E) Hyperbola\n\nEnter the letter of the correct option.",
+  "response": "The given equation is $\\theta = \\frac{\\pi}{3}$, which represents a straight line that passes through the origin and makes an angle of $\\frac{\\pi}{3}$ with the positive x-axis.\n\nTherefore, the curve defined by this equation is a line, and the correct option is:\n\n(A) Line",
+  "processing_time_seconds": 5.21,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

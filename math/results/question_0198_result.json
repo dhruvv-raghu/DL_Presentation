@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0198",
+  "question_text": "In Ms. Smith's class, each student averages one day absent out of thirty. What is the probability that out of any two students chosen at random, one student will be absent while the other is present? Express your answer as a percent rounded to the nearest tenth.",
+  "response": "To find the probability that out of two students chosen at random, one student will be absent while the other is present, we need to consider all possible combinations.\n\nLet's assume Student A is the first student and Student B is the second student. There are three possible scenarios:\n\n1. Both students are absent: The probability of this occurring is (1/30) × (1/30) = 1/900.\n2. One student is absent, one student is present: There are two ways this can happen - either Student A is absent and Student B is present, or vice versa. Since the events are independent, we multiply by 2:\nThe probability of Student A being absent and Student B being present is (1/30) × (29/30).\nSimilarly, the probability of Student B being absent and Student A being present is also (1/30) × (29/30). So, in total, this scenario has a probability of 2 × (1/30) × (29/30) = 58/900.\n3. Both students are present: The probability of this occurring is (29/",
+  "processing_time_seconds": 10.16,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

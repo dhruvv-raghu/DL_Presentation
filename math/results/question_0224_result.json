@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0224",
+  "question_text": "If $x+y = 6$ and $x^2-y^2 = 12$, then what is $x-y$?",
+  "response": "To solve this problem, we can use the fact that $x^2 - y^2 = (x + y)(x - y)$. \n\nGiven that $x+y=6$ and $x^2-y^2=12$, we have:\n\n$x^2 - y^2 = 12$\n\n$(x + y)(x - y) = 12$\n\nSince $x+y=6$, we can substitute this into the equation above:\n\n$6(x-y) = 12$\n\nNow, divide both sides by 6:\n\n$x - y = 2$\n\nSo, the value of $x - y$ is 2.",
+  "processing_time_seconds": 185.53,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

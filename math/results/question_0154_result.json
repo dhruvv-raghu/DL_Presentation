@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0154",
+  "question_text": "A particular convex polygon with seven sides has exactly one right angle. How many diagonals does this seven-sided polygon have?",
+  "response": "The number of diagonals in an n-gon is given by the formula:\n\nn(n-3)/2\n\nIn this case, n = 7.\n\nPlugging in n = 7 into the formula gives us:\n\n7(7-3)/2\n= 7(4)\n= 28/2\n= 14\n\nSo, the polygon has 14 diagonals.",
+  "processing_time_seconds": 3.51,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

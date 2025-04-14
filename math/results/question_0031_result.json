@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0031",
+  "question_text": "If $\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} = 4,$ then find\n\\[\\begin{vmatrix} a & 7a + 3b \\\\ c & 7c  +3d \\end{vmatrix}.\\]",
+  "response": "Since we know that $ad - bc = 4$, it follows by the definition of determinant that\n\n$$\n\\begin{align*}\n\\begin{vmatrix} a & 7a + 3b \\\\ c & 7c+3d \\end{vmatrix}&=\\begin{vmatrix} a & b\\\\c&d\\end{vmatrix}\\cdot\\begin{vmatrix}1&7a+3b\\\\0&7c+3d-7(a+3b/c)\\end{vmatrix}\\\\\n&=4(7c + 3d - 7a -21b/c)\\\\\n&=28c+12d-28a-21b.\n\\end{align*}\n$$\n\nHowever, this expression is also the value of $ad - bc$ which we know is equal to 4. This shows that $\\boxed{\\begin{vmatrix} a & 7a + 3b \\\\ c & 7c+3d \\end{vmatrix}=0}$",
+  "processing_time_seconds": 16.46,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

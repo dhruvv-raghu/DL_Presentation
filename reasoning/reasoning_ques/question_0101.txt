@@ -1,0 +1,1 @@
+a. What is the electric potential at a corner of the same cube? Write your answer in terms of $\rho, a, \epsilon_{0}$, and any necessary numerical constants.

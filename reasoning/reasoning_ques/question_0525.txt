@@ -1,0 +1,3 @@
+Solve the crossword puzzle. You are presented with a clue as input and the number of letters in brackets.
+
+Tear into solicitor and get high (4,3)

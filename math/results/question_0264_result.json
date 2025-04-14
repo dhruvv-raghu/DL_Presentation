@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0264",
+  "question_text": "Krzysztof solved the quadratic equation $11x^2-44x-99=0$ by completing the square. In the process, he came up with the equivalent equation $$(x+r)^2 = s,$$where $r$ and $s$ are constants.\n\nWhat is $r+s$?",
+  "response": "To find $r$ and $s$, we need to complete the square on the quadratic expression $11x^2-44x-99$. First, factor out 11:\n\n\\begin{align*}\n11x^2 - 44x - 99 & = 0\\\\\n\\Rightarrow \\qquad (11x^2 - 44x) - 99 & = 0\\\\\n\\Rightarrow \\qquad 11(x^2-4x) - 99&=0.\n\\end{align*}\n\nWe now add and subtract the square of half the coefficient of x, $(-4/2)^2=4$. We have\n\n\\begin{align*}\n(11x^2-44x+4)-4-99&=0\\\\\n\\Rightarrow \\qquad 11(x^2-4x+4)-103&=0\\\\\n\\Rightarrow \\qquad 11(x^2-4x+4)&=103\\\\\n\\Rightarrow \\qquad (x-2)^2&=\\frac{103}{11}.\n\\end{align*}\n\nTherefore, $r=-2$ and $s=\\frac{103}{11}$.\n\nThus, we have\n\n$$r+s = -2 +\\frac{103}{11}.$$",
+  "processing_time_seconds": 11.93,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

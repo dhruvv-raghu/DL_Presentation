@@ -1,0 +1,1 @@
+1.2.2. A process called free convection occurs when the air density increases with altitude. At which values of $\Lambda$ does the free convection occur?

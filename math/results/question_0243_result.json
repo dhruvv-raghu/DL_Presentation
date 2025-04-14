@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0243",
+  "question_text": "Four people can paint a house in six hours. How many hours would it take three people to paint the same house, assuming everyone works at the same rate?",
+  "response": "To solve this problem, we need to determine the work rate of each person and then use that information to calculate how long it would take for three people to complete the task.\n\nLet's first determine the total amount of work required to paint a house. Since four people can paint a house in six hours, we know that 4 x 6 = 24 worker-hours are needed to complete the task.\n\nNow, let's assume that one person can do the same amount of work in 'x' hours. This means that one person's work rate is 1/24 of the job per hour (since 4 people can do the job in 24 hours).\n\nSince there are three people working together, their combined work rate is 3 x (1/24) = 1/8 of the job per hour.\n\nTo find out how many hours it would take for three people to complete the task, we need to divide 1 (the entire job) by the group's work rate. \n\nSo, if 3 people work at a rate of 1/8 of the job per hour, they can complete the job in 8 hours.\n\nAnswer: It will take three people 8 hours to paint the same house.",
+  "processing_time_seconds": 10.92,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

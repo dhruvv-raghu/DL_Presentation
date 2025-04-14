@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0007",
+  "question_text": "A hemisphere-shaped bowl with radius 1 foot is filled full with chocolate.  All of the chocolate is then evenly distributed between 27 congruent, smaller hemisphere-shaped molds.  What is the radius of each of the smaller molds, in feet?",
+  "response": "Let's call the volume of each smaller mold \"V\". Since all of the chocolate is evenly distributed among the 27 molds, we can set up an equation:\n\n1 * (4/3) * π = 27 * V\n\nwhere 1 is the radius of the larger hemisphere-shaped bowl and (4/3)π is its volume. Simplifying the left-hand side gives us approximately 4.19 cubic feet.\n\nNow, we can solve for \"V\":\n\nV ≈ 4.19 / 27\nV ≈ 0.1555\n\nThe volume of each smaller mold is then:\n\nV = (4/3) * π * r^3\n\nwhere r is the radius of each smaller mold. We can now set up an equation to find the radius \"r\":\n\n(4/3) * π * r^3 ≈ 0.1555\nr^3 ≈ 0.1555 / ((4/3)π)\nr^3 ≈ 0.0182\n\nFinally, taking the cube root of both sides:\n\nr ≈ ∛0.0182\nr ≈ 0.25",
+  "processing_time_seconds": 18.15,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

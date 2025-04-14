@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0059",
+  "question_text": "At what value of $a$ do the graphs of $y=ax^2+3x+1$ and $y=-x-1$ intersect at exactly one point?",
+  "response": "For the two functions to intersect at exactly one point, their equations should be equal:\n\n$$ax^2+3x+1=-x-1.$$\n\nMoving all terms to the left side of the equation yields\n\n\\begin{align*}\n& ax^2 + 4x +2 =0\n\\end{align*}\n\nThe discriminant $b^{2} - 4ac$ of a quadratic is equal to zero if and only if the parabola has exactly one root. This happens when $a=0$. So, $a=\\boxed{0}.$",
+  "processing_time_seconds": 9.19,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

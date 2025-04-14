@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0230",
+  "question_text": "At the Hardey Fitness Center, the management did a survey of their membership. The average age of the female members was 40 years old. The average age of the male members was 25 years old. The average age of the entire membership was 30 years old. What is the ratio of the female to male members? Express your answer as a common fraction.",
+  "response": "Let's say there are x female members and y male members.\n\nSince the average age of the female members is 40, the total age of all female members is 40x.\n\nSimilarly, since the average age of the male members is 25, the total age of all male members is 25y.\n\nThe total number of members is x + y.\n\nWe know that the average age of the entire membership is 30. We can set up an equation to represent this:\n\n(40x + 25y) / (x + y) = 30\n\nTo simplify the equation, we can multiply both sides by (x + y):\n\n40x + 25y = 30(x + y)\n\nExpand the right-hand side:\n\n40x + 25y = 30x + 30y\n\nSubtract 30x from both sides:\n\n10x + 25y = 30y\n\nSubtract 25y from both sides:\n\n10x = 5y\n\nDivide both sides by 5:\n\n2x = y\n\nNow, we want to find the ratio of female to male members. Since x is equal to half of y, we can express this as a common fraction:\n\nx/y = 1/2",
+  "processing_time_seconds": 12.96,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

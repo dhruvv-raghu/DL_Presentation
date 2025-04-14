@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0013",
+  "question_text": "$B$ and $C$ trisect $\\overline{AD}$ and $M$ is the midpoint of $\\overline{AD}$. $MC = 8$. How many units are in the length of $\\overline{AD}$?",
+  "response": "Let us call the lengths that B and C divide AD into \"x\". Because they trisect it, this means that each segment must have a length of x. Since M is the midpoint, the total length must be 3 times the number of divisions.\n\nSo the equation would be:\n2x = 16\nx = 8\n\nAD = 3 * 8 = 24 units",
+  "processing_time_seconds": 6.46,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

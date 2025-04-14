@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0143",
+  "question_text": "Kenton watched 2000 adult men and women board a cruise ship. Half of the adults were women. If 20$\\%$ of the women and 9$\\%$ of the men were wearing sunglasses, what was the total number of men and women wearing sunglasses?",
+  "response": "The total number of women is $\\frac{1}{2} \\cdot 2000 = 1000.$ The number of women wearing sunglasses is $20\\%\\cdot 1000=200$. The total number of men is $2000-1000=1000.$ The number of men wearing sunglasses is $9\\%\\cdot 1000=90$ so the total number of adults wearing sunglasses is $\\boxed{290}$.",
+  "processing_time_seconds": 7.41,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

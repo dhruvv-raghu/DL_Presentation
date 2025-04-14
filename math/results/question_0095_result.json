@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0095",
+  "question_text": "What is the smallest positive integer $n$ such that $17n \\equiv 1234 \\pmod{7}?$",
+  "response": "To find the smallest positive integer $n$ such that $17n \\equiv 1234 \\pmod{7}$, we need to solve for $n$. \n\nFirst, let's simplify $1234 \\pmod{7}$. \n\n$1234 \\pmod{7}$ is equal to $2$, since $1234 = 176\\times7+2.$\n\nNow the equation simplifies to $17n\\equiv2\\pmod{7}.$ \n\nTo solve for $n$, we need to find a number such that when multiplied by $17$ and then divided by $7$, the remainder is equal to $2$. \n\nIn other words, we want to find an integer $k$ such that $(17\\times k)\\pmod{7}=2.$ \n\nNotice that $17\\pmod{7}$ equals $3$. Therefore, we are looking for a value of $k$ such that $3\\times k \\equiv 2\\pmod{7}.$\n\nSince the only number between $1$ and $6$, inclusive, whose product with $3$ is congruent to $2$ modulo $7$ is $3,$ we can conclude that $n = 3$. \n\nThus, the smallest positive integer $n$ such that $17n \\equiv 1234\\pmod{7}$ is $\\boxed{n=3}.$",
+  "processing_time_seconds": 21.22,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

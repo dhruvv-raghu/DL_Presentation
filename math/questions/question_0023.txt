@@ -1,0 +1,2 @@
+Find the number of positive solutions to
+\[\sin (\arccos( \tan (\arcsin x) ) ) ) = x.\]

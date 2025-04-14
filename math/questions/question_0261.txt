@@ -1,0 +1,1 @@
+What is the value of the expression $(25 + 8)^2 - (8^2 +25^2)$?

@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0253",
+  "question_text": "Simplify $$(x^3+4x^2-7x+11)+(-4x^4-x^3+x^2+7x+3).$$  Express your answer as a polynomial with the terms in order by decreasing degree.",
+  "response": "## Step 1: To simplify the given expression, we need to combine like terms.\nThe given expression is $$(x^3+4x^2-7x+11)+(-4x^4-x^3+x^2+7x+3).$$ We will start by removing the parentheses and combining like terms.\n\n## Step 2: Remove the parentheses and rearrange the terms in decreasing order of degree.\nThe expression becomes $$-4x^4+(x^3-x^3)+4x^2+(7x-7x)+(11+3).$$\n\n## Step 3: Combine the like terms.\nThis simplifies to $$-4x^4+0x^3+4x^2+0x+14.$$\n\n## Step 4: Write the simplified expression as a polynomial with the terms in order by decreasing degree.\nThe simplified expression is $$-4x^4+4x^2+14.$$\n\nThe final answer is: $\\boxed{-4x^4+4x^2+14}$",
+  "processing_time_seconds": 9.61,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

@@ -1,0 +1,1 @@
+The equation of a digital filter is given by $y(n)=1 / 3(x(n)+x(n-1)+x(n-2))$, where $y(n)$ and $x(n)$ are, respectively, the nth samples of the output and input signals. Determine the pole(s) of the filter.

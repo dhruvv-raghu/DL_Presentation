@@ -1,0 +1,1 @@
+If r(t) = (6t+2)i + 5t^2j - 8tk, find the Binormal vector as [xi, yj, zk]. What are x, y, z? Return them as a list.

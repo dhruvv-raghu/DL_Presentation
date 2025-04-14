@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0030",
+  "question_text": "Find the integer $n,$ $-90 < n < 90,$ such that $\\tan n^\\circ = \\tan 312^\\circ.$",
+  "response": "We know that $\\tan$ is an odd function and has a period of $180^\\circ$, which means that\n$\\tan (x^\\circ) = \\tan ((x^\\circ + k\\cdot 180)^\\circ).$\nSubstituting, we have that\n$\\tan n^\\circ = \\tan (312^\\circ)$\n$\\Leftrightarrow$ $\\tan n^\\circ = \\tan ((312-2\\cdot 180)^\\circ)= \\tan(52^\\circ).$\nWe conclude $n=52.$",
+  "processing_time_seconds": 8.74,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

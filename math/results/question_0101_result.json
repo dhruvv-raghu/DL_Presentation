@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0101",
+  "question_text": "The number of students in Teresa's graduating class is more than 50 and fewer than 100 and is 1 less than a multiple of 3, 2 less than a multiple of 4, and 3 less than a multiple of 5. How many students are in Teresa's graduating class?",
+  "response": "To find the number of students in Teresa's graduating class, we can use the given conditions.\n\nSince the number is more than 50 and fewer than 100, let's start by listing multiples of 3 within this range:\n51, 54, 57, 60, 63, 66, 69, 72, 75, 78, 81, 84, 87, 90, 93, 96, and 99.\n\nThe number is 1 less than a multiple of 3, so we subtract 1 from each of these multiples:\n50, 53, 56, 59, 62, 65, 68, 71, 74, 77, 80, 83, 86, 89, 92, 95, and 98.\n\nSince the number is also 2 less than a multiple of 4, let's list multiples of 4 within this range:\n52, 56, 60, 64, 68, 72, 76, 80, 84, 88, and 92.\n\nThe number is 2 less than a multiple of 4, so we subtract 2 from each of these multiples:\n50, 54, 58, 62, 66, 70, 74, 78, 82, 86, and 90.\n\nSince the number is also 3 less than a multiple of 5, let's list multiples of 5 within this range:\n55, 60, 65, 70, 75, 80, 85, 90, 95, and 100.\n\nThe number is 3 less than a multiple of 5, so we subtract 3 from each of these multiples:\n52, 57, 62, 67, 72, 77, 82, 87, 92, and 97.\n\nComparing the remaining numbers in both lists, we find that 62 is the only number that appears in both. Therefore, there are 62 students in Teresa's graduating class.",
+  "processing_time_seconds": 32.33,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

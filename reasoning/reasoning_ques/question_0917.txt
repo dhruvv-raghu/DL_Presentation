@@ -1,0 +1,1 @@
+c. Find the maximum temperature $T_{H}$ to which the third object can be raised.

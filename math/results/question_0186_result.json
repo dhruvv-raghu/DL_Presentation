@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0186",
+  "question_text": "John has 12 marbles of different colors, including one red, one green, and one blue marble. In how many ways can he choose 4 marbles, if exactly one of the chosen marbles is red, green, or blue?",
+  "response": "Let's break this problem down into two parts:\n\n1. Choosing exactly one marble from the three colored marbles (red, green, or blue): There are 3 ways to do this.\n\n2. Choosing the remaining 3 marbles from the other 9 marbles: There are $\\binom{9}{3}=\\frac{9\\cdot8\\cdot7}{3\\cdot2}=84$ ways to do this.\n\nBy the multiplication principle, the total number of ways is $3 \\times 84 = 252$.",
+  "processing_time_seconds": 5.03,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

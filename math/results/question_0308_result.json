@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0308",
+  "question_text": "Each of Natalie's blueberry bushes yields eight containers of blueberries. If she can trade five containers of blueberries for two zucchinis, how many bushes does Natalie need to pick in order to have forty-eight zucchinis?",
+  "response": "To solve this problem, we need to find out how many containers of blueberries Natalie needs to get 48 zucchinis.\n\nSince she can trade 5 containers for 2 zucchinis, let's first divide the number of zucchinis (48) by 2:\n\n48 ÷ 2 = 24\n\nThis means that she would need 24 \"pairs\" of blueberries to get 48 zucchinis. Since each pair is worth 5 containers, we multiply the number of pairs by 5:\n\n24 x 5 = 120\n\nSo Natalie needs 120 containers of blueberries.\n\nSince each bush yields 8 containers, let's divide the total number of containers needed (120) by 8:\n\n120 ÷ 8 = 15\n\nNatalie would need to pick 15 bushes to get 48 zucchinis.",
+  "processing_time_seconds": 13.47,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

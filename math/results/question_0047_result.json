@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0047",
+  "question_text": "Let $a,$ $b,$ and $t$ be real numbers such that $a + b = t.$  Find, in terms of $t,$ the minimum value of $a^2 + b^2.$",
+  "response": "The expression we are minimizing is a sum of squares. Because the square function is increasing for positive inputs, the expression will attain its minimum value when all three variables are equal.\n\nIf $a + b = t$, then if $a=b=t/2,$ we have\n$a^2+b^2=(t/2)^2+(t/2)^2=\\frac{t^2}{2}.$\n\nThus, the minimum value of $a^2 + b^2$ is $\\boxed{\\frac{t^2}{2}}.$",
+  "processing_time_seconds": 8.92,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

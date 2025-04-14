@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0259",
+  "question_text": "Find the constant $t$ such that \\[(5x^2 - 6x + 7)(4x^2 +tx + 10) = 20x^4 -54x^3 +114x^2 -102x +70.\\]",
+  "response": "To find the value of $t$, we can expand both sides of the equation.\n\nThe left-hand side expands to:\n\n\\[(5x^2 - 6x + 7)(4x^2 +tx + 10) = 20x^4 + (5t -24)x^3 + (14t+40-12t)x^2 + (-8t +60)x +70.\\]\n\nThe right-hand side is already given:\n\n\\[20x^4 -54x^3 +114x^2 -102x +70.\\]\n\nComparing the coefficients of $x^3$, we have \\[5t-24 = -54\\]\n\nSolving for t, we get\n\n\\[5t=-30\\]\n\\[t = -6\\]\n\nThe final answer is $\\boxed{-6}$.",
+  "processing_time_seconds": 7.61,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

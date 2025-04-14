@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0199",
+  "question_text": "If I expand $25\\cdot 24\\cdot 23 \\cdots 3 \\cdot 2 \\cdot 1$, how many zeros are there at the end of the number I get?",
+  "response": "The number of trailing zeros in n! (factorial) is given by the formula:\n\nnumber of trailing zeros = floor(n/5) + floor(n/25) + floor(n/125) + ...\n\nSo, let's calculate the number of trailing zeros for 25!.\n\nfloor(25/5) = 5\nfloor(25/25) = 1\n\nThere are no other multiples of 125 in 25!, so we can stop there.\n\nTherefore, the total number of trailing zeros is: 5 + 1 = 6",
+  "processing_time_seconds": 5.26,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

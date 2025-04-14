@@ -1,0 +1,1 @@
+For a continuous and absolutely integrable complex-valued function $f(x)$ on $\mathbb{R}$, define a function $(S f)(x)$ on $\mathbb{R}$ by $(S f)(x)=\int_{-\infty}^{+\infty} e^{2 \pi \mathrm{i} u x} f(u) \mathrm{d} u$. Find explicit forms of $S\left(\frac{1}{1+x^{2}}\right)$ and $S\left(\frac{1}{\left(1+x^{2}\right)^{2}}\right)$.

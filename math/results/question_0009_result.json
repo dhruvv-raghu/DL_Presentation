@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0009",
+  "question_text": "Triangle $ABC$ has vertices $A(0, 8)$, $B(2, 0)$, $C(8, 0)$.  A line through $B$ cuts the area of $\\triangle ABC$ in half; find the sum of the slope and $y$-intercept of this line.",
+  "response": "The equation for the median through B is \\begin{align*}\ny &= \\frac{1}{2}(8+0) +\\left(-\\frac{(2-8)(8-0)}{6}\\right)\\cdot(x-2)\\\\\n&= 4-\\frac{x}{3}.\n\\end{align*}We want the sum of $m$ and b, so our final answer is $\\boxed{-\\frac{25}{3}}$.",
+  "processing_time_seconds": 7.74,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

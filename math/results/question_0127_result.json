@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0127",
+  "question_text": "What is the greatest prime factor of 99?",
+  "response": "To find the greatest prime factor of 99, we need to first find the prime factors of 99.\n\n99 = 3 × 33\n= 3 × 3 × 11\n\nThe prime factors of 99 are 3 and 11. The greatest prime factor is 11.",
+  "processing_time_seconds": 5.05,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

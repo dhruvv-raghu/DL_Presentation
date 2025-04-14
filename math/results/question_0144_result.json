@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0144",
+  "question_text": "At Beaumont High School, there are 20 players on the basketball team.  All 20 players are taking at least one of biology or chemistry.  (Biology and chemistry are two different science courses at the school.)  If there are 8 players taking biology and 4 players are taking both sciences, how many players are taking chemistry?",
+  "response": "To solve this problem, we can use the principle of inclusion-exclusion.\n\nLet's define:\n- B = set of students taking biology\n- C = set of students taking chemistry\n- n(B) = number of students taking biology = 8\n- n(C) = number of students taking chemistry (unknown)\n- n(B ∩ C) = number of students taking both biology and chemistry = 4\n\nWe know that the total number of students taking at least one of biology or chemistry is 20. We can use this information to set up an equation:\n\nn(B) + n(C) - n(B ∩ C) = 20\n8 + n(C) - 4 = 20\n\nNow, we solve for n(C):\n\nn(C) = 20 - 8 + 4\nn(C) = 16\n\nSo, there are 16 players taking chemistry.",
+  "processing_time_seconds": 14.75,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

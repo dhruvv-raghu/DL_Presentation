@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0098",
+  "question_text": "What is the modular inverse of $11$, modulo $1000$?\n\nExpress your answer as an integer from $0$ to $999$, inclusive.",
+  "response": "The modular inverse of $11 \\pmod{1000}$ is $91$.",
+  "processing_time_seconds": 1.75,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

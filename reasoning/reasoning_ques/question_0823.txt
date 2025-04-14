@@ -1,0 +1,2 @@
+We define a sequence of natural numbers by the initial values  $a_0 = a_1 = a_2 = 1$  and the recursion   $$  a_n = \bigg \lfloor \frac{n}{a_{n-1}a_{n-2}a_{n-3}} \bigg \rfloor  $$   
+for all  $n \ge 3$ . Find the value of  $a_{2022}$ .

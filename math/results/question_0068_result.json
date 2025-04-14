@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0068",
+  "question_text": "Let $f(x) = x|x|.$  Find $f^{-1}(4) + f^{-1}(-100).$",
+  "response": "## Step 1: To find the inverse function of $f(x)$, we first need to consider the two cases when $x > 0$ and when $x < 0$, since the absolute value function $|x|$ behaves differently in these regions.\nFor $x > 0$, $f(x) = x^2$ because $x|x| = x \\cdot x = x^2.$\nFor $x < 0$, $f(x) = -x^2$ because $x|x| = x \\cdot (-x) = -x^2.$\n\n## Step 2: Now, we need to find the inverse functions for both cases.\nFirst, consider the case when $x > 0$. We have $y = x^2$, and we want to solve this equation for $x$ in terms of $y$. This can be done by taking the square root of both sides:\n$x = \\pm\\sqrt{y}$\nSince we are considering the case where $x > 0$, we take only the positive square root.\nSo, the inverse function for $x > 0$ is\n$f^{-1}(y) = \\sqrt{y}$.\n\n## Step 3: Next, consider the case when $x < 0$. We have $y = -x^2$, and we want to solve this equation for $x$ in terms of $y$. This can be done by taking the negative square root of both sides:\n$x = \\pm\\sqrt{-y}$\nSince we are considering the case where $x < 0$, we take only the negative square root.\nSo, the inverse function for $x < 0$ is\n$f^{-1}(y) = -\\sqrt{-y}$.\n\n## Step 4: Now that we have found the inverse functions for both cases, we can find the value of $f^{-1}(4)$ and $f^{-1}(-100)$ using these inverse functions.\nFor $x > 0$, $f^{-1}(4) = \\sqrt{4} = 2$.\nFor $x < 0$, $f^{-1}(-100) = -\\sqrt{-(-100)} = -\\sqrt{100} = -10$.\n\n## Step 5: Finally, we need to add the values of $f^{-1}(4)$ and $f^{-1}(-100)$.\n$f^{-1}(4) + f^{-1}(-100) = 2 + (-10) = -8$\n\nThe final answer is: $\\boxed{-8}$",
+  "processing_time_seconds": 39.22,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

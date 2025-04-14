@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0312",
+  "question_text": "Find the smallest value of $x$ that satisfies the equation $|3x+7|=26$.",
+  "response": "To find the smallest value of x, we need to solve for when the absolute value equals a positive number.\n\nWe have two possible equations:\n\n3x + 7 = 26\n\nor \n\n3x + 7 = -26\n\nSolving for the first equation: \n3x + 7 = 26\n3x = 19\nx = 6.33 \n\nSolving for the second equation:\n3x + 7 = -26\n3x = -33\nx = -11 \n\nSince we want the smallest value of x, the answer is x = -11",
+  "processing_time_seconds": 8.72,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

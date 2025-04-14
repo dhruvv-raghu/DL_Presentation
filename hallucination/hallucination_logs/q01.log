@@ -1,0 +1,16 @@
+Testing Ollama model 'llama3.2'
+Temperature: 0.7
+Max tokens: 1000
+Reading questions from ./reasoning_questions_hallucination/q01...
+Found 1 question files.
+
+Processing question 1/1: question.txt
+Question preview: Given a rational number, write it as a fraction in lowest terms and calculate the product of the
+res...
+✓ Processed question 1/1
+Response saved to ./hallucination_results/q01/question_result.json
+
+All results saved to ./hallucination_results/q01/all_results.json
+
+Testing complete!
+Error during testing: unsupported operand type(s) for +: 'int' and 'str'

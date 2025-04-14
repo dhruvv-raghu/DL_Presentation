@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0131",
+  "question_text": "Dave's sister baked $3$ dozen pies of which half contained chocolate, two thirds contained marshmallows, three-fourths contained cayenne, and one-sixths contained salted soy nuts.  What is the largest possible number of pies that had none of these ingredients?",
+  "response": "We can calculate the maximum number of pies with no ingredients by finding the minimum percentage without any ingredients in each category.\n\nIn this case, we have: \n\n1/2 (chocolate) + 2/3 (marshmallow) = 7/6 > 1 \n   So we need to use only chocolate and marshmallows for our calculation.\n   \n1 - 7/6 = -1/6 < 0  \nSo the pies with at least one of these ingredients will be less than half.\n\nWe have: 3 * 12 = 36 pies in total\n\nSince there are more than half pies that do not contain chocolate and marshmallow, we can say that all pies that do not contain cayenne and salted soy nuts must also contain these two.\n\n1 - 3/4 (cayenne) = 1/4 > 0\n   So the pies with no ingredients will be less than one-fourth of the total.\n\nWe have: 36 pies in total\n\nSince there are more than one-fourth pies that do not contain cayenne and salted soy nuts, we can say that all pies that do not contain these two must also contain them.\n\nSo, the maximum number of pies that did not contain any ingredients is less than half and also less than one-fourth. The largest possible value for this is 0, but we can't have a negative number of pies, so it's more like 1/4 or greater.",
+  "processing_time_seconds": 24.69,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

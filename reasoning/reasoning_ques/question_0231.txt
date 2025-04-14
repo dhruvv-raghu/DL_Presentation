@@ -1,0 +1,1 @@
+Let $a$ and $b$ be complex numbers satisfying the two equations $a^{3}-3ab^{2}=36$ and $b^{3}-3ba^{2}=28i$. Let $M$ be the maximum possible magnitude of $a$. Find all $a$ such that $|a|=M$.

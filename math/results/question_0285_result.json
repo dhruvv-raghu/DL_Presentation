@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0285",
+  "question_text": "A super ball is dropped from 100 feet and rebounds half the distance it falls each time it bounces. How many feet will the ball have traveled when it hits the ground the fourth time?",
+  "response": "To solve this problem, we need to calculate the total distance the ball travels until it hits the ground for the fourth time.\n\nThe ball is initially dropped from 100 feet. On its first bounce, it rises half that distance (50 feet) and then falls back down those same 50 feet. So, after the first bounce, the ball has traveled a total of:\n\n100 (initial fall) + 2 x 50 (first bounce up and down) = 200 feet\n\nOn its second bounce, it rises half the distance it fell on its first bounce (25 feet), so it travels an additional 50 feet up and 50 feet back down. The new total is:\n\n200 + 100 (second bounce up and down) = 300 feet\n\nFor the third bounce, it rises half the distance of the previous fall (12.5 feet). So it travels an additional 25 feet up and 25 feet back down. \n\nThe total now is:\n300+50=350 feet.\n\nOn its fourth bounce, it rises half the distance of the previous fall (6.25 feet), so it travels an additional 12.5 feet up and 12.5 feet back down.\n\nTotal travel distance: \n350+25=375",
+  "processing_time_seconds": 18.38,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0179",
+  "question_text": "Emma had just been given some coins by her parents.  On the way to school she lost exactly half of them, and then by retracing her steps she found exactly four-fifths of the coins she had lost.  What fraction of the coins that she received from her parents were still missing after Emma retraced her steps? Express your answer as a common fraction.",
+  "response": "Let's break this down step by step!\n\nEmma started with some unknown number of coins, which we can call x.\n\nOn the way to school, she lost half of them, so she had (x/2) coins left.\n\nThen, by retracing her steps, she found four-fifths of the coins she had lost. To find this amount, multiply the amount she lost (x/2) by 4/5:\n\n(x/2) × (4/5) = (4/10)x = (2/5)x\n\nSo, she now has her original coins (x), plus the (2/5)x she found back. We can add these together to find the total number of coins Emma has now:\n\nx + (2/5)x = (7/5)x\n\nNow we need to subtract this from x, since x is the initial amount and (7/5)x is the new total.\n\nx - (7/5)x = (8/5)x\n\nThis means that 1/5 of Emma's coins are still missing. To express this as a common fraction, we can write it as 1/5.\n\nSo, the answer is 1/5.",
+  "processing_time_seconds": 11.42,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0116",
+  "question_text": "If the price of a stamp is 33 cents, what is the maximum number  of stamps that could be purchased with $\\$32$?",
+  "response": "## Step 1: Determine the cost of one stamp in dollars.\nThe price of one stamp is given as 33 cents. To convert this to dollars, we divide by 100 since there are 100 cents in a dollar. Therefore, one stamp costs $0.33.\n\n## Step 2: Calculate how many stamps can be bought with $32.\nTo find the maximum number of stamps that could be purchased with $32, we need to divide the total amount available ($32) by the cost per stamp ($0.33).\n\n## Step 3: Perform the calculation.\nMaximum number of stamps = Total amount / Cost per stamp\nMaximum number of stamps = 32 / 0.33\n\n## Step 4: Complete the division and round down if necessary, since we can't buy a fraction of a stamp.\nPerforming the division gives us:\nMaximum number of stamps ≈ 96.969696...\n\nSince we cannot purchase a fraction of a stamp, we must round down to the nearest whole number.\n\nThe final answer is: $\\boxed{96}$",
+  "processing_time_seconds": 15.75,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

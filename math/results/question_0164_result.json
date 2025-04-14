@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0164",
+  "question_text": "Each interior angle of a regular polygon measures $140^\\circ$. How many sides does the polygon have?",
+  "response": "We know that the sum of the interior angles of any polygon is given by $(n-2) \\times 180$, where $n$ is the number of sides. So, for this polygon with $x$ sides, we can write $$140x = (x - 2) \\times 180.$$ We will solve for $x$. First, let's expand the right side to get a linear equation:\n\n$$\n\\begin{align*}\n140x &= (x-2)\\cdot180\\\\\n140x &= 180x-360 \\\\\n(180x-(140x))&= -360 \\\\\n50x & = -360\n\\end{align*}\n$$\n\nMultiplying by $\\frac{-1}{50}$ on both sides to isolate x, we get:\n\n$$\n\\begin{align*}\n(-1) \\cdot 50x &= (-1)\\cdot -360\\\\\n-50x&= 360 \\\\\n(x)& = \\frac{-360}{-50} \\\\\n\\end{align*}\n$$\n\nSo, the answer is $7$.",
+  "processing_time_seconds": 9.64,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

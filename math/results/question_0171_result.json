@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0171",
+  "question_text": "At the 2007 Math Olympics, Team Canada won $17$ out of a possible $100$ medals. Which one of the following is closest to the fraction of medals that they won? $$\n\\frac{1}{4} \\qquad \\frac{1}{5} \\qquad \\frac{1}{6} \\qquad \\frac{1}{7} \\qquad \\frac{1}{8}\n$$",
+  "response": "We can compute the closest value for each answer choice using long division. We will find that\n\n\\begin{align*}\n    \\frac17 &amp;= 0.14285714285714285\\\\\n    \\frac19 &amp;= 0.11111111\\\\\n    \\frac{1}{8} &amp;= 0.125\\\\\n    \\frac14 &amp;= 0.25\\\\\n    \\frac15 &amp;= 0.20.\n\\end{align*}\nThese values are closest to $\\frac17$.",
+  "processing_time_seconds": 5.59,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

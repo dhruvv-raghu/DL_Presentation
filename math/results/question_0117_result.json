@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0117",
+  "question_text": "Solve for $x$: $5(3x + 2) - 2 = -2(1 - 7x)$.",
+  "response": "To solve for x, we need to follow the order of operations (PEMDAS):\n\n1. Distribute the terms:\n$15x + 10 - 2 = -2 + 14x$\n\nSimplify:\n\n$15x + 8 = 14x - 2$\n\n2. Subtract 14x from both sides:\n\n$x + 8 = -2$\n\n3. Subtract 8 from both sides:\n\n$x = -10$",
+  "processing_time_seconds": 7.02,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

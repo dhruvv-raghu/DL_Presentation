@@ -1,0 +1,1 @@
+Compute $\sin 45^\circ$.

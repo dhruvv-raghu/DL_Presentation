@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0023",
+  "question_text": "Find the number of positive solutions to\n\\[\\sin (\\arccos( \\tan (\\arcsin x) ) ) ) = x.\\]",
+  "response": "To solve this equation, we can use the inverse trigonometric functions to simplify the expression.\n\nFirst, let's start with $\\tan (\\arcsin x)$.\n\nSince $\\tan(\\theta)=\\frac{\\sin(\\theta)}{\\cos(\\theta)}$, and $\\arcsin(x)$ gives an angle whose sine is $x$,\n\n$\\tan (\\arcsin x) = \\frac{x}{\\sqrt{1-x^2}}.$\n\nNow, we have:\n\n$$\n\\begin{aligned}\n\\arccos( \\tan (\\arcsin x) ) &= \\arccos\\left(\\frac{x}{\\sqrt{1-x^2}}\\right)\n\\end{aligned}\n$$\n\n\n\nSince $\\cos$ is the inverse of $\\sin$, and we have $x/\\sqrt{1-x^{2}}$ in place of $\\sin$,\n\nwe can replace it with some angle $\\theta$. Therefore,\n$\\arccos(x/\\sqrt{(1-x^2)})=\\theta.$\n\nSince 0 ≤ θ < π/2, we know that the cosine of θ is positive.\n\nLet’s use the inverse function properties and define $cos(θ)=\\frac{x}{√(1-x^{2})}.$\n\n\nTherefore,\n$$\n\\begin{aligned}\nx&= \\sqrt{(1-cos^2(\\theta))}\\\\\nx&= \\sqrt{(sin^2(\\theta))}\n\\\\\nx & = sin(\\theta)\n\\end{aligned}\n$$\n\n\n\nWe know that θ is in range 0<θ <π/2. Therefore, sin(θ) > 0.\n\nFinally,\n$$\n\\begin{aligned}\n\\arccos ( \\tan (\\arcsin x) ) &= \\theta \\\\\ncos(\\theta)&=\\frac{x}{\\sqrt{(1-x^2)}}\n\\\\x & = cos(\\theta)\n\\end{aligned}\n$$\n\n\n\nSince we have the following equation:\n$\nsin(arccos (x))=x\n$\n\n\n\nWe can conclude that x lies between 0 and 1.",
+  "processing_time_seconds": 33.02,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

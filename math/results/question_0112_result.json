@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0112",
+  "question_text": "How many two-digit positive integers have at least one 7 as a digit?",
+  "response": "To find the number of two-digit positive integers with at least one 7 as a digit, we can count the numbers that do not contain a 7 and subtract this from the total number of two-digit positive integers.\n\nThere are 90 two-digit positive integers: 10, 11, ..., 99.\n\nWe will first find the number of two-digit integers that do not have 7 as a digit. For tens digits, there are 8 options (1, 2, 3, 4, 5, 6, 8, and 9), and for ones digits, there are also 9 options (0, 1, 2, 3, 4, 5, 6, 8, and 9). Therefore, the total number of two-digit integers without a 7 is 8 x 9 = 72.\n\nNow we subtract this from the total number of two-digit positive integers to get our answer:\n\n90 - 72 = 18\n\nThere are 18 two-digit positive integers that have at least one 7 as a digit.",
+  "processing_time_seconds": 18.03,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

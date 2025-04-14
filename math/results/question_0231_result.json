@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0231",
+  "question_text": "Compute: $(17+10)^2-(17-10)^2$.",
+  "response": "To compute the expression $(17+10)^2-(17-10)^2$, we need to follow the order of operations (PEMDAS):\n\n1. Evaluate the expressions inside the parentheses:\n$(17+10) = 27$\n$(17-10) = 7$\n\n2. Square each expression:\n$27^2 = 729$\n$7^2 = 49$\n\n3. Subtract the second squared value from the first squared value:\n$729 - 49 = 680$\n\nTherefore, $(17+10)^2-(17-10)^2 = 680$.",
+  "processing_time_seconds": 195.27,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

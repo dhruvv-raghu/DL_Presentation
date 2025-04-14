@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0299",
+  "question_text": "A ball travels on a parabolic path in which the height (in feet) is given by the expression $-16t^2+32t+15$, where $t$ is the time after launch. What is the maximum height of the ball, in feet?",
+  "response": "To find the maximum height of the ball, we can use the fact that the maximum value of a quadratic function occurs at its vertex.\n\nThe given expression for height is:\n\n$$-16t^2+32t+15$$\n\nFirst, let's factor out -1 from this expression. \n\nThis gives us:\n$$-(-16t^2 + 32t +15)$$ \nOr in other words: $$( -16t^2 + 32t +15)$$\n= $( -8t)^2 + (4t +3 )$\n= $(4t +3)^2-64t^2$\n\nSo we have,\n$$(4t+3)^2 -64t^2$$\nWe will now apply the formula to find $t$ of vertex of a parabola:\n$$t = \\frac{-b}{2a}$$\n\nIn this case, a is $(-16)$ and b is $(32)$. \nTherefore,\n$t = \\frac{-(32)}{(2)(-16)}$\nSimplifying gives us: \n$t = 1$\n\nSo we know that the vertex of the parabola occurs at t=1. \n\nNow we can plug this value into our original equation to find the height:\n$-16(1)^2 + 32(1) +15$\nSimplifying gives us:\n$-16+32+15$\nWhich is equal to $31$. Therefore, the maximum height of the ball was $31$ feet.",
+  "processing_time_seconds": 22.51,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

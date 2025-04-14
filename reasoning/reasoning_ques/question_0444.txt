@@ -1,0 +1,1 @@
+Simplify the product $$\prod_{m=1}^{100} \prod_{n=1}^{100} \frac{x^{n+m}+x^{n+m+2}+x^{2 n+1}+x^{2 m+1}}{x^{2 n}+2 x^{n+m}+x^{2 m}}$$ Express your answer in terms of $x$.

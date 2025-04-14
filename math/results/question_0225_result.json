@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0225",
+  "question_text": "If $g(x)=\\sqrt[3]{\\frac{x+3}{4}}$, for what value of $x$ will $g(2x)=2(g(x))$? Express your answer in simplest form.",
+  "response": "For a given function g, we can find the value of x that satisfies a given condition.\n\nWe are given the function\n$$g(x)=\\sqrt[3]{\\frac{x+3}{4}}$$\nand want to find the value of $x$ such that \n$$g(2x)=2(g(x))$$\n\nSubstituting 2x into the expression for g(x), we get:\n\n\\begin{align*}\ng(2x)&=\\sqrt[3]{\\frac{(2x)+3}{4}}\\\\\n&=\\sqrt[3]{\\frac{2x+3}{4}}\n\\end{align*}\n\nSubstituting x into the expression for g(x), we get:\n\n\\begin{align*}\n2(g(x))&=2(\\sqrt[3]{\\frac{x+3}{4}})\\\\\n&=\\sqrt[3]{\\left( \\frac{x+3}{4} \\right)^2}\n\\end{align*}\n\nWe now set $g(2x)=2(g(x))$:\n\n$$\\sqrt[3]{\\frac{2x+3}{4}}=\\sqrt[3]{\\left(\\frac{x+3}{4}\\right)^2}$$\n\nCubing both sides gives us\n\n$$\\frac{2x+3}{4}=\\frac{(x+3)}{4}^2=(x+3)^2 \\frac{1}{4}= (x+3) \\sqrt[3]{(x+3)}$$\n\nWe multiply both sides by $4$ to get:\n\n$$2x+3= (x+3)\\sqrt[3]{(x+3)}$$\n\nNow we rearrange the equation as follows:\n$(x+3)^{1/3}\\cdot(x-3)=0.$\nThe expression $(x+3)^{1/3}$ equals zero when $x=-3$ and for all other values of x, it is not equal to 0. Therefore, $g(2x) = g(-6)$ when $x = -3.$",
+  "processing_time_seconds": 25.53,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

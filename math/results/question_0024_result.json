@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0024",
+  "question_text": "In convex quadrilateral $ABCD$, $\\angle A = \\angle C$, $AB=CD=180$, and $AD \\ne BC$.  The perimeter of $ABCD$ is 640. Find $\\cos A$.",
+  "response": "We can use the law of cosines on triangles ABD and BCD to find a relation between AD, BC, and cos(A). Let's denote the length of AD by x and the length of BC by y.\n\nApplying the law of cosines on triangle ABD:\n\n$$BD^2=x^2+180^2-360x\\cos A.$$\n\nApplying the law of cosines on triangle BCD:\n\n$$BD^2=y^2+180^2-360y\\cos A.$$\n\nSince the two triangles share side BD, we can equate the expressions for BD^2 and simplify to get an expression involving x, y, and cos(A):\n\n$$x^2-y^2=360(x-y)\\cos A.$$Dividing both sides by (x-y), we obtain:\n\n$$\\frac{x+y}{2}=360\\cos A.$$Since AD \\ne BC, then x ≠ y. We are given that the perimeter of ABCD is 640, so we have:\n$$AB+BC+CD+DA=640.$$\nPlugging in our known values for AB and CD, we get:\n\n$$180+x+y+AD=640\\Rightarrow AD=460-x-y.$$\n\nSubstituting this expression into the equation above, we can solve for cos(A):\n\n\\begin{align*}\n\\frac{x+y}{2}&amp;=360\\cos A\\\\\nx+y&amp;=720\\cos A\\\\\n(460-x-y)+x+y&amp;=720\\cos A\\\\\n460-AD&amp;=720\\cos A\\\\\n\\Rightarrow \\quad 460-AD &amp;=720\\left(\\frac{x+y}{2}\\right)\\\\\n\\end{align*}\n\nWe also have that AD = 460 - x - y. Plugging this into the previous equation, we get:\n$$(x+y)=2(460-AD).$$Combining this with our expression for cos(A), we can substitute:\n\n$$x+y=2(460-AD)\\Rightarrow\\frac{x+y}{2}=(460-AD)$$\n\n$$\\frac{x+y}{2}=720 \\cos A\\Rightarrow 2(460-AD)=720 \\cos A.$$\n\nSubstituting our expression for AD, we get:\n$$(x+y)=(460-AD)\\times2=920-2AD.$$Plugging this into the equation for cos(A) gives:\n\n$$920-2AD=720\\cos A\\Rightarrow\\frac{920}{720}=1+\\frac{\\cos A}{45}.$$Solving for cos(A), we get\n\n$$\\frac{5}{9}=1+\\frac{\\cos A}{45}\\Rightarrow \\cos A=\\boxed{\\frac{4}{9}}.$$\nFinal Answer: The final answer is \\frac{4}{9}. I hope it is correct.",
+  "processing_time_seconds": 44.96,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

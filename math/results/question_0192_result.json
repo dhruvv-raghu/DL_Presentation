@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0192",
+  "question_text": "How many positive divisors of 30! are prime?",
+  "response": "To find the number of positive divisors of 30!, we can use the fact that 30! = 30 × 29 × ... × 2 × 1.\n\nSince a divisor of 30! must be a product of some combination of these numbers, and since each prime factor is relatively prime to others (i.e., they do not share any common factors), we can count the number of divisors by counting the number of ways to choose a subset of primes from this list.\n\nLet's consider the prime factorization of 30!:\n\n30! = 2^26 × 3^16 × 5^10 × 7^8 × 11^4 × 13^2 × 17^1 × 19^1 × 23^1\n\nThe number of positive divisors of 30! is the product of the exponents on each prime factor:\n\n(26 + 1) × (16 + 1)",
+  "processing_time_seconds": 8.47,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

@@ -1,0 +1,2 @@
+Let  $(G,\cdot)$  be a group with no elements of order 4, and let $f:G\rightarrow G$  be a group morphism such that  $f(x)\in\{x,x^{-1}\}$ , for
+all  $x\in G$ . Prove that either  $f(x)=x$  for all  $x\in G$ , or  $f(x)=x^{-1}$ for all  $x\in G$ .

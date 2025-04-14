@@ -1,0 +1,1 @@
+An infinite road has traffic lights at intervals of 1500m. The lights are all synchronised and are alternately green for  $\frac 32$  minutes and red for 1 minute. For which  $v$  can a car travel at a constant speed of  $v$ m/s without ever going through a red light?

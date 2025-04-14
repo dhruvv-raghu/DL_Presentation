@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0251",
+  "question_text": "The quadratic $8x^2+12x-14$ has two real roots. What is the sum of the squares of these roots? Express your answer as a common fraction in lowest terms.",
+  "response": "Let's use Vieta's formulas for quadratic equations to find the roots and their squares.\n\nIf we let $r_1$ and $r_2$ be the two real roots, we know that:\n\n$r_1 + r_2 = -\\frac{12}{8} = -\\frac{3}{2}$\n\n$r_1 \\cdot r_2 = \\frac{-14}{8} = -\\frac{7}{4}$\n\nThe sum of the squares of the roots is $r_1^2+r_2^2=(r_1+r_2)^2-2r_1r_2$.\n\nSubstituting our values for $(r_1+r_2)$ and $(r_1 \\cdot r_2)$ gives us:\n\n$r_1^2+r_2^2 = \\left(-\\frac{3}{2}\\right)^2 - 2\\cdot \\left(\\frac{-7}{4}\\right) = \\frac{9}{4} + \\frac{14}{4}$\n\nTherefore, the sum of the squares of these roots is $\\frac{23}{4}$.",
+  "processing_time_seconds": 10.44,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0052",
+  "question_text": "Find the real root of the equation \\[\\sqrt{x} + \\sqrt{x+2} = 10.\\]",
+  "response": "To find the real root of the equation, we can start by isolating one of the square root terms.\n\n\\begin{align*}\n\\sqrt{x} + \\sqrt{x+2} &= 10\\\\\n\\Rightarrow \\qquad \\sqrt{x+2} &= 10 - \\sqrt{x}.\n\\end{align*}\n\nNow, we can square both sides to eliminate the square roots. This gives\n\n\\begin{align*}\n(\\sqrt{x+2})^2 &= (10-\\sqrt{x})^2\\\\\nx + 2 &= 100 - 20\\sqrt{x} + x\\\\\n20\\sqrt{x} &= 98.\n\\end{align*}\n\nDividing both sides by $20$, we get\n\n$$\\sqrt{x} = \\frac{49}{10},$$\n\nwhich means that $$x=\\left(\\frac{49}{10}\\right)^2=\\boxed{\\frac{2401}{100}}.$$\n\nTherefore, the real root of the equation is $\\boxed{\\frac{2401}{100}}$",
+  "processing_time_seconds": 20.24,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

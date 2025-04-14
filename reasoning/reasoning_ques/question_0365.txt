@@ -1,0 +1,2 @@
+Let $z$ be a complex number such that $z^{23} = 1$ and $z \neq 1.$  Find
+\[\sum_{n = 0}^{22} \frac{1}{1 + z^n + z^{2n}}.\]

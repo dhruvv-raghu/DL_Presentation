@@ -1,0 +1,5 @@
+In the  $ xy$  plane, the line  $ l$  touches to 2 parabolas  $ y\equal{}x^2\plus{}ax,\ y\equal{}x^2\minus{}2ax$ , where  $ a$  is positive constant.
+
+(1) Find the equation of  $ l$ .
+
+(2) Find the area  $ S$  bounded by the parabolas and the tangent line  $ l$ .

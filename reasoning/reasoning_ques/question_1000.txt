@@ -1,0 +1,1 @@
+Let the sequence  $a_{1}, a_{2}, \cdots$  be defined recursively as follows:  $a_{n}=11a_{n-1}-n$ . If all terms of the sequence are positive, the smallest possible value of  $a_{1}$  can be written as  $\frac{m}{n}$ , where  $m$  and  $n$  are relatively prime positive integers. What is  $m+n$ ?

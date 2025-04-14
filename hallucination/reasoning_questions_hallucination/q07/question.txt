@@ -1,0 +1,2 @@
+Can a self-referential system be both complete and consistent? Answer with reference to Gödel’s
+incompleteness theorems.

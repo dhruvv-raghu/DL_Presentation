@@ -1,0 +1,1 @@
+ $(BEL 5)$  Let  $G$  be the centroid of the triangle  $OAB.$  $(a)$  Prove that all conics passing through the points  $O,A,B,G$  are hyperbolas. $(b)$  Find the locus of the centers of these hyperbolas.

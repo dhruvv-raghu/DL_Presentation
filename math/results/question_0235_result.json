@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0235",
+  "question_text": "George has a quadratic of the form $x^2+bx+\\frac13$, where $b$ is a specific negative number. Using his knowledge of how to complete the square, George is able to rewrite this quadratic in the form $(x+m)^2+\\frac{1}{12}$. What is $b$?",
+  "response": "To solve for $b$, we can start by expanding the expression $(x+m)^2+\\frac{1}{12}$:\n\n\\begin{align*}\n(x+m)^2+\\frac{1}{12}&=\\left(x^2+2mx+m^2\\right)+\\frac{1}{12}\\\\\n&=x^2+2mx+m^2+\\frac{1}{12}.\n\\end{align*}\n\nWe know that this is equal to the original expression $x^2+bx+\\frac13$, so we can equate the corresponding coefficients:\n\n$$b=2m,\\quad \\frac13=m^2+\\frac{1}{12}.$$The second equation allows us to solve for $m$:\n\n\\begin{align*}\nm^2&=\\frac13-\\frac{1}{12}\\\\\n&=\\frac14\\\\\n\\Rightarrow\\qquad m&=\\pm\\frac12.\n\\end{align*}\n\nSince we are given that $b$ is negative, we know that $m$ must be negative as well. Therefore, $m=-\\frac12$. Substituting this value into the first equation gives\n\n$$b=2m=2\\left(-\\frac12\\right)=-1.$$\n\nTherefore, $\\boxed{b=-1}.$",
+  "processing_time_seconds": 11.93,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0011",
+  "question_text": "A regular polygon has an exterior angle that measures $15$ degrees. How many sides does the polygon have?",
+  "response": "The sum of the exterior angles of any polygon is always $360^\\circ$. Since all exterior angles are equal in a regular polygon, we can set up an equation to solve for the number of sides:\n\n$$n \\times 15 = 360,$$\n\nwhere $n$ represents the number of sides. We divide both sides by $15$, giving us\n\n$$n=\\frac{360}{15}=24.$$ \n\nThe final answer is 24.",
+  "processing_time_seconds": 7.48,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0195",
+  "question_text": "Our football team has 10 members, of which only 3 are strong enough to play offensive lineman, while all other positions can be played by anyone. In how many ways can we choose a starting lineup consisting of a quarterback, a running back, an offensive lineman, and a wide receiver?",
+  "response": "This problem involves the concept of permutations with some restrictions.\n\nThere are 3 choices for the offensive lineman position (since only 3 players are strong enough to play this position).\n\nFor the remaining positions (quarterback, running back, and wide receiver), we have 7 players left (10 total members - 1 chosen as offensive lineman). We can choose any of these 7 players for each position.\n\nSo, there are 7 choices for the quarterback position.\nThere are then 6 remaining choices for the running back position.\nFinally, there are 5 remaining choices for the wide receiver position.\n\nTo find the total number of ways to choose a starting lineup, we multiply the number of choices for each position:\n\n3 (offensive lineman) × 7 (quarterback) × 6 (running back) × 5 (wide receiver)\n\nThis gives us: \n\n3 × 7 = 21\n21 × 6 = 126\n126 × 5 = 630\n\nSo, there are 630 ways to choose a starting lineup consisting of a quarterback, a running back, an offensive lineman, and a wide receiver.",
+  "processing_time_seconds": 10.16,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

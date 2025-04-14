@@ -1,0 +1,1 @@
+Given integer  $m\geq2$ , $x_1,...,x_m$  are non-negative real numbers,prove that:  $$ (m-1)^{m-1}(x_1^m+...+x_m^m)\geq(x_1+...+x_m)^m-m^mx_1...x_m $$  and please find out when the equality holds.

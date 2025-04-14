@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0205",
+  "question_text": "Molly flips a fair coin five times, and she is very surprised to flip a head each time. What is the probability she will flip a tail on her next flip of the coin? Express your answer as a common fraction.",
+  "response": "The probability that Molly will flip a tail on her next flip is still 1/2, because the coin is fair and the flips are independent events.\n\nThis makes sense because each time you flip a fair coin, the outcome (head or tail) has no influence on the outcome of the next flip. The probability of getting heads or tails on each flip is always 50%.\n\nSo, even though Molly got heads five times in a row, that's just luck! She should expect to get either heads or tails with equal probability on her next flip.",
+  "processing_time_seconds": 5.05,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

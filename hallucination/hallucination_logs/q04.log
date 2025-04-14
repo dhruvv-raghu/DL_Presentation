@@ -1,0 +1,16 @@
+Testing Ollama model 'llama3.2'
+Temperature: 0.7
+Max tokens: 1000
+Reading questions from ./reasoning_questions_hallucination/q04...
+Found 1 question files.
+
+Processing question 1/1: question.txt
+Question preview: If Napoleon had access to modern drone technology, how might the outcome of the Battle of Waterloo
+h...
+✓ Processed question 1/1
+Response saved to ./hallucination_results/q04/question_result.json
+
+All results saved to ./hallucination_results/q04/all_results.json
+
+Testing complete!
+Error during testing: unsupported operand type(s) for +: 'int' and 'str'

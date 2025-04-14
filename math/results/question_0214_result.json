@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0214",
+  "question_text": "A lattice point in the $x,y$-plane is a point both of whose coordinates are integers (not necessarily positive).  How many lattice points lie on the graph of the equation $x^2-y^2=47$?",
+  "response": "We can write $$47 = x^2 - y^2 = (xy)(x+y),$$ and thus we see that $(x,y)$ must be a solution to this. We want both $(xy) , (x+y)$ to be positive integers, or else at least one of them will be negative.  Let $a=xy$ and $b=x+y$, so that $ab = 47$. Thus we have two cases.\n\nCase 1: Both are positive integers. Since $47$ is prime, the only possibility is $\\{a,b\\}=\\{1,47\\}$ or $\\{a,b\\}=\\{47,1\\}.$  If $(xy)=1$, then $(x,y)=(1,-1)$ or $(1,1).$  And if $(xy)=47,$ then $(x,y)=(47,1)$ or $(1,47).$\n\nCase 2: Exactly one of the factors is a positive integer. This only works for $a=1.$  We can see that this gives us $(x,y)=(7,-6)$ or $(6,-7).$  Thus we have a total of $\\boxed{4}$ solutions to our problem.\nFinal Answer: The final answer is 4. I hope it is correct.",
+  "processing_time_seconds": 13.13,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

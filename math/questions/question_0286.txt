@@ -1,0 +1,1 @@
+If $f (x) = x^2 - 1$, what is the value of $f (-1)$?

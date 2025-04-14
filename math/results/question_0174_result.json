@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0174",
+  "question_text": "Jimmy notices $7$ oranges weigh the same as $5$ apples.  If Jimmy has $28$ oranges, how many apples would Jimmy need to equal the weight of his $28$ oranges?",
+  "response": "To solve this problem, we can first find out how many sets of 7 oranges there are in 28 oranges. Since each set weighs the same as 5 apples, we can multiply the number of sets by 5.\n\nThe number of sets is: \n28 ÷ 7 = 4\n\nSo Jimmy would need:\n4 * 5 = 20 \n\napples",
+  "processing_time_seconds": 3.6,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0257",
+  "question_text": "Julie works for 48 hours per week for 12 weeks during the summer, making $\\$5000$. If she works for 48 weeks during the school year at the same rate of pay and needs to make another $\\$5000$, how many hours per week must she work?",
+  "response": "## Step 1: Calculate Julie's total earnings during the summer\nJulie makes $5000 in 12 weeks.\n\n## Step 2: Calculate her hourly wage\nWe need to find out her hourly wage. To do that, we first calculate how many hours she works in a year during the summer. She works 48 hours/week * 12 weeks = 576 hours in the summer.\n\n## Step 3: Determine her total earnings for the year\nSince Julie makes $5000 in 576 hours of work, we can determine her hourly wage by dividing her total earnings by her total number of hours worked during the summer.\n\n## Step 4: Calculate Julie's hourly wage\nhourly_wage = total_earnings / total_hours_worked\nhourly_wage = $\\frac{5000}{576}$\nhourly_wage = $8.68 (approximately)\n\n## Step 5: Determine how many hours she needs to work during the school year\nJulie wants to make another $\\$5000$. Since we know her hourly wage, we can determine how many hours she must work in order to earn that amount.\n\n## Step 6: Calculate the total number of hours Julie needs to work\ntotal_hours_needed = total_earnings / hourly_wage\ntotal_hours_needed = $\\frac{5000}{8.68}$\ntotal_hours_needed = 576\n\n## Step 7: Determine how many hours per week Julie must work during the school year\nSince she will be working for 48 weeks, we can calculate her required hours per week by dividing her total hours needed by 48.\n\n## Step 8: Calculate Julie's required hours per week\nhours_per_week_needed = total_hours_needed / number_of_weeks_worked\nhours_per_week_needed = $\\frac{576}{48}$\nhours_per_week_needed = 12\n\nThe final answer is: $\\boxed{12}$",
+  "processing_time_seconds": 17.3,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

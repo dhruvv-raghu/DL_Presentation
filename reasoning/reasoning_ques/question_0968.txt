@@ -1,0 +1,1 @@
+A4 Define $x_{\mathrm{g}}=h v_{\mathrm{g}} / k_{\mathrm{B}} T_{\mathrm{s}}$ where $E_{\mathrm{g}}=h v_{\mathrm{g}}$. Express the useful output power of the cell, $P_{\text {out }}$, in terms of $x_{\mathrm{g}}, A$, <br> $R_{\odot}, d_{\odot}, T_{\mathrm{s}}$ and the fundamental constants $c, h, k_{\mathrm{B}}$.

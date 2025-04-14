@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0201",
+  "question_text": "What is the smallest three-digit number in Pascal's triangle?",
+  "response": "In Pascal's triangle, each row starts and ends with the number 1. The first few rows of Pascal's triangle are:\n\n1\n1 1\n1 2 1\n1 3 3 1\n1 4 6 4 1\n1 5 10 10 5 1\n\nNotice that all numbers in a row are less than or equal to the sum of the two numbers directly above it. Since each entry is obtained by adding the two entries above it, there will be no negative numbers.\n\nHowever, since this problem asks for the smallest three-digit number in Pascal's triangle and we see 1 as the first number of rows but also notice that no number less than 100 exists",
+  "processing_time_seconds": 6.55,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

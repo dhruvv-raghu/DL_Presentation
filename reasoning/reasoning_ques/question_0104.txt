@@ -1,0 +1,1 @@
+Determine the smallest positive integer  $A$  with an odd number of digits and this property, that both  $A$  and the number  $B$  created by removing the middle digit of the number  $A$  are divisible by  $2018$ .

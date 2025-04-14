@@ -1,0 +1,1 @@
+Given the following equation: x^4 - x - 10 = 0. determine the initial approximations for finding the smallest positive root. Use these to find the root correct to three decimal places with Secant method.

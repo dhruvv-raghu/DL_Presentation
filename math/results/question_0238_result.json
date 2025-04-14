@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0238",
+  "question_text": "Simplify $t^3\\cdot t^4$.",
+  "response": "To simplify the expression, we can use the rule of indices that states when multiplying two powers with the same base, we add the exponents:\n\nt^3 * t^4 = t^(3+4)\n= t^7",
+  "processing_time_seconds": 2.14,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

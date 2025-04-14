@@ -1,0 +1,1 @@
+2.1 Find the ratio $\frac{\rho_{i} T_{i}}{\rho_{a} T_{a}}$ in terms of $\gamma, P_{a}$ and $R_{0}$.

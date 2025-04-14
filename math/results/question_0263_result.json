@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0263",
+  "question_text": "The expression $x^2 - 16x + 60$ can be written in the form $(x - a)(x - b)$, where $a$ and $b$ are both nonnegative integers and $a > b$. What is the value of $3b - a$?",
+  "response": "To find the values of a and b, we need to factorize the given quadratic equation.\n\nThe given expression can be written as:\n\nx^2 - 16x + 60 = (x - a)(x - b)\n\nExpanding the right-hand side, we get:\n\nx^2 - (a + b)x + ab\n\nComparing the coefficients of x and the constant terms, we get:\n\n-(a + b) = -16\nab = 60\n\nSince a > b and both are non-negative integers, let's find the pairs of factors of 60 that satisfy these conditions.\n\nThe pairs of factors of 60 are: (1, 60), (2, 30), (3, 20), (4, 15), (5, 12), (6, 10).\n\nNow, we need to check which pair satisfies the condition a > b and -(a + b) = -16.\n\nThe pair that satisfies these conditions is: a = 10, b = 6\n\nTherefore, the value of 3b - a is:\n\n3(6) - 10 = 18 - 10 = 8\n\nSo, the final answer is $\\boxed{8}$.",
+  "processing_time_seconds": 11.21,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

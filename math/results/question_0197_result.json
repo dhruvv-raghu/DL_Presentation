@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0197",
+  "question_text": "What's the coefficient of the $x^2y^4$ term in the expansion of $(x+y)^6$?",
+  "response": "The binomial theorem states that for any non-negative integer $n$, we have:\n\n$$(a+b)^n = \\sum_{k=0}^n \\binom{n}{k} a^{n-k} b^k$$\n\nIn our case, $a=x$, $b=y$, and $n=6$. We want to find the coefficient of the term $x^2y^4$.\n\nSince this term has 4 y's and 2 x's, we can see that it corresponds to the k = 4 term in the binomial expansion. Thus, we need to find $\\binom{6}{4}$:\n\n$$\\binom{6}{4} = \\frac{6!}{(4!)!(6-4)!} = \\frac{6 \\times 5 \\times 4!}{4!2!} = \\frac{15 \\cdot 4!}{2!} = \\frac{15 \\cdot 24}{2} = \\boxed{180}$$\n\nSo, the coefficient of $x^2y^4$ in the expansion of $(x+y)^6",
+  "processing_time_seconds": 10.23,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

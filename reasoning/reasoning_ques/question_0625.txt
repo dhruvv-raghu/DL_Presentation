@@ -1,0 +1,1 @@
+Let  $s(a)$  denote the sum of digits of a given positive integer a. The sequence   $a_1, a_2,..., a_n, ...$  of positive integers is such that  $a_{n+1} = a_n+s(a_n)$  for each positive integer  $n$ . Find the greatest possible n for which it is possible to have  $a_n = 2008$ .

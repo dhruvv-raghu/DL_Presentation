@@ -1,0 +1,2 @@
+Can the sentence 'I saw the man with the telescope' be grammatically parsed in more than one way?
+Show the different parses.

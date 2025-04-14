@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0161",
+  "question_text": "What integer value of $n$ will satisfy $n + 10 > 11$ and $-4n > -12$?",
+  "response": "To find the values of n that satisfy both inequalities, we can solve each inequality separately.\n\nThe first inequality is:\n\n$n + 10 > 11$\n\nSubtracting 10 from both sides gives us:\n\n$n > 1$\n\nThe second inequality is:\n\n$-4n > -12$\n\nDividing both sides by -4 (remember to flip the inequality sign when dividing by a negative number) gives us:\n\n$n < 3$\n\nSince we want values of n that satisfy both inequalities, we need to find the intersection of these two intervals. The first interval is $(-\\infty,1)$ and the second interval is $(-\\infty,3)$. Therefore, the intersection of these two intervals is also $(-\\infty,1)$.\n\nHowever, since n must be an integer value, we need to find the integer values in this interval. The only integer that satisfies both inequalities is:\n\n$n = 0$\n\nTherefore, the answer is $\\boxed{0}$.",
+  "processing_time_seconds": 8.78,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

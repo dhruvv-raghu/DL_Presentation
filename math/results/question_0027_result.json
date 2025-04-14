@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0027",
+  "question_text": "Two lines are perpendicular.  One line has a direction vector of $\\begin{pmatrix} 3 \\\\ -7 \\end{pmatrix}.$  The other line has a direction vector of $\\begin{pmatrix} a \\\\ 2 \\end{pmatrix}.$  Find $a.$",
+  "response": "To find the value of $a$, we can use the fact that two lines are perpendicular if and only if their dot product is equal to zero.\n\nThe dot product of the two direction vectors is:\n\n$$\\begin{pmatrix} 3 \\\\ -7 \\end{pmatrix} \\cdot \\begin{pmatrix} a \\\\ 2 \\end{pmatrix} = 3a + (-7)(2) = 3a - 14.$$\n\nSince the lines are perpendicular, we know that this dot product is equal to zero. Therefore, we can set up the equation:\n\n$$3a - 14 = 0.$$\n\nSolving for $a$, we get:\n\n$$3a = 14 \\Rightarrow a = \\frac{14}{3}.$$",
+  "processing_time_seconds": 11.95,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

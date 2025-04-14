@@ -1,0 +1,1 @@
+(a) Compute the electric potential inside and outside the sphere.

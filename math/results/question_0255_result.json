@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0255",
+  "question_text": "If $x+y=\\frac{7}{13}$ and $x-y=\\frac{1}{91}$, what is the value of $x^2-y^2$? Express your answer as a common fraction.",
+  "response": "To find the value of x^2 - y^2, we can use the formula for difference of squares: \n\nx^2 - y^2 = (x + y)(x - y) \n\nWe are given that x + y = 7/13 and x - y = 1/91. \n\nSo, we can substitute these values into the equation:\n\nx^2 - y^2 = (7/13)(1/91)\n\nNow, let's simplify this expression:\n\nx^2 - y^2 = (7*1)/(13*91)\n= 7/(13 * 13*7) \n= 7/(169) \n\nThe value of x^2 - y^2 is therefore 7/169.",
+  "processing_time_seconds": 6.86,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

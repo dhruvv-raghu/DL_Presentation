@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0218",
+  "question_text": "A farmer has a rectangular field with dimensions $2m+7$ and $m-2$. If the field has an area of 51 square units, what is the value of $m$?",
+  "response": "To find the value of m, first expand the given equation:\n\n\\begin{align*}\nA&=(2m+7)(m-2)\\\\\n&=2m^2 -4m + 7m -14\\\\\n&=2m^2 +3m -14.\n\\end{align*}\n\nNow substitute in the value of A:\n\n\\begin{align*}\n51 & =2m^2+3m-14\\\\\n65& =2m^2 +3m\n\\end{align*}\n\nDivide by 2\n\n\\begin{align*}\n32.5&=m^2+\\frac{3}{2}m\\\\\n0&=m^2 + \\frac{3}{2}m -32.5\\\\\n\\end{align*}\n\nSolve for m using the quadratic formula:\n\n\\begin{align*}\nm &=\\frac{-b \\pm \\sqrt{(b)^2-4ac}}{2a}\\\\\nm&=\\frac{-(\\frac{3}{2})\\pm  \\sqrt{(\\frac{3}{2})^2 - 4(1)(-32.5)}}{2(1)}\\\\\nm&= \\frac{-\\frac{3}{2} \\pm  \\sqrt{\\frac{9}{4}+130}}{2}\\\\\nm &=\\frac{-\\frac{3}{2} \\pm  \\sqrt{\\frac{529}{4}}}{2}\\\\\nm &=\\frac{-\\frac{3}{2} \\pm \\frac{23}{2}}{2}\n\\end{align*}\n\nTake the positive option of m:\n\n\\begin{align*}\nm&=\\frac{\\frac{20}{2}}{2}\\\\\nm&= 5\n\\end{align*}\n\nTherefore, the value of m is 5.",
+  "processing_time_seconds": 729.49,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

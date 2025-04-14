@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0321",
+  "question_text": "For what value of $x$ does $3^{2x^{2}-5x+2} = 3^{2x^{2}+7x-4}$? Express your answer as a common fraction.",
+  "response": "## Step 1: Start by setting the exponents equal to each other\nWe are given that $3^{2x^{2}-5x+2} = 3^{2x^{2}+7x-4}$. Since the bases on both sides of the equation are equal, we can set the exponents equal to each other.\n\n## Step 2: Write down the equation with the exponents set equal\n$2x^{2}-5x+2 = 2x^{2}+7x-4$\n\n## Step 3: Subtract $2x^2$ from both sides of the equation\nThis will help simplify the equation and get rid of the quadratic term.\n\n$-5x + 2 = 7x - 4$\n\n## Step 4: Add $5x$ to both sides of the equation\nTo isolate the variable term, we need to move it to one side of the equation.\n\n$2 = 12x - 4$\n\n## Step 5: Add $4$ to both sides of the equation\nThis will help us get rid of the constant term and isolate the variable term even more.\n\n$6 = 12x$\n\n## Step 6: Divide both sides of the equation by $12$\nTo solve for $x$, we need to get it alone on one side of the equation.\n\n$x = \\frac{6}{12}$\n\n## Step 7: Simplify the fraction\nWe can simplify this fraction by dividing both the numerator and denominator by their greatest common divisor, which is $6$.\n\n$x = \\frac{1}{2}$\n\nThe final answer is: $\\boxed{\\frac{1}{2}}$",
+  "processing_time_seconds": 26.24,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

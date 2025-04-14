@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0220",
+  "question_text": "The square root of $2x$ is greater than 3 and less than 4. How many integer values of $x$ satisfy this condition?",
+  "response": "To solve this problem, we can set up two inequalities based on the given conditions.\n\n$$\\sqrt{2x}>3$$\n$$\\sqrt{2x}<4$$\n\nWe square both sides to remove the radical sign:\n\n $$2x>9 \\quad (1)$$ \n$$2x<16 \\quad (2)$$ \n\nNow we can divide by 2:\n\n $$(1) \\implies x>\\frac{9}{2}$$\n$$(2) \\implies x <8$$\n\nThe integer values of $x$ that satisfy this condition are: $\\boxed{5,6,7}$.\n\nTherefore, there are $\\boxed{3}$ integers that satisfy the given conditions.",
+  "processing_time_seconds": 52.08,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

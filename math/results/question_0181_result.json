@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0181",
+  "question_text": "Simplify $\\frac{36}{54}$.",
+  "response": "To simplify the fraction, we need to find the greatest common divisor (GCD) of 36 and 54.\n\nThe factors of 36 are: 1, 2, 3, 4, 6, 9, 12, 18, 36\nThe factors of 54 are: 1, 2, 3, 6, 9, 18, 27, 54\n\nThe greatest common divisor is 18.\n\nNow, we can divide both the numerator and denominator by 18:\n\n$\\frac{36}{54} = \\frac{36 ÷ 18}{54 ÷ 18}$\n$= \\frac{2}{3}$",
+  "processing_time_seconds": 6.58,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

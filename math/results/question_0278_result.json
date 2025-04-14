@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0278",
+  "question_text": "In the equation, $\\frac15+\\frac{5}{x}=\\frac{12}{x}+\\frac{1}{12}$, what is the value of $x$?",
+  "response": "To solve for x, we can start by multiplying both sides of the equation by 60x to eliminate the fractions.\n\n\\begin{align*}\n\\frac15(60x)+\\frac{5}{x}(60x)&=\\left(\\frac12+1\\right)(60x)\\\\\n12x+300&=120x\n\\end{align*}\n\nSubtracting $12x$ from both sides:\n\n\\begin{align*}\n300&=108x\\\\\nx &= \\frac{25}{18}.\n\\end{align*}",
+  "processing_time_seconds": 9.61,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

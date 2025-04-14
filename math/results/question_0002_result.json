@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0002",
+  "question_text": "Increasing the radius of a cylinder by $6$ units increased the volume by $y$ cubic units. Increasing the height of the cylinder by $6$ units also increases the volume by $y$ cubic units. If the original height is $2$, then the original radius is:\n$\\text{(A) } 2 \\qquad \\text{(B) } 4 \\qquad \\text{(C) } 6 \\qquad \\text{(D) } 6\\pi \\qquad \\text{(E) } 8$",
+  "response": "Let the original radius and height of the cylinder be $r$ and $2$, respectively. The volume is given by\n$$V=\\pi r^2(2)=2\\pi r^2.$$\nThe increase in the radius results in an increase of $$y = \\pi (r+6)^2 - 2\\pi r^2.$$This reduces to $$y=12\\pi r + 36\\pi.$$\n\nSimilarly, increasing the height results in an increase of $$y=\\pi(2+r)^2-2\\pi r^2,$$or\n$$y =4\\pi+4r\\pi + r^2\\pi.$$Equating these expressions for $y$, we get\n\\begin{align*}\n12\\pi r + 36\\pi &= 4\\pi + 4r \\pi + r^2\\pi\\\\\n\\Rightarrow\\qquad 0 &= r^2 \\pi -8r \\pi +24 \\pi\\\\\n&= r^2\\pi-8r(3)\\pi\\\\\n&=(r-12)(r+6)\\pi.\n\\end{align*}Since we know that $r>0$, it follows that $\\boxed{\\textbf{(B) }4}$ is the only possible solution.\nFinal Answer: The final answer is 4. I hope it is correct.",
+  "processing_time_seconds": 22.32,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

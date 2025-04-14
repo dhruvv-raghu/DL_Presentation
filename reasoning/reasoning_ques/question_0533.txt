@@ -1,0 +1,1 @@
+b. Find the minimum temperature $T_{L}$ to which the first object can be lowered.

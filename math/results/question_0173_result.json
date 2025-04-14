@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0173",
+  "question_text": "How many multiples of 10 are between 9 and 101?",
+  "response": "To find the number of multiples of 10 between 9 and 101, we can start by finding the first multiple of 10 in that range.\n\nThe first multiple of 10 after 9 is 10.\nThe last multiple of 10 before 101 is 100.\n\nNow, let's count the multiples of 10 between 10 and 100:\n\n10, 20, 30, 40, 50, 60, 70, 80, 90, 100\n\nThere are 10 multiples of 10 between 9 and 101.",
+  "processing_time_seconds": 5.26,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

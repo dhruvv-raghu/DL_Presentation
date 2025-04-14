@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0245",
+  "question_text": "If the system of equations\n\n\\begin{align*}\n2x-y&=a,\\\\\n3y-6x &=b.\n\\end{align*}has a solution, find $\\frac{a}{b},$ assuming $b \\neq 0.$",
+  "response": "We have that\n\n$$a=2x-y,$$\n\nso\n\n$$b=-(3x-3y).$$\n\nTherefore,\n\n$$\\frac{a}{b}=\\frac{2x-y}{-(3x-3y)}=-\\frac{2}{3}.$$",
+  "processing_time_seconds": 2.81,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

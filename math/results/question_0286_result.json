@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0286",
+  "question_text": "If $f (x) = x^2 - 1$, what is the value of $f (-1)$?",
+  "response": "To find the value of f(-1), we need to substitute x = -1 into the function.\n\nf(x) = x^2 - 1\n\nf(-1) = (-1)^2 - 1\n= 1 - 1\n= 0",
+  "processing_time_seconds": 4.75,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

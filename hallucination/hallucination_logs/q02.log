@@ -1,0 +1,16 @@
+Testing Ollama model 'llama3.2'
+Temperature: 0.7
+Max tokens: 1000
+Reading questions from ./reasoning_questions_hallucination/q02...
+Found 1 question files.
+
+Processing question 1/1: question.txt
+Question preview: Was the Iraq War in 2003 legally justified under international law? Provide reasoning supported by
+t...
+✓ Processed question 1/1
+Response saved to ./hallucination_results/q02/question_result.json
+
+All results saved to ./hallucination_results/q02/all_results.json
+
+Testing complete!
+Error during testing: unsupported operand type(s) for +: 'int' and 'str'

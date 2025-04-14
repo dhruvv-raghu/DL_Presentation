@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0212",
+  "question_text": "The value of $\\log_{10}{17}$ is between the consecutive integers $a$ and $b$.  Find $a+b$.",
+  "response": "For the first digit, since $\\log_{10}1=0$, we know that $\\frac{1}{2}<\\log_{10}17<1$.  Since $\\log_{10}100=2$, it follows that $x$ is between 1 and 2. Therefore, $a+b=\\boxed{3}$",
+  "processing_time_seconds": 3.55,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

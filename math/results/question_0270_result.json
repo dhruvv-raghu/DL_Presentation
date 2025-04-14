@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0270",
+  "question_text": "What is the nonnegative difference between the roots for the equation $x^2+30x+180=-36$?",
+  "response": "The quadratic can be simplified to $x^2 + 30x +216 = 0.$ The quadratic formula gives $\\frac{-30 \\pm \\sqrt{900 - 864}}{2} = \\frac{-30 \\pm 6}{2},$ so the two roots are $\\frac{-30 + 6}{2} = -12$ and $\\frac{-30 - 6}{2} = -18.$ The difference between them is $|-12| - |-18|= 30,$ which is the answer.",
+  "processing_time_seconds": 4.85,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

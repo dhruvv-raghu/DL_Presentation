@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0183",
+  "question_text": "Find the sum of all integers $k$ such that $\\binom{23}{4} + \\binom{23}{5} = \\binom{24}{k}$.",
+  "response": "The problem asks us to find the sum of all integers $k$ such that\n$\\binom{23}{4} + \\binom{23}{5} = \\binom{24}{k}$.\nWe can use Pascal's Rule, which states that $\\binom{n-1}{r-1} + \\binom{n-1}{r} = \\binom{n}{r}$.\n\nUsing this rule with $n=24$ and $r=5$, we have\n$\\binom{23}{4} + \\binom{23}{5} = \\binom{24}{5}$.\n\nUsing the same rule again with $n=25$ and $r=5$, we can find another value of $k$ that satisfies the equation. Applying Pascal's Rule in reverse gives us\n$\\binom{25}{5} - \\binom{24}{5} = \\binom{24}{4}$.\nThis is equivalent to $\\binom{24}{5} + \\binom{24}{4} = \\binom{24}{k}$.\n\nNow, we can see that the values of $k$ that satisfy the given equation are 5 and 19. Hence, the sum of these integers is $\\boxed{24}$.",
+  "processing_time_seconds": 12.58,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

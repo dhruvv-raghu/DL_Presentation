@@ -1,0 +1,2 @@
+Find all natural numbers  $n$  for which there exist non-zero and distinct real numbers  $a_1, a_2, \ldots, a_n$  satisfying 
+\[ \left\{a_i+\dfrac{(-1)^i}{a_i} \, \Big | \, 1 \leq i \leq n\right\} = \{a_i \mid 1 \leq i \leq n\}. \]

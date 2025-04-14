@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0290",
+  "question_text": "Evaluate \\begin{align*} (5a^2 - 13a + 4)(2a - 3) \\end{align*} for $a = 1\\frac12$.",
+  "response": "To evaluate the expression $(5a^2 - 13a + 4)(2a - 3)$ for $a = 1\\frac{1}{2}$, we need to follow the order of operations (PEMDAS):\n\n1. Substitute $a = 1\\frac{1}{2} = \\frac{3}{2}$ into the expression.\n2. Expand the first factor: $(5(\\frac{3}{2})^2 - 13(\\frac{3}{2}) + 4)$\n3. Simplify the first factor:\n$= (5\\cdot\\frac{9}{4} - \\frac{39}{2} + 4)$\n$= (\\frac{45}{4} - \\frac{78}{4} + \\frac{16}{4})$\n$= \\frac{-17}{4}$\n\nNow, substitute $a = \\frac{3}{2}$ into the second factor: $(2\\cdot\\frac{3}{2}-3)$\nSimplify the second factor:\n$= 3 - 3$\n$= 0$\n\nMultiply the two factors together:\n\n$\\begin{align*} (\\frac{-17}{4})(0) \\end{align*}$\n\nThe final answer is $0$.",
+  "processing_time_seconds": 19.78,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

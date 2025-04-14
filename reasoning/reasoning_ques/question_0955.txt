@@ -1,0 +1,1 @@
+Prove that a nontrivial finite ring is not a skew field if and only if the equation  $ x^n+y^n=z^n $  has nontrivial solutions in this ring for any natural number  $ n. $ 

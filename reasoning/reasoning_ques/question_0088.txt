@@ -1,0 +1,1 @@
+a. Derive an expression for the deviation of the compass, $\delta \theta$, from north as a function of $K_{b}$, $K_{s}$, and $\theta$.

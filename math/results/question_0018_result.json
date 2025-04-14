@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0018",
+  "question_text": "A plane intersects a right circular cylinder of radius $1$ forming an ellipse. If the major axis of the ellipse of $50\\%$ longer than the minor axis, the length of the major axis is\n$\\textbf{(A)}\\ 1\\qquad \\textbf{(B)}\\ \\frac{3}{2}\\qquad \\textbf{(C)}\\ 2\\qquad \\textbf{(D)}\\ \\frac{9}{4}\\qquad \\textbf{(E)}\\ 3$",
+  "response": "The minor axis is $2$, so the major axis length must be $\\frac32$.",
+  "processing_time_seconds": 2.23,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

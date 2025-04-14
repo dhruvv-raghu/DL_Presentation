@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0215",
+  "question_text": "Suppose that $a$ is inversely proportional to $b$.  Let $a_1,a_2$ be two nonzero values of $a$ such that $\\frac{a_1}{a_2}=\\frac{2}{3}$.  Let the corresponding $b$ values be $b_1,b_2$.  If $b_1,b_2$ are nonzero, find the value of $\\frac{b_1}{b_2}$.",
+  "response": "Since $a$ is inversely proportional to $b$, we can write $ab=k$, where $k$ is a constant.  We can then write $\\frac{a_1}{a_2}=\\frac{k/b_1}{k/b_2}$, or equivalently $\\frac{a_1}{a_2}=\\frac{b_2}{b_1}$.  Therefore $\\frac{b_1}{b_2}=\\frac{3}{2}$.",
+  "processing_time_seconds": 428.68,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

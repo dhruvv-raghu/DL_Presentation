@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0042",
+  "question_text": "Let $A,$ $B,$ $C$ be the angles of a non-right triangle.  Compute\n\\[\\begin{vmatrix} \\tan A & 1  & 1 \\\\ 1 & \\tan B & 1 \\\\ 1 & 1 & \\tan C \\end{vmatrix}.\\]",
+  "response": "We have that\n\n\\begin{align*}\n&\\begin{vmatrix} \\tan A & 1  & 1 \\\\ 1 & \\tan B & 1 \\\\ 1 & 1 & \\tan C \\end{vmatrix}\\\\\n=&\\begin{vmatrix} \\tan A & 1  & 0 \\\\ 1 & \\tan B & 0 \\\\ 1 & 1 & \\tan C - 1 \\end{vmatrix}-\\begin{vmatrix} \\tan A & 0 & 1 \\\\ 1 & 0 & 1 \\\\ 1 & 1 & \\tan C-1 \\end{vmatrix}\\\\\n=&(\\tan A)(\\tan B(\\tan C-1)-1)-0+\\begin{vmatrix} \\tan A & 1 & 0 \\\\ 0 & 0 & 1 \\\\ 1 & -1 & \\tan C-1 \\end{vmatrix}\n&\\\\\n=&\\tan A (\\tan B\\tan C-\\tan B-\\tan C +1)-(\\tan B-\\tan A)(1+\\tan C-1)\\\\\n=&\\tan A (\\tan B\\tan C-\\tan B-\\tan C+1)-(0)\n&\\\\\n=& \\tan A(\\tan B \\tan C - \\tan B - \\tan C + 1)\\\\\n=& \\tan A \\big((\\tan B+\\tan C)\\tan C-(\\tan B+\\tan C)+1\\big)\\\\\n=& \\tan A (\\tan B+\\tan C)(\\tan C-1)+(\\tan B-\\tan C)\\\\\n=&(\\tan A + \\tan B - 1)(0)-\\tan (A+C)\n&\\\\\n=& \\boxed{0}\n\\end{align*}\n\nwhere we used the fact that $A+B+C = 180^{\\circ}$ for a non-right triangle and $\\tan(A+C) = \\frac{\\tan A + \\tan B}{1-\\tan A\\tan B}.$\n\nThe final answer is 0.",
+  "processing_time_seconds": 33.35,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

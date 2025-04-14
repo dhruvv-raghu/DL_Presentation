@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0207",
+  "question_text": "John has five children.  What is the probability that at least half of them are girls? (We can assume a boy is equally likely to be born as is a girl, and vice-versa.)",
+  "response": "To find the probability that at least half of John's children are girls, we need to consider the possible combinations where this occurs.\n\nSince there are five children, \"at least half\" means 3 or more girls. We can calculate the probabilities for each scenario:\n\n1. Exactly 3 girls: The number of ways to choose 3 girls out of 5 is C(5,3) = 10. Each combination has a probability of (0.5)^5, since each child's gender is independent and equally likely to be a boy or girl.\n\n2. Exactly 4 girls: The number of ways to choose 4 girls out of 5 is C(5,4) = 5. Again, each combination has a probability of (0.5)^5.\n\n3. Exactly 5 girls: There's only one way for this to happen: all 5 children are girls. This also has a probability of (0.5)^5.\n\nNow, we add up the probabilities:\n\nP(at least half girls) = P(exactly 3 girls) + P(exactly 4 girls) + P(exactly 5 girls)\n= C(5,3)*(0.5)^5 + C(5,4)*(0.5)^5 + C(5,5)*(0.5)^5\n= 10*(1/32) + 5*(1/32) + 1*(1/32)\n= 16/32\n\nSimplifying the fraction gives us:\n\nP(at least half girls) = 1/2",
+  "processing_time_seconds": 14.21,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

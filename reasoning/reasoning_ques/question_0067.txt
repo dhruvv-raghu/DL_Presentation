@@ -1,0 +1,3 @@
+Let a neighborhood basis of a point  $ x$  of the real line consist of all Lebesgue-measurable sets containing  $ x$  whose density at  $ x$  equals  $ 1$ . Show that this requirement defines a topology that is regular but not normal. 
+
+*A. Csaszar*

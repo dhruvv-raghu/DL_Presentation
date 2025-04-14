@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0119",
+  "question_text": "Simplify this expression to a common fraction:  $\\frac{1}{\\frac{1}{(\\frac{1}{2})^{1}}+\\frac{1}{(\\frac{1}{2})^{2}}+\\frac{1}{(\\frac{1}{2})^{3}}}$",
+  "response": "To simplify the expression, we need to evaluate each term in the denominator separately.\n\n$\\frac{1}{\\left(\\frac{1}{2}\\right)^{1}} = \\frac{1}{\\frac{1}{2}} = 2$\n\n$\\frac{1}{\\left(\\frac{1}{2}\\right)^{2}} = \\frac{1}{\\frac{1}{4}} = 4$\n\n$\\frac{1}{\\left(\\frac{1}{2}\\right)^{3}} = \\frac{1}{\\frac{1}{8}} = 8$\n\nSo, the denominator becomes:\n\n$2 + 4 + 8 = 14$\n\nNow we can simplify the original expression to a common fraction:\n\n$\\frac{1}{\\left(\\frac{1}{2}\\right)^{1} + \\left(\\frac{1}{2}\\right)^{2} + \\left(\\frac{1}{2}\\right)^{3}} = \\frac{1}{14}$",
+  "processing_time_seconds": 15.69,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

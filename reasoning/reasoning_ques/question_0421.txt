@@ -1,0 +1,1 @@
+In a certain country  $10\%$  of the employees get  $90\%$  of the total salary paid in this country. Supposing that the country is divided in several regions, is it possible that in every region the total salary of any 10% of the employees is no greater than  $11\%$  of the total salary paid in this region?

@@ -1,0 +1,1 @@
+Compute the mean translational kinetic energy of a single ideal gas molecule in eV.

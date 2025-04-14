@@ -1,0 +1,1 @@
+Simplify $$\sqrt{6+4\sqrt2}+\sqrt{6-4\sqrt2}.$$

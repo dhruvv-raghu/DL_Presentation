@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0090",
+  "question_text": "An abundant number is a positive integer such that the sum of its proper divisors is greater than the number itself. The number 12 is an abundant number since $1 + 2 + 3 + 4 + 6 > 12$. What is the smallest abundant number that is not a multiple of 6?",
+  "response": "To find the smallest abundant number that is not a multiple of 6, we need to first generate abundant numbers and then check if they are multiples of 6 or not.\n\nHere's how you can do it in Python:\n\n```python\ndef find_smallest_abundant_number():\n    num = 1\n    while True:\n        # Check if the number is abundant\n        sum_divisors = sum(i for i in range(1, num) if num % i == 0)\n        if sum_divisors > num and num % 6 != 0:\n            return num\n        num += 1\n\n# Find and print the smallest abundant number that is not a multiple of 6\nsmallest_abundant_number = find_smallest_abundant_number()\nprint(smallest_abundant_number)\n```\n\nThis code starts from 1, checks each number to see if it's abundant (i.e., its proper divisors sum to more than the number itself), and then checks if it's not a multiple of 6. The first such number is printed out.\n\nWhen you run this program, it will output the smallest abundant number that isn't divisible by 6.",
+  "processing_time_seconds": 17.96,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

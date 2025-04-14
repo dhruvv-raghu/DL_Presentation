@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0142",
+  "question_text": "Convex hexagon $ABCDEF$ has exactly two distinct side lengths. Side $AB$ measures 5 units, and side $BC$ measures 6 units. The perimeter of hexagon $ABCDEF$ is 34 units. How many sides of hexagon $ABCDEF$ have measure 6 units?",
+  "response": "Let's label the number of sides with a length of 6 as x.\n\nThe perimeter of the hexagon will be the sum of all its side lengths, which can be written as:\n\nAB + BC + CD + DE + EF + FA = (5*4) + (6*x)\n\nWe know that the total perimeter is 34 units. So we set up an equation and solve for x:\n\n(5*4) + (6*x) = 34\n\n20 + 6x = 34\n\nSubtracting 20 from both sides of the equation, we have:\n6x = 14\nDividing both sides by 6 gives us:\nx = 7/3 \n\nSince you can't have a fraction of a side of a hexagon (a hexagon has six equal sides), x must be an integer. However, we got that x is 7/3.\n\nThis means that the answer doesn't make sense in this case.",
+  "processing_time_seconds": 15.88,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

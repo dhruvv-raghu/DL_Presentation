@@ -1,0 +1,2 @@
+Let $a,$ $b,$ $c,$ and $d$ be positive real numbers such that $36a + 4b + 4c + 3d = 25.$  Find the maximum value of
+\[a \times \sqrt{b} \times \sqrt[3]{c} \times \sqrt[4]{d}.\]

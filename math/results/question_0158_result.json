@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0158",
+  "question_text": "What is the largest multiple of 7 less than 50?",
+  "response": "The multiples of 7 are:\n\n7, 14, 21, 28, 35, 42, 49\n\nThe largest multiple of 7 that is less than 50 is 49.",
+  "processing_time_seconds": 1.98,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

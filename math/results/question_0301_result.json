@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0301",
+  "question_text": "What is the sum of the integers that are both greater than 3 and less than 12?",
+  "response": "To find the sum of the integers between 3 and 12, we need to first identify all the integers in this range. The integers between 3 and 12 are:\n\n4, 5, 6, 7, 8, 9, 10, 11\n\nThe sum of these integers is:\n\n4 + 5 = 9\n9 + 6 = 15\n15 + 7 = 22\n22 + 8 = 30\n30 + 9 = 39\n39 + 10 = 49\n49 + 11 = 60\n\nSo, the sum of the integers between 3 and 12 is 60.",
+  "processing_time_seconds": 10.69,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

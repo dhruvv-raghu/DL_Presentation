@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0156",
+  "question_text": "What is the measure, in degrees, of one interior angle of a regular hexagon?",
+  "response": "The sum of the interior angles of a polygon can be calculated using the formula (n-2) × 180, where n is the number of sides.\n\nFor a regular hexagon, which has 6 sides, the sum of its interior angles would be:\n\n(6-2) × 180 = 4 × 180 = 720 degrees\n\nSince all the interior angles are equal in a regular polygon, we can divide the total by the number of angles to find the measure of one angle:\n\n720 ÷ 6 = 120 degrees\n\nTherefore, the measure of one interior angle of a regular hexagon is 120 degrees.",
+  "processing_time_seconds": 5.66,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

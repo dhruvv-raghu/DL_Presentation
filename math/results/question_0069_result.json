@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0069",
+  "question_text": "Let\n\\[x^8 - 98x^4 + 1 = p(x) q(x),\\]where $p(x)$ and $q(x)$ are monic, non-constant polynomials with integer coefficients.  Find $p(1) + q(1).$",
+  "response": "The given polynomial can be factored as\n\\[x^8 - 98x^4 + 1 = \\left(x^4 - 99x^2 + 1\\right)\\left(x^4+99x^2+1\\right).\\]\nThis means that $\\p{x}$ and $q(x)$ must equal $x^4-99x^2+1$ and $x^4+99x^2+1$, respectively. So, we can evaluate these at 1 to get\n\\[p(1) = (1)^4 -99(1)^2 + 1 = \\boxed{-97}\\]\nand\n\\begin{align*}\nq(1)&amp;=\\left(1\\right)^4+99\\left(1\\right)^2+1\\\\\n&amp;=100.\n\\end{align*}Then, we have that $p(1) + q(1) = -97+100 = 3.$\n\nThe final answer is: $\\boxed{3}$",
+  "processing_time_seconds": 15.84,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

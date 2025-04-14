@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0292",
+  "question_text": "The quadratic $x^2-3x+9=x+41$ has two solutions.  What is the positive difference between these solutions?",
+  "response": "To find the positive difference between the solutions of the quadratic equation, we need to first solve for the roots.\n\nFirst, let's simplify and rewrite the given quadratic as a standard form:\n\nx^2 - 3x + 9 = x + 41\n\nSubtracting x and 41 from both sides, we get:\n\nx^2 - 4x - 32 = 0\n\nNow, we can solve for the roots of this quadratic equation by using the quadratic formula. The quadratic formula is given by:\nx = (-b ± √(b^2 - 4ac)) / 2a\nIn our case, a=1, b=-4 and c=-32.\n\nSubstituting these values into the quadratic formula, we get:\n\nx = (4 ± √((-4)^2 - 4(1)(-32))) / 2(1)\nx = (4 ± √(16 + 128)) / 2\nx = (4 ± √144) / 2\n\nSimplifying further,\nx = (4 ± 12) / 2\n\nTherefore, we have two roots:\nx_1 = (4+12)/2 = 8 and x_2= (4-12)/2=-4\n\nNow that we have the solutions to the equation, we can find the positive difference between these two solutions:\n\nPositive Difference = |x_1 - x_2| \n= |(8) - (-4)| \n= |(8+4)| \n= 12.\n\nSo, the positive difference between the two solutions is 12.",
+  "processing_time_seconds": 23.75,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

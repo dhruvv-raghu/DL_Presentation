@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0291",
+  "question_text": "There are 12 ordered pairs of integers $(x,y)$ that satisfy $x^2 + y^2 = 25$. What is the greatest possible sum $x+y$?",
+  "response": "The equation $x^2 + y^2 = 25$ represents a circle with radius five centered at the origin. To maximize the value of $x+y$, we need to find the point on this circle that has the largest possible sum of its coordinates.\n\nThis can be done by graphing the circle and finding the points where it intersects with the line $y=x$. By symmetry, these points will have equal sums.\n\nThe intersection points are $(3,4)$ and $(-3,-4)$. The point $(3,4)$ has a sum of $7$, which is greater than any other point on the circle. Therefore, the greatest possible sum $x+y$ is $\\boxed{7}.$",
+  "processing_time_seconds": 11.09,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

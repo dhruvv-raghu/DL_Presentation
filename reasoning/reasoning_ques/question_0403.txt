@@ -1,0 +1,2 @@
+The positive numbers  $a_1, a_2,...$  satisfy  $a_1 = 1$  and  $(m+n)a_{m+n }\le  a_m +a_n$  for all positive integers  $m$  and  $n$ . Show that  $\frac{1}{a_{200}} > 4  \cdot 10^7$  .
+.

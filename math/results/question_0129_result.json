@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0129",
+  "question_text": "Gage skated 1 hr 15 min each day for 5 days and 1 hr 30 min each day for 3 days.  How many minutes would he have to skate the ninth day in order to average 85 minutes of skating each day for the entire time?",
+  "response": "To find out how many minutes Gage skated in total, first calculate his daily skating times in minutes.\n\n5 days at 1 hour and 15 minutes (75 minutes) per day = 375 minutes\n3 days at 1 hour and 30 minutes (90 minutes) per day = 270 minutes\n\nTotal skating time for the first 8 days is:\n375 + 270 = 645 minutes\n\nThe target average daily time to reach 85 minutes over a 9-day period is:\n85 * 9 = 765 minutes\n\nSubtracting his total skate times from this means subtracting 645. \n765 - 645 = 120 minutes.\n\nSo he would need to skate for 120 minutes on the ninth day to meet his target average of 85 minutes per day.",
+  "processing_time_seconds": 13.1,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

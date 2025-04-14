@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0227",
+  "question_text": "A woman labels the squares of a very large chessboard $1$ through $64$. On each square $k$, the woman puts $2^k$ grains of rice. How many more grains of rice are placed on the $10^{th}$ square than on the first $8$ squares combined?",
+  "response": "The number of grains on the 10th square is $2^{10} = 1024$. The number of grains on the first 8 squares combined can be calculated using the formula for the sum of a geometric sequence. This is equal to $\\frac{a(r^n - 1)}{(r-1)}$, where $a$ is the first term, $r$ is the common ratio and $n$ is the number of terms in the sequence.\n\nFor this problem, we have that $a=2^1 = 2, r = 2,$ and $n = 8$. Substituting these values into the formula gives us\n\n$$\\frac{2(2^{8} - 1)}{(2-1)} = 2^{9}-2=510.$$\n\nFinally, we can subtract this value from the number of grains on the $10^{th}$ square to get the final answer.",
+  "processing_time_seconds": 72.93,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

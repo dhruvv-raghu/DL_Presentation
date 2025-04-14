@@ -1,0 +1,2 @@
+Find all numbers  $ n $  for which there exist three (not necessarily distinct) roots of unity of order  $ n $  whose sum is  $ 
+1. $ 

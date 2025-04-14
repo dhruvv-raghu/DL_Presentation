@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0075",
+  "question_text": "Grady distributed $x$ pieces of candy evenly among nine Halloween bags such that every bag received the greatest possible number of whole pieces of candy, but some candy was left over. What is the greatest possible number of pieces that could have been left over?",
+  "response": "The greatest possible remainder must be 9 less than the divisor since any amount more than this would result in a group size greater than one.\n\nSince there are nine bags, this value must be $9-1=\\boxed{8}$.\n\nThe final answer is 8.",
+  "processing_time_seconds": 4.57,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

@@ -1,0 +1,1 @@
+What is the units digit when $5^4$ is multiplied out?

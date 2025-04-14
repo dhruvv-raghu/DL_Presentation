@@ -1,0 +1,2 @@
+(a)	Decide whether there exist two decimal digits  $a$  and  $b$ , such that every integer with decimal representation  $ab222 ... 231$  is divisible by  $73$ .
+(b)	Decide whether there exist two decimal digits  $c$  and  $d$ , such that every integer with decimal representation  $cd222... 231$  is divisible by  $79$ .

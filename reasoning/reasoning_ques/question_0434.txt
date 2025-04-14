@@ -1,0 +1,1 @@
+ii. Estimate the time $t_{2}$ needed for the radius to shrink from $r_{0}$ to $r_{2}=0.95 r_{0}$. Neglect the change of the gravity field at the position of a falling gas particle.

@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0147",
+  "question_text": "What is the largest prime factor of $3328$?",
+  "response": "To find the largest prime factor of 3328, we can start by dividing it by the smallest prime number, which is 2.\n\n3328 ÷ 2 = 1664\n1664 ÷ 2 = 832\n832 ÷ 2 = 416\n416 ÷ 2 = 208\n208 ÷ 2 = 104\n104 ÷ 2 = 52\n52 ÷ 2 = 26\n\nWe can stop here because 26 is no longer divisible by 2. Now, we need to find the largest prime factor of 26.\n\n26 ÷ 2 = 13 (since 13 is a prime number)\n\nTherefore, the largest prime factor of 3328 is 13.",
+  "processing_time_seconds": 12.06,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

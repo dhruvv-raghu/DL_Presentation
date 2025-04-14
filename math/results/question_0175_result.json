@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0175",
+  "question_text": "How many two-digit primes have a ones digit of 1?",
+  "response": "The two-digit primes with a ones digit of 1 are:\n\n11, 31, 41, 61, and 71.\n\nThere are five such numbers.",
+  "processing_time_seconds": 1.65,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

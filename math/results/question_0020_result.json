@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0020",
+  "question_text": "A cube with an edge length of 4 units has the same volume as a square-based pyramid with base edge lengths of 8 units and a height of $h$ units. What is the value of $h$?",
+  "response": "To find the value of \\( h \\), we need to equate the volumes of the cube and the pyramid.\n\nThe volume of a cube with an edge length of 4 units is:\n\\[ V_{cube} = (edge)^3 = 4^3 = 64 \\text{ cubic units} \\]\n\nThe volume of a square-based pyramid with base edge lengths of 8 units and height \\( h \\) is:\n\\[ V_{pyramid} = \\frac{1}{3}(base\\_area)(height) = \\frac{1}{3}(8^2)(h) = \\frac{64}{3}h \\]\n\nEquating the volumes, we get:\n\n\\[ 64 = \\frac{64}{3}h \\]\n\nTo solve for \\( h \\), multiply both sides by \\( \\frac{3}{64} \\):\n\n\\[ h = \\frac{3}{64}(64) \\]\n\\[ h = 3 \\text{ units} \\]",
+  "processing_time_seconds": 15.42,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

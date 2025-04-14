@@ -1,0 +1,12 @@
+a. Consider an atom in the interior of this container of volume $V$. Suppose the potential energy of the interaction is given by
+
+
+$$
+
+u(r)= \begin{cases}0 & r<d \\ -\epsilon\left(\frac{d}{r}\right)^{6} & r \geq d\end{cases}
+
+$$
+
+
+
+where $d \ll V^{1 / 3}$ is the minimum allowed distance between two atoms. Assume the gas is uniformly distributed within the container, what is the average potential energy of this atom? Write your answer in terms of $a^{\prime}=\frac{2 \pi d^{3} \epsilon}{3}, N$, and $V$.

@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0072",
+  "question_text": "If $x$ is a real number and $\\lceil x \\rceil = 11,$ how many possible values are there for $\\lceil x^2 \\rceil$?",
+  "response": "The final answer is 10.  \n\n To solve this, we must find the range of $x^2$. First consider that if $x$ is a real number and its ceiling value is $11$, it means that $10 < x\\leq 11.$ Therefore, in order for $\\lceil x \\rceil = 11,$ $x$ can take on values from just above 10 to exactly 11. Now, let's find the range of values that $x^2$ will take.\n\nWhen we square any number between 10 and 11 (inclusive), we get values greater than or equal to 100 but strictly less than 121. Therefore, if $\\lceil x \\rceil = 11,$ then $\\lceil x^2 \\rceil$ can be any of the numbers from $101$ through $120$, giving us a total of $20-10+1=11$ possible values for $\\lceil x^2 \\rceil$.",
+  "processing_time_seconds": 16.2,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

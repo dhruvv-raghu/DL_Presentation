@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0155",
+  "question_text": "Find $1+2\\cdot3-4+5.$",
+  "response": "To find the value of this expression, we need to follow the order of operations (PEMDAS):\n\n1. Multiply 2 and 3: $2\\cdot3 = 6$\n2. Add 1 and 6: $1 + 6 = 7$\n3. Subtract 4 from 7: $7 - 4 = 3$\n4. Add 5 to 3: $3 + 5 = 8$\n\nSo the final answer is $\\boxed{8}$.",
+  "processing_time_seconds": 4.55,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

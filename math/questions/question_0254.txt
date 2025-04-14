@@ -1,0 +1,1 @@
+What is the sum of the seven smallest distinct positive integer multiples of 9?

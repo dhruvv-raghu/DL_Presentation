@@ -1,0 +1,3 @@
+The Fibonacci numbers  $F_1, F_2, F_3, \ldots$  are defined by  $F_1 = F_2 = 1$  and  $F_{n+2} = F_{n+1} + F_n$  for each integer  $n \ge 1$ . Let  $P$  be the unique polynomial of least degree for which  $P(n) = F_n$  for all integers  $1 \le n \le 10$ . Compute the integer  $m$  for which \[P(100) - \sum_{k=11}^{98} P(k) = \frac{m}{10} \dbinom{98}{9} + 144.\]
+
+*Proposed by Michael Tang*

@@ -1,0 +1,1 @@
+Suppose that  $X$  and  $Y$  are two metric spaces and  $f:X \longrightarrow Y$  is a continious function. Also for every compact set  $K \subseteq Y$ , it's pre-image  $f^{pre}(K)$  is a compact set in  $X$ . Prove that  $f$  is a closed function, i.e for every close set  $C\subseteq X$ , it's image  $f(C)$  is a closed subset of  $Y$ .

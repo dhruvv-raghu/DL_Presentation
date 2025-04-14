@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0189",
+  "question_text": "Given that $\\binom{17}{7}=19448$, $\\binom{17}{8}=24310$ and $\\binom{17}{9}=24310$, calculate $\\binom{19}{9}$.",
+  "response": "To find $\\binom{19}{9}$, we can use the identity:\n\n$$\\binom{n+1}{k} = \\binom{n}{k-1} + \\binom{n}{k}.$$\n\nUsing this identity, we get:\n\n$$\\binom{19}{9} = \\binom{18}{8} + \\binom{18}{9}.$$Now,\n\n$$\\binom{18}{8}=\\frac{18!}{8!(18-8)!}=\\frac{18*17*16*15*14*13*12*11}{8*7*6*5*4*3*2*1}=43758,\\\\ \\binom{18}{9}=\\frac{18!}{9!(18-9)!}=\\frac{18*17*16*15*14*13*12*11*10}{9*8*7*6*5*4*3*2*1} = 92378.$$\n\n$$\\binom{19}{9} = \\binom{18}{8} + \\binom{18}{9}=43758+92378=136036.$$",
+  "processing_time_seconds": 10.87,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

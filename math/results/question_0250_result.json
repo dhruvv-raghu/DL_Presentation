@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0250",
+  "question_text": "A line through the points $(2, -9)$ and $(j, 17)$ is parallel to the line $2x + 3y = 21$. What is the value of $j$?",
+  "response": "To find the slope of the given line, we first convert it into the standard form $Ax + By = C$. \n\n$2x + 3y - 21 = 0$\n\nNow we solve for y.\n\n$3y = -2x + 21$\n$y = \\frac{-2}{3} x + 7$\n\nThe slope is $\\frac{-2}{3}$, so the line $2x + 3y = 21$ has a slope of $\\frac{-2}{3}$. \n\nThe slope between any two points $(x_1,y_1)$ and $(x_2,y_2)$ is given by:\n\n$\\frac{y_2-y_1}{x_2-x_1}$.\n\nUsing this, the line through $(2,-9)$ and $(j, 17)$ also has a slope of $\\frac{-2}{3}$. \n\n$\\frac{17-(-9)}{(j)-2} = \\frac{-2}{3}$\n\n$\\frac{26}{(j)-2} = \\frac{-2}{3}$\n\n$26 * 3 = (-2) * (j - 2)$\n\n78 = $-2(j-2)$ \n\n$78=-2j+4$\n-74 = -2j \n$j=37$\n\nThe final answer is 37.",
+  "processing_time_seconds": 12.36,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

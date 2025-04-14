@@ -1,0 +1,1 @@
+Let  $f : Q \to  Q$  be a function satisfying the equation  $f(x + y) = f(x) + f(y) + 2547$  for all rational numbers  $x, y$ . If  $f(2004) = 2547$ , find  $f(2547)$ .

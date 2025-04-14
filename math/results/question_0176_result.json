@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0176",
+  "question_text": "How many digits does the smallest repeating block in the decimal expansion of $\\frac{5}{7}$ contain?",
+  "response": "To convert a fraction to decimal, we need to divide the numerator by denominator.\n\nIn this case, we have 5/7. \n\nDividing 5 by 7 gives us:\n\n0.714285714285...\n\nThe repeating block is \"714285\". It contains 6 digits. Therefore, the smallest repeating block in the decimal expansion of 5/7 contains 6 digits.",
+  "processing_time_seconds": 3.55,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

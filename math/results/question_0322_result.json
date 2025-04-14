@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0322",
+  "question_text": "Solve for $x$: $\\frac{5x}{(x+3)} - \\frac3{(x+3)} = \\frac1{(x+3)}$",
+  "response": "To solve for x, we can start by combining the fractions on the left-hand side of the equation:\n\n$$\\frac{5x}{(x+3)} - \\frac3{(x+3)} = \\frac{5x-3}{(x+3)}$$\n\nNow the equation becomes:\n\n$$\\frac{5x-3}{(x+3)} = \\frac1{(x+3)}$$\n\nSince the denominators are the same, we can equate the numerators:\n\n$$5x - 3 = 1$$\n\nAdding 3 to both sides gives us:\n\n$$5x = 4$$\n\nDividing both sides by 5 gives us:\n\n$$x = \\frac{4}{5}$$",
+  "processing_time_seconds": 11.31,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

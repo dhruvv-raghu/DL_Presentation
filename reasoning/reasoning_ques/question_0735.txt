@@ -1,0 +1,1 @@
+iv. At some radius $r_{3} \ll r_{0}$, the gas becomes dense enough to be opaque to the heat radiation. Calculate the amount of heat $Q$ radiated away during the collapse from the radius $r_{0}$ down to $r_{3}$.

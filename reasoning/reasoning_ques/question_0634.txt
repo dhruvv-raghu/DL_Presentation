@@ -1,0 +1,1 @@
+ $K(x, y), f(x)$  and  $g(x)$  are positive and continuous for  $x, y \subseteq [0, 1]$ .  $\int_{0}^{1} f(y) K(x, y) dy = g(x)$  and  $\int_{0}^{1} g(y) K(x, y) dy = f(x)$  for all  $x \subseteq [0, 1]$ . Show that  $f = g$  on  $[0, 1]$ .

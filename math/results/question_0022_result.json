@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0022",
+  "question_text": "Compute $\\arcsin (-1).$  Express your answer in radians.",
+  "response": "$\\arcsin(-1)$ is equal to $-\\frac{\\pi}{2}$.",
+  "processing_time_seconds": 1.96,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

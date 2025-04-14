@@ -1,0 +1,1 @@
+For the integer  $n>1$ , define  $D(n)=\{ a-b\mid ab=n, a>b>0, a,b\in\mathbb{N} \}$ . Prove that for any integer  $k>1$ , there exists pairwise distinct positive integers  $n_1,n_2,\ldots,n_k$  such that  $n_1,\ldots,n_k>1$  and  $|D(n_1)\cap D(n_2)\cap\cdots\cap D(n_k)|\geq 2$ .

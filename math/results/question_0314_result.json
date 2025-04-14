@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0314",
+  "question_text": "Rationalize the denominator of $\\frac{3}{2\\sqrt[3]{5}}$. The answer can be written in the form of $\\frac{A\\sqrt[3]{B}}{C}$, where $A$, $B$, and $C$ are integers, $C$ is positive, and $B$ is not divisible by the cube of any prime. Find $A+B+C$.",
+  "response": "## Step 1: To rationalize the denominator, we need to eliminate the cube root from the denominator.\nWe can do this by multiplying both the numerator and the denominator by a suitable expression that will result in the cube root being eliminated.\n\n## Step 2: We need to find an expression to multiply with the denominator to remove the cube root.\nSince the denominator is $2\\sqrt[3]{5}$, we want to eliminate $\\sqrt[3]{5}$. To do this, we can multiply both the numerator and the denominator by $\\sqrt[3]{5^2}$.\n\n## Step 3: Multiply both the numerator and the denominator by $\\sqrt[3]{5^2}$.\n$\\frac{3}{2\\sqrt[3]{5}} \\times \\frac{\\sqrt[3]{5^2}}{\\sqrt[3]{5^2}} = \\frac{3\\sqrt[3]{5^2}}{2\\sqrt[3]{5}\\sqrt[3]{5^2}}$\n\n## Step 4: Simplify the denominator by combining like terms under the radical.\nThe denominator simplifies to $2\\sqrt[3]{5^3}$.\n\n## Step 5: Evaluate $\\sqrt[3]{5^3}$.\nSince $\\sqrt[3]{a^n} = a$, we can simplify further. In this case, it becomes $2 \\times 5 = 10$.\n\n## Step 6: Rewrite the fraction with the simplified denominator and original numerator.\n$\\frac{3\\sqrt[3]{5^2}}{2 \\times 5}$\n\n## Step 7: Further simplify if possible.\nSimplification of this form isn't directly necessary, but let's express it in terms required for the solution format given.\n\n## Step 8: Identify A, B, and C according to the format given by the problem (A* cuberoot(B) / C).\nHere, $A = 3$, $B = 25$ since $\\sqrt[3]{5^2} = \\sqrt[3]{25}$, and $C = 10$.\n\n## Step 9: Compute A + B + C.\nSumming these values gives us the solution to the problem. Thus, $A+B+C = 3+25+10$\n\nThe final answer is: $\\boxed{38}$",
+  "processing_time_seconds": 35.95,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0268",
+  "question_text": "Let \\[f(x) =\n\\begin{cases}\n9x+16 &\\text{if }x<2, \\\\\n2x-14&\\text{if }x\\ge2.\n\\end{cases}\n\\]If $f(x)=-2$, find the sum of all possible values of $x$.",
+  "response": "To solve for x, we need to consider two cases: when $x<2$ and when $x\\geq 2$.\n\nFor $x<2$, we have:\n\n$$9x+16 = -2 \\implies 9x = -18 \\implies x = -2.$$\n\nSince $-2 < 2$, this solution is valid.\n\nFor $x \\geq 2$, we have:\n\n$$2x-14 = -2 \\implies 2x=12\\implies x=6.$$\n\nSince $6\\geq 2$, this solution is also valid.\n\nTherefore, the possible values of x are $-2$ and $6$. The sum of these two values is $-2+6=\\boxed{4}$",
+  "processing_time_seconds": 7.29,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

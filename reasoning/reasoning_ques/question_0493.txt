@@ -1,0 +1,8 @@
+Consider the natural implementation of computing Fibonacci numbers:
+
+\begin{tabular}{l}
+1: \textbf{FUNCTION}  $\text{FIB}(n)$ : 
+2: $\qquad$  \textbf{IF}  $n = 0$  \textbf{OR}  $n = 1$  \textbf{RETURN} 1 
+3: $\qquad$  \textbf{RETURN}  $\text{FIB}(n-1) + \text{FIB}(n-2)$ \end{tabular}
+
+When  $\text{FIB}(10)$  is evaluated, how many recursive calls to  $\text{FIB}$  occur?

@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0044",
+  "question_text": "The graph of the equation \\[ x^2 + 4y^2 - 10x + 56y = k\\]is a non-degenerate ellipse if and only if $k > a.$ What is $a?$",
+  "response": "## Step 1: Write down the given equation\nThe given equation of the ellipse is \\[ x^2 + 4y^2 - 10x + 56y = k.\\]\n\n## Step 2: Complete the square to rewrite the equation in standard form\nTo complete the square, we first group the $x$ and $y$ terms together:\n\\begin{align*}\n& x^2 + 4y^2 - 10x + 56y = k \\\\\n\\Rightarrow \\quad & (x^2 - 10x) + 4(y^2 + 14y) = k\n\\end{align*}\n\n## Step 3: Complete the square for both $x$ and $y$\nCompleting the square for $x$, we have $(x - 5)^2 - 25$. Completing the square for $y$, we have $4(y + 7)^2 - 196$. Therefore, \\begin{align*}\n& (x^2 - 10x) + 4(y^2 + 14y) = k \\\\\n\\Rightarrow \\quad & (x-5)^2-25+4(y+7)^2-196=k\\\\\n\\Rightarrow \\quad & (x-5)^2+4(y+7)^2=k+221.\n\\end{align*}\n\n## Step 4: Rewrite the equation in standard form for an ellipse\nWe now have that $(x-5)^2 + 4(y+7)^2 = k + 221$. Therefore, \\begin{align*}\n& (x-5)^2 + 4(y+7)^2=k+221\\\\\n\\Rightarrow \\quad & \\frac{(x-5)^2}{k+221}+\\frac{(y+7)^2}{(k+221)/4}=1.\n\\end{align*}\n\n## Step 5: Determine the condition for a non-degenerate ellipse\nFor this to be a non-degenerate ellipse, we must have $k + 221 > 0$, or equivalently $\\boxed{k> -221}$.\n\nThe final answer is: $\\boxed{-221}$",
+  "processing_time_seconds": 33.1,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

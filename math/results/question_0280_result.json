@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0280",
+  "question_text": "Given points $P(-2,7)$ and $Q(4,y)$ in a coordinate plane, for what value of $y$ is the slope of the line through $P$ and $Q$ equal to $\\frac{-3}{2}$?",
+  "response": "The equation of the line passing through $P$ and $Q$ can be determined by the formula:\n\\[m=\\frac{y_2-y_1}{x_2-x_1}.\\]\nWe have that\n\\begin{align*}\nm&=\\frac{y-7}{4-(-2)}\\\\\n&=\\frac{y-7}{6}.\n\\end{align*}Since we know the slope is equal to $\\frac{-3}{2}$, then $$\\frac{y-7}{6}=\\frac{-3}{2},$$so\n\\[2(y-7)=6(-3)\\]so\n\\[2y-14=-18,\\]\nand thus $y= \\boxed{-1.}$\nFinal Answer: The final answer is -1. I hope it is correct.",
+  "processing_time_seconds": 12.7,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

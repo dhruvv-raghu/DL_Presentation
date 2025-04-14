@@ -1,0 +1,1 @@
+Let  $ a_1, a_2, \ldots, a_{2n}$  be  $ 2n$  real numbers satisfying the condition  $ \sum_{i \equal{} 1}^{2n \minus{} 1} (a_{i \plus{} 1} \minus{} a_i)^2 \equal{} 1$ .  Find the greatest possible value of  $ (a_{n \plus{} 1} \plus{} a_{n \plus{} 2} \plus{} \ldots \plus{} a_{2n}) \minus{} (a_1 \plus{} a_2 \plus{} \ldots \plus{} a_n)$ .

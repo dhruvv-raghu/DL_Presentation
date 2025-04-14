@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0080",
+  "question_text": "When the binary number $100101110010_2$ is divided by 4, what is the remainder (give your answer in base 10)?",
+  "response": "Error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)",
+  "processing_time_seconds": 120.01,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0241",
+  "question_text": "If $x - y = 12$ and $x + y = 6$, what is the value of $y$?",
+  "response": "To solve this problem, we can use the method of substitution or elimination. Here, we'll use the elimination method.\n\nGiven:\n\n$x - y = 12 ... (1)$\n$x + y = 6 ... (2)$\n\nIf we add $(1)$ and $(2)$ together, we get:\n\n$(x - y) + (x + y) = 12 + 6$\n\nSimplifying this gives us $2x = 18$, which means that $x = 9$.\n\nNow that we have the value of $x$, we can substitute it back into one of our original equations. We'll use $(1)$:\n\n$x - y = 12$\n$9 - y = 12$\n\nSolving for $y$ gives us:\n\n$-y = 3$\n$y = -3$\n\nTherefore, the value of $y$ is $-3$.",
+  "processing_time_seconds": 7.9,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0096",
+  "question_text": "How many distinct positive factors does 32 have?",
+  "response": "The prime factorization of 32 is:\n\n32 = 2^5\n\nTo find the number of distinct positive factors, we can use the formula:\n\nNumber of factors = (a + 1)\n\nwhere a is the exponent of the highest power of each prime factor.\n\nIn this case, the exponent is 5, so:\n\nNumber of factors = (5 + 1) = 6\n\nTherefore, 32 has 6 distinct positive factors: 1, 2, 4, 8, 16, and 32.",
+  "processing_time_seconds": 8.2,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

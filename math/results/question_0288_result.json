@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0288",
+  "question_text": "If $(x+2)(x-3)=14$, find the product of the possible values of $x$.",
+  "response": "We have that \\begin{align*}\n(x+2)(x-3)&amp;=14\\\\\n\\Rightarrow\\qquad x^2-x-6&amp;=14\\\\\n\\Rightarrow\\qquad x^2-x-20&amp;=0.\n\\end{align*}Factoring the quadratic, we have $(x-5)(x+4)=0.$ This implies that $x$ can equal either $5$ or $-4$, and thus their product is $\\boxed{-20}$.\nFinal Answer: The final answer is -20. I hope it is correct.",
+  "processing_time_seconds": 8.99,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

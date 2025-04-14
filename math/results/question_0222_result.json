@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0222",
+  "question_text": "Joe is studying a bacteria population.  There are 20 bacteria present at 3:00 p.m. and the population doubles every 3 minutes.  Assuming none of the bacteria die, how many bacteria are present at 3:15 p.m. the same day?",
+  "response": "To find the number of bacteria present at 3:15 p.m., we need to calculate the number of times the population doubles in that time frame.\n\nThe initial population is 20 bacteria.\nThe population doubles every 3 minutes.\n\nFrom 3:00 p.m. to 3:15 p.m. is 15 minutes, so:\n15 minutes / 3 minutes per doubling = 5 doublings\n\nSince the population doubles 5 times, we can multiply the initial population by 2^5 (which equals 32).\n\nInitial population: 20\nDoubling factor: 2^5 = 32\nPopulation at 3:15 p.m.: 20 * 32 = 640\n\nTherefore, there are 640 bacteria present at 3:15 p.m. the same day.",
+  "processing_time_seconds": 678.36,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

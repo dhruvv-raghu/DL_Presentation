@@ -1,0 +1,1 @@
+The first 2007 positive integers are each written in base 3.  How many of these base-3 representations are palindromes?  (A palindrome is a number that reads the same forward and backward.)

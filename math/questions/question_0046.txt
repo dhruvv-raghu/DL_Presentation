@@ -1,0 +1,1 @@
+Find the focus of the parabola $y = -3x^2 - 6x.$

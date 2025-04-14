@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0315",
+  "question_text": "The sum of Jim's weight and Bob's weight is 180 pounds. If you subtract Jim's weight from Bob's weight, you get half of Bob's weight. How many pounds does Bob weigh?",
+  "response": "Let's call Jim's weight x and Bob's weight y.\n\nWe know that the sum of their weights is 180 pounds, so we can write an equation:\n\nx + y = 180\n\nWe also know that if you subtract Jim's weight from Bob's weight, you get half of Bob's weight. This can be written as:\n\ny - x = y/2\n\nTo solve for y (Bob's weight), let's start by multiplying both sides of the second equation by 2 to eliminate the fraction:\n\n2(y - x) = y\n2y - 2x = y\n\nNow, let's add 2x to both sides of the equation:\n\n2y = y + 2x\n\nSubtracting y from both sides gives us:\n\ny = 2x\n\nNow, substitute this expression for y into the first equation (x + y = 180):\n\nx + 2x = 180\n3x = 180\n\nDividing both sides by 3:\n\nx = 60\n\nNow that we have Jim's weight (x), we can find Bob's weight (y) using the equation:\n\ny = 2x\ny = 2(60)\ny = 120\n\nSo, Bob weighs 120 pounds.",
+  "processing_time_seconds": 18.81,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

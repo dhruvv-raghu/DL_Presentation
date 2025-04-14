@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0099",
+  "question_text": "When three positive integers are divided by $47$, the remainders are $25$, $20$, and $3$, respectively.\n\nWhen the sum of the three integers is divided by $47$, what is the remainder?",
+  "response": "The problem describes the following situation: \n\nLet's denote the three integers as A, B, and C. We know that when these integers are divided by 47, their remainders will be 25, 20, and 3 respectively.\n\nWe can represent the integers using equations:\n\nA = 47q + 25\nB = 47r + 20\nC = 47s + 3\n\nwhere q,r,s are some integers.\n\nNow let's find the sum of A,B,C.\n\nThe sum S is given by: \nS = A+B+C \n\nUsing the previous equations, we can rewrite this as:\nS = (47q+25) +(47r+20)+(47s+3)\n\nCombining like terms yields:\nS = 47(q+r+s)+48\n\nWhen dividing S by 47, the term with 47 is clearly divisible without leaving any remainder, so what remains to be considered for finding the final answer is the remaining constant term, which is 48.\n\nDividing 48 by 47 gives us: \n\n48/47 = 1 R1\n\nSince we are looking for the remainder when S is divided by 47, we can see that this value will also be a remainder.\n\nSo, in order to find the final answer, we just need to write down this remainder.",
+  "processing_time_seconds": 19.92,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

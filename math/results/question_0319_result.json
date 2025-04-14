@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0319",
+  "question_text": "Solve for $r$: $$\\frac{r+3}{r-2} = \\frac{r-1}{r+1}.$$Express your answer as a fraction.",
+  "response": "## Step 1: Write down the given equation\nThe given equation is $\\frac{r+3}{r-2} = \\frac{r-1}{r+1}$.\n\n## Step 2: Cross-multiply to eliminate fractions\nTo get rid of the fractions, we can cross-multiply. This means multiplying both sides by $(r-2)(r+1)$ to clear the denominators.\n\n## Step 3: Perform the cross-multiplication\nCross-multiplying yields: $(r+3)(r+1) = (r-1)(r-2)$.\n\n## Step 4: Expand and simplify both sides of the equation\nExpanding both sides gives $r^2 + 3r + r + 3 = r^2 -r - 2r + 2$.\n\n## Step 5: Combine like terms on both sides\nSimplifying by combining like terms, we get $r^2 + 4r + 3 = r^2 - 3r + 2$.\n\n## Step 6: Subtract $r^2$ from both sides to cancel it out\nSubtracting $r^2$ from both sides gives us $4r + 3 = -3r + 2$.\n\n## Step 7: Move all terms with $r$ to one side and constants to the other side\nMoving all terms involving $r$ to one side and constants to the other gives us $4r + 3r = 2 - 3$.\n\n## Step 8: Simplify both sides of the equation\nSimplifying yields $7r = -1$.\n\n## Step 9: Solve for $r$\nFinally, dividing both sides by $7$ gives us $r = -\\frac{1}{7}$.\n\nThe final answer is: $\\boxed{-\\frac{1}{7}}$",
+  "processing_time_seconds": 29.83,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

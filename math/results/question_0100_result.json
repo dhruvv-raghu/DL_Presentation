@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0100",
+  "question_text": "What is the sum of the digits of the base-2 expression for $222_{10}$?",
+  "response": "To find the base-2 expression for 222, we can use the following steps:\n\n1. Divide 222 by 2 until we get a remainder of 0:\n   - 222 ÷ 2 = 111 R 0\n   - 111 ÷ 2 = 55 R 1\n   - 55 ÷ 2 = 27 R 1\n   - 27 ÷ 2 = 13 R 1\n   - 13 ÷ 2 = 6 R 1\n   - 6 ÷ 2 = 3 R 0\n   - 3 ÷ 2 = 1 R 1\n   - 1 ÷ 2 = 0 R 1\n\n2. Write down the remainders in reverse order to get the base-2 expression for 222:\n   11100110_2\n\nTo find the sum of the digits, we can count the individual digits:\n1 + 1 + 1 + 0 + 0 + 1 + 1 + 0 = 5\n\nTherefore,",
+  "processing_time_seconds": 16.66,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

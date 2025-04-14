@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0187",
+  "question_text": "Compute $\\dbinom{8}{4}$.",
+  "response": "To compute $\\dbinom{8}{4}$, we can use the formula:\n\n$$\\dbinom{n}{k} = \\frac{n!}{k!(n-k)!}$$\n\nIn this case, $n=8$ and $k=4$, so we have:\n\n$$\\dbinom{8}{4} = \\frac{8!}{4!(8-4)!} = \\frac{8!}{4!4!}$$\n\nNow, we can simplify the expression by canceling out common factors in the numerator and denominator:\n\n$$\\dbinom{8}{4} = \\frac{8\\cdot7\\cdot6\\cdot5}{4\\cdot3\\cdot2\\cdot1} = \\frac{1680}{24} = 70$$\n\nTherefore, $\\dbinom{8}{4} = 70$.",
+  "processing_time_seconds": 7.88,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

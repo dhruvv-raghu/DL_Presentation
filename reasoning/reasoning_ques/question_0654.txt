@@ -1,0 +1,5 @@
+2.  Determine the angle $\alpha$ that $\boldsymbol{\mu}$ makes with $\boldsymbol{B}_{\text {eff }}$. Also, prove that the magnetization varies with time as
+
+$$
+M(t)=N \mu(\cos \Omega t) .
+$$

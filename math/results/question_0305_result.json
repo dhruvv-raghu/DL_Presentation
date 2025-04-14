@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0305",
+  "question_text": "Find the largest integer value of $n$ such that $n^2-9n+18$ is negative.",
+  "response": "We want to find the largest integer $n$ for which $n^2 - 9n + 18 <0.$\n\\begin{align*}\n0 &< n^2 - 9n + 18\\\\\n&=(n-3)(n-6)\\\\\n&=-(3-n)(6-n)\n\\end{align*}We see that the expression $(3-n)$ is positive, and the expression $6-n$ is negative. So the product of these two expressions is always nonpositive.\n\nSo we can write\n\n$$0 < (3 - n)(6 - n) = -(n-3)(n-6).$$\n$$0 > (n-3)(n-6), \\quad\\text{for all } n.$$\nSince $n^2-9n+18<0$, the only integer value of $n$ that satisfies this inequality is $\\boxed{n=5}$.\n\nThe final answer is: $\\boxed{5}$.",
+  "processing_time_seconds": 15.06,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

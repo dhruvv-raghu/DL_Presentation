@@ -1,0 +1,2 @@
+Suppose the function $\psi$ satisfies $\psi(1) = \sqrt{2 + \sqrt{2 + \sqrt{2}}}$ and
+\[\psi(3x) + 3 \psi(x) = \psi^3(x)\]for all real $x.$  Determine $\prod_{n = 1}^{100} \psi(3^n).$

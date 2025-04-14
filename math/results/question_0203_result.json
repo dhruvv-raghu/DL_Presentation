@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0203",
+  "question_text": "What is the probability of rolling six standard, six-sided dice and getting six distinct numbers? Express your answer as a common fraction.",
+  "response": "The total number of outcomes for rolling six dice is $6^6$ since each die has 6 possible outcomes.\n\nTo get six distinct numbers, we need to choose 6 out of the 6 possible numbers on each die. This can be done in $\\binom{6}{6} = 1$ way.\n\nTherefore, the probability of getting six distinct numbers is:\n\n$$\\frac{\\text{Number of favorable outcomes}}{\\text{Total number of outcomes}} = \\frac{1}{6^6} = \\frac{1}{46656}.$$\n\nSo, the probability of rolling six standard, six-sided dice and getting six distinct numbers is $\\boxed{\\frac{1}{46656}}$.",
+  "processing_time_seconds": 6.44,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

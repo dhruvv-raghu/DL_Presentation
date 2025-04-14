@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0041",
+  "question_text": "Find the projection of the vector $\\begin{pmatrix} 4 \\\\ 5 \\end{pmatrix}$ onto the vector $\\begin{pmatrix} 2 \\\\ 0 \\end{pmatrix}.$",
+  "response": "To find the projection of a vector $\\mathbf{a}$ onto another vector $\\mathbf{b}$, we can use the formula:\n\n$$\\mathrm{proj}_{\\mathbf{b}}(\\mathbf{a}) = \\frac{\\mathbf{a}\\cdot \\mathbf{b}}{\\|\\mathbf{b}\\|^2} \\mathbf{b}$$\n\nIn this case, $\\mathbf{a}=\\begin{pmatrix} 4 \\\\ 5 \\end{pmatrix}$ and $\\mathbf{b}=\\begin{pmatrix} 2 \\\\ 0 \\end{pmatrix}.$ We can compute the projection using this formula:\n\n\\begin{align*}\n\\mathrm{proj}_{\\mathbf{b}}(\\mathbf{a})&amp;= \\frac{\\mathbf{a}\\cdot \\mathbf{b}}{\\|\\mathbf{b}\\|^2} \\mathbf{b}\\\\\n&amp;=\\frac{(4)(2)+(5)(0)}{\\|(2, 0)\\|^2}\\begin{pmatrix}\n2\\\\\n0\\end{pmatrix}\\\\\n&amp;= \\frac{8}{4}\\begin{pmatrix}2 \\\\ 0\\end{pmatrix}\\\\\n&amp;=\\boxed{\\begin{pmatrix}4\\\\0\\end{pmatrix}}\n\\end{align*}\n\nTherefore, the projection of $\\begin{pmatrix} 4 \\\\ 5 \\end{pmatrix}$ onto $\\begin{pmatrix} 2 \\\\ 0 \\end{pmatrix}$ is $\\boxed{\\begin{pmatrix} 4 \\\\ 0 \\end{pmatrix}}.$",
+  "processing_time_seconds": 26.2,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

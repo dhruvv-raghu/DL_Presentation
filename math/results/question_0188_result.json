@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0188",
+  "question_text": "One day Max says to Liz, \"Out of the 25 people taking either English or French, you and I are the only two taking both.'' Liz, being mathematically inclined, responds by pointing out that there are exactly twice as many people in the English class as there are in the French class. How many people are taking English but not French?",
+  "response": "Let's break it down:\n\n1. Total number of students: 25\n2. Students taking both classes (you and Max): 2\n3. Liz says that there are twice as many students in the English class as there are in the French class.\n\nLet x be the number of students in the French class.\nThen, the number of students in the English class is 2x.\n\nSince you and Max are taking both classes, we need to subtract them from each class:\nEnglish: 2x - 2\nFrench: x\n\nWe know that the total number of students is 25. Since there are twice as many students in the English class as there are in the French class, we can set up an equation:\n\n2(x) + (x-2) = 25\n\nCombine like terms:\n3x - 2 = 25\n\nAdd 2 to both sides:\n3x = 27\n\nDivide by 3:\nx = 9\n\nSo, there are 9 students in the French class.\nThere are twice as many students in the English class, so there are 2x = 18 students in the English class.\n\nNow, we need to subtract Max (since he is taking both classes) from the English class:\nEnglish: 18 - 1 = 17\n\nSo, there are 17 people taking English but not French.",
+  "processing_time_seconds": 12.43,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

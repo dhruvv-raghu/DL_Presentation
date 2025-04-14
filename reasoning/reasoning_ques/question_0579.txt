@@ -1,0 +1,1 @@
+Let  $n \geq 4$  be an even natural number and  $G$  be a subgroup of  $GL_2(\mathbb{C})$  with  $|G| = n.$  Prove that there exists  $H \leq G$  such that  $\{ I_2 \} \neq H$  and  $H \neq G$  such that  $XYX^{-1} \in H, \: \forall X \in G$  and  $\forall Y \in H$ 

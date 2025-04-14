@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0064",
+  "question_text": "Find the value of $k$ so that the line $3x + 5y + k = 0$ is tangent to the parabola $y^2 = 24x.$",
+  "response": "## Step 1: To find the value of $k$ such that the line $3x + 5y + k = 0$ is tangent to the parabola $y^2 = 24x,$ we need to consider the condition for a line to be tangent to a curve.\nFor a line to be tangent to a curve, it must intersect the curve at exactly one point.\n\n## Step 2: Substitute the equation of the parabola into the equation of the line to find the intersection points. Since $y^2 = 24x,$ we can rewrite this as $x = \\frac{1}{24} y^2.$\nThen, substitute $x$ in the equation of the line: $3(\\frac{1}{24} y^2) + 5y + k = 0.$\n\n## Step 3: Simplify the resulting equation to get $\\frac{1}{8} y^2 + 5y + k = 0.$\nFor the line to be tangent to the parabola, this quadratic equation must have exactly one solution.\n\n## Step 4: To have exactly one solution, the discriminant $b^2 - 4ac$ of the quadratic equation $\\frac{1}{8} y^2 + 5y + k = 0$ must equal zero.\nThe coefficients of this quadratic equation are $a = \\frac{1}{8}, b = 5,$ and $c = k.$\n\n## Step 5: Set up the discriminant equation: $(5)^2 - 4(\\frac{1}{8})(k) = 0.$\nThis simplifies to $25 - \\frac{1}{2} k = 0.$\n\n## Step 6: Solve for $k$: $\\frac{1}{2} k = 25,$ which implies $k = 50.$\n\nThe final answer is: $\\boxed{50}$",
+  "processing_time_seconds": 29.71,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

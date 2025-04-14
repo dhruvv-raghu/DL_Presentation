@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0234",
+  "question_text": "A map of the town that Annie, Barbara, and Charlie live in can be represented by the Cartesian plane. Annie is located at $(6,-20)$ and Barbara is located at $(1, 14)$. They agree to meet at the closest point that is equidistant from their current locations and walk upwards together to get to Charlie's location at $\\left(\\frac{7}{2}, 2\\right)$. How many units upward do Annie and Barbara walk together to get to Charlie?",
+  "response": "To solve this problem, we need to find the midpoint of Annie's and Barbara's positions. The midpoint formula is given by:\n\n$$M=\\left(\\frac{x_1+x_2}{2},\\frac{y_1+y_2}{2}\\right)$$\n\nWe are given that Annie's location is $(6,-20)$, while Barbara's location is $(1,14)$. We can now substitute these values into the formula to find the midpoint:\n\n$$M=\\left(\\frac{6+1}{2},\\frac{-20+14}{2}\\right)=\\left(\\frac{7}{2},-3\\right)$$\n\nWe are given that Charlie's location is $\\left(\\frac{7}{2}, 2\\right)$, and Annie and Barbara meet at the midpoint. Since they want to walk upwards together, we need to find the vertical distance from the midpoint to Charlie's location. The y-coordinate of Charlie's location is $2$, while the y-coordinate of the midpoint is $-3$. To find the number of units upward that Annie and Barbara must walk together, we subtract the y-coordinate of the midpoint from the y-coordinate of Charlie's location:\n\n$$2-(-3)=5$$\n\nSo Annie and Barbara need to walk $\\boxed{5}$ units upward to get to Charlie.",
+  "processing_time_seconds": 12.24,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

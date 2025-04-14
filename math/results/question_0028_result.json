@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0028",
+  "question_text": "Given vectors $\\mathbf{v}$ and $\\mathbf{w}$ such that $\\|\\mathbf{v}\\| = 3,$ $\\|\\mathbf{w}\\| = 7,$ and $\\mathbf{v} \\cdot \\mathbf{w} = 10,$ then find $\\|\\operatorname{proj}_{\\mathbf{w}} \\mathbf{v}\\|.$",
+  "response": "The formula for the projection of vector $\\mathbf{v}$ onto $\\mathbf{w}$ is given by:\n\n$$\n\\operatorname{proj}_{\\mathbf{w}} \\mathbf{v} = \\left(\\frac{\\mathbf{v}\\cdot\\mathbf{w}}{\\|\\mathbf{w}\\|^2}\\right)\\mathbf{w}\n$$\n\nThe magnitude of this projection is given by:\n\n$$\n\\|\\operatorname{proj}_{\\mathbf{w}} \\mathbf{v}\\| = \\left|\n\\frac{\\mathbf{v} \\cdot \\mathbf{w}}{\\|\\mathbf{w}\\|^2}\\right|\\| \\mathbf{w}\\|\n$$\n\nSubstituting the given values yields:\n\n$$\n\\begin{aligned}\n\\|\\operatorname{proj}_{\\mathbf{w}} \\mathbf{v}\\| &= \\left| \\frac{10}{7^2} \\right| (7)\\\\\n&= \\frac{70}{49}\\\\\n&=\\frac{10}{7}.\n\\end{aligned}\n$$",
+  "processing_time_seconds": 18.1,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0107",
+  "question_text": "Donna has $n$ boxes of doughnuts. Each box contains $13$ doughnuts.\n\nAfter eating one doughnut, Donna is able to rearrange the remaining doughnuts into bags so that each bag contains $9$ doughnuts, and none are left over. What is the smallest possible value of $n$?",
+  "response": "We can represent the number of doughnuts Donna has after eating one as $9a$, where $a$ is a non-negative integer.\n\nThen we know that this amount was originally equal to $13n$. Since these two quantities are equivalent, they must have the same remainder when divided by 4. Therefore,\n\n\\begin{align*}\n0&=3n+1\\\\\n\\Rightarrow\\quad n&=-1/3.\n\\end{align*}\n\nSince we can't have a negative number of boxes, and $n$ is clearly an integer, it must be the case that this solution does not work.\n\nLet us then represent the amount of doughnuts in each box as $13k$, where k is a positive integer. Then the amount of doughnuts Donna has initially is 13n = 9a = 117k.\n\nWe are looking for the smallest positive value of n, so we look at values of k starting with k=1 and increasing by one until we find an appropriate solution.\n\nWhen k=1,\n\\begin{align*}\n117&=117(1)\\\\\n&=13n_1.\n\\end{align*}\n\nThis means that the original amount of doughnuts in each box was equal to $9 \\cdot 13 = 117$, so we need to subtract one from this total.\n\nWe know that the number of doughnuts left after eating one must be a multiple of 9. We have\n$$117-1=116,$$ which is not a multiple of 9, however $129$ is (the smallest such value), which can be written as $13(9)$ and also as $9(14).$\n\nTherefore, n = 9.\n\nThe final answer is 9.",
+  "processing_time_seconds": 27.1,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

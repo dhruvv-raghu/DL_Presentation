@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0306",
+  "question_text": "Simplify $$\\sqrt{6+4\\sqrt2}+\\sqrt{6-4\\sqrt2}.$$",
+  "response": "We have that\n\\begin{align*}\n\\sqrt{6+4\\sqrt2}+\\sqrt{6-4\\sqrt2}&amp;=\\sqrt{\\left(\\sqrt2+\\sqrt3\\right)^2}+\\sqrt{\\left(\\sqrt2-\\sqrt3\\right)^2}\\\\\n&amp;=|\\sqrt2+\\sqrt3|+|\\sqrt2-\\sqrt3|\\\\\n&amp;=(\\sqrt2+\\sqrt3)+(\\sqrt2-\\sqrt3)\\\\\n&amp;=\\boxed{2\\sqrt2}.\n\\end{align*}",
+  "processing_time_seconds": 9.01,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

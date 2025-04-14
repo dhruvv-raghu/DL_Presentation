@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0279",
+  "question_text": "How many integers $n$ satisfy $(n-2)(n+4)<0$?",
+  "response": "The product of two factors is negative when one factor is positive and the other factor is negative. Therefore, in order for $(n - 2) (n + 4)$ to be less than zero we need either $n - 2 < 0$ or $n + 4 > 0$. Solving each inequality separately gives us that $n < 2$ and $n > -4$, respectively. Combining these results yields the interval of possible values for n: $$(-4, 2).$$ We can also test some specific integers in this interval to see if they satisfy $(n-2)(n+4)<0$. For example, if we let $n = -3$, then $$(n-2)(n+4) = (-5)(1) = -5,$$ so that $(-3 , 2)$ is a solution. Similarly, if we let $n = 0$, then $$(n-2)(n+4) = (-2)(4) = -8,$$ so that $(0, 2)$ is also a solution. We can continue testing values in this interval, and see what happens: \\begin{align*}\n(-5),&amp;~ n=-5\\\\\n(n-2)(n+4) &amp;= (-7)(1) = -7.\n\\end{align*}As we can see $n=-5$ is also a solution. Similarly, if we let $n = 1$, then \\begin{align*}\n(n-2)(n+4)&amp;=(n+2).\n\\end{align*}Since $(n - 2) (n + 4)$ is positive when $n=1$, it cannot be a solution to the given inequality. Continuing this way, we find that the only integers in the interval $(-4, 2)$ that satisfy $(n-2)(n+4)<0$ are $n = -3, 0,$ and $-5$. Therefore, there are $\\boxed{3}$ integers satisfying $(n-2)(n+4) < 0.$",
+  "processing_time_seconds": 31.71,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

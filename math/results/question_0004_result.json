@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0004",
+  "question_text": "A large sphere has a volume of $288\\pi$ cubic units.  A smaller sphere has a volume which is $12.5\\%$ of the volume of the larger sphere.  What is the ratio of the radius of the smaller sphere to the radius of the larger sphere? Express your answer as a common fraction.",
+  "response": "The volume of the large sphere is $288 \\pi.$ The volume of the small sphere is $12.5\\%$ that, so the small sphere's volume is $\\frac{12.5}{100} \\cdot 288 \\pi = \\left(\\frac{1}{8}\\right) 288 \\pi,$ which simplifies to $36 \\pi$. This means that the ratio of their radii must be the cube root of $36\\div 288$.\nSo we want $\\sqrt[3]{36/288}=\\boxed{\\frac23}$",
+  "processing_time_seconds": 9.78,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}

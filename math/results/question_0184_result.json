@@ -1,0 +1,10 @@
+{
+  "question_id": "question_0184",
+  "question_text": "Determine the number of ways to arrange the letters of the word TARTAR.",
+  "response": "To determine the number of ways to arrange the letters of the word TARTAR, we can use the concept of permutations.\n\nFirst, let's count the number of unique letters in the word: T, A, R, and T, and A and R are repeated twice, so there are 6 letters in total.\n\nThe formula for permutations with repetition is:\n\nn! / (r1! * r2! * ... * rk!)\n\nwhere n is the total number of objects, and r1, r2, ..., rk are the number of repetitions for each object.\n\nIn this case, we have 6 letters in total, with T repeated twice, A repeated twice, and R repeated twice. So the formula becomes:\n\n6! / (2! * 2! * 2!)\n\n= 720 / (2 * 2 * 2)\n\n= 720 / 8\n\n= 90\n\nSo there are 90 ways to arrange the letters of the word TARTAR",
+  "processing_time_seconds": 9.57,
+  "model": "llama3.2",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "system_prompt": null
+}
